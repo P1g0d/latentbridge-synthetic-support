@@ -1,0 +1,1812 @@
+{
+  "phase": "stage-b-pg19-test-final-confirmation",
+  "creation_utc": "2026-09-19T17:25:22Z",
+  "protocol": "protocols/stage_b_pg19_test_confirmation_v1.md",
+  "protocol_freeze_commit": "fab4a21",
+  "git_commit": "fab4a21d099e209df6c51b5a75d609320ccc606e",
+  "boundary": {
+    "file": "reports/stage_b_pg19_test_realized_boundary.json",
+    "sha256": "d0167c9c157395f44142fe2d576886d0d54c3f7f7e47a5f0e527f860116396a4"
+  },
+  "realized_boundary": {
+    "first_authorized_access_utc": "2026-09-19T16:49:09.774150+00:00",
+    "realized_legal_books": 100,
+    "realized_total_windows": 3196,
+    "window_manifest_sha256": "8be545fecd4f60c3aa58b169c6a2ef6a8f99e6d340552a954bc51db5bfaba042",
+    "donor": {
+      "namespace": "stage_b_test_context_donor",
+      "seed": 401,
+      "size": 3196,
+      "no_fixed_points": true,
+      "permutation_sha256": "c122bc4fcecded1e01fc77f6ace0ab51da339e2eb0d9ca2830f1634f3a759195",
+      "generated_before_any_scientific_metric": true
+    },
+    "hidden": {
+      "file_sha256": "b02d9ac796c9b07d6735bd29684c44939d033282a049e2f469c434fe5a9b9343",
+      "tensor_sha256": "be7a63a6b56e743c6c4c3b510dcc454e9d9dfbb33455c5910b2eb33390e5edd9",
+      "shape": [
+        3196,
+        128,
+        768
+      ],
+      "blocks": "frozen Teacher blocks 0-4 only",
+      "generation_gate": {
+        "block5_calls": 0,
+        "mlp5_calls": 0
+      }
+    }
+  },
+  "object_names": {
+    "full_native": "Full-Native",
+    "full_gaussian": "Full-Gaussian",
+    "tokenwise": "Native TokenWise",
+    "random": "Random step-0",
+    "identity": "Identity / Zero-update",
+    "parameter_copy": "ParameterCopy",
+    "exact_teacher": "Exact Teacher"
+  },
+  "value": {
+    "501": {
+      "full_native": {
+        "nmse": 0.6983907489553994,
+        "numerator": 152232806.53431284,
+        "denominator": 217976550.7518696,
+        "raw_mse": 0.48454073493939326,
+        "cosine": 0.46025913513108835,
+        "cosine_excluded": 0,
+        "energy_norm_ratio": 0.696587763344782,
+        "error_p50": 335.72357304635284,
+        "error_p90": 633.9285973366641,
+        "error_p99": 904.6145902586165,
+        "sequences": 3196,
+        "buckets": {
+          "0-31": {
+            "numerator": 32709493.941969298,
+            "denominator": 73092308.84512866,
+            "nmse": 0.4475093817500782
+          },
+          "32-63": {
+            "numerator": 38381366.148143105,
+            "denominator": 47220722.3469588,
+            "nmse": 0.8128076878225692
+          },
+          "64-127": {
+            "numerator": 81141946.44420052,
+            "denominator": 97663519.5597822,
+            "nmse": 0.8308316842352949
+          }
+        }
+      },
+      "full_gaussian": {
+        "nmse": 2.895545876633889,
+        "numerator": 631161102.7324536,
+        "denominator": 217976550.7518696,
+        "raw_mse": 2.008918258458365,
+        "cosine": 0.17401093316287808,
+        "cosine_excluded": 0,
+        "energy_norm_ratio": 1.6724624481757415,
+        "error_p50": 1450.7466286428319,
+        "error_p90": 2048.4183342067977,
+        "error_p99": 3363.903317664147,
+        "sequences": 3196,
+        "buckets": {
+          "0-31": {
+            "numerator": 179735173.59970018,
+            "denominator": 73092308.84512866,
+            "nmse": 2.4590162281031693
+          },
+          "32-63": {
+            "numerator": 150413536.3848372,
+            "denominator": 47220722.3469588,
+            "nmse": 3.1853290019508655
+          },
+          "64-127": {
+            "numerator": 301012392.74791604,
+            "denominator": 97663519.5597822,
+            "nmse": 3.0821374665251446
+          }
+        }
+      },
+      "tokenwise": {
+        "nmse": 0.7242123535295493,
+        "numerator": 157861310.83426473,
+        "denominator": 217976550.7518696,
+        "raw_mse": 0.5024556619002485,
+        "cosine": 0.4544810522369156,
+        "cosine_excluded": 0,
+        "energy_norm_ratio": 0.7274027827536662,
+        "error_p50": 345.30328986048767,
+        "error_p90": 644.8215782381428,
+        "error_p99": 1012.880999542176,
+        "sequences": 3196,
+        "buckets": {
+          "0-31": {
+            "numerator": 33220802.68486118,
+            "denominator": 73092308.84512866,
+            "nmse": 0.45450476540905205
+          },
+          "32-63": {
+            "numerator": 40023752.72778935,
+            "denominator": 47220722.3469588,
+            "nmse": 0.8475887436390951
+          },
+          "64-127": {
+            "numerator": 84616755.42161435,
+            "denominator": 97663519.5597822,
+            "nmse": 0.8664110796234246
+          }
+        }
+      },
+      "random": {
+        "nmse": 1.1285301184369025,
+        "numerator": 245993102.63647488,
+        "denominator": 217976550.7518696,
+        "raw_mse": 0.7829697254818279,
+        "cosine": 0.0009937256972784826,
+        "cosine_excluded": 0,
+        "energy_norm_ratio": 0.3592395080674732,
+        "error_p50": 475.1075237064375,
+        "error_p90": 844.6373228435007,
+        "error_p99": 1483.2364443582924,
+        "sequences": 3196,
+        "buckets": {
+          "0-31": {
+            "numerator": 80607914.80059478,
+            "denominator": 73092308.84512866,
+            "nmse": 1.1028234854557752
+          },
+          "32-63": {
+            "numerator": 54191361.61189136,
+            "denominator": 47220722.3469588,
+            "nmse": 1.1476182260346446
+          },
+          "64-127": {
+            "numerator": 111193826.22398855,
+            "denominator": 97663519.5597822,
+            "nmse": 1.1385400272813648
+          }
+        }
+      },
+      "identity": {
+        "nmse": 1.0,
+        "numerator": 217976550.7518696,
+        "denominator": 217976550.7518696,
+        "raw_mse": 0.6937960384843771,
+        "cosine": null,
+        "cosine_excluded": 409088,
+        "energy_norm_ratio": 0.0,
+        "error_p50": 405.8018199770948,
+        "error_p90": 781.8346828419593,
+        "error_p99": 1413.4060874993877,
+        "sequences": 3196,
+        "buckets": {
+          "0-31": {
+            "numerator": 73092308.84512866,
+            "denominator": 73092308.84512866,
+            "nmse": 1.0
+          },
+          "32-63": {
+            "numerator": 47220722.3469588,
+            "denominator": 47220722.3469588,
+            "nmse": 1.0
+          },
+          "64-127": {
+            "numerator": 97663519.5597822,
+            "denominator": 97663519.5597822,
+            "nmse": 1.0
+          }
+        }
+      },
+      "parameter_copy": {
+        "nmse": 0.8687890266279177,
+        "numerator": 189375635.35542768,
+        "denominator": 217976550.7518696,
+        "raw_mse": 0.6027623849531473,
+        "cosine": 0.44717710332357175,
+        "cosine_excluded": 0,
+        "energy_norm_ratio": 0.8935764672566471,
+        "error_p50": 429.2372120822133,
+        "error_p90": 637.3292382032512,
+        "error_p99": 1021.5556000349342,
+        "sequences": 3196,
+        "buckets": {
+          "0-31": {
+            "numerator": 50636031.881189995,
+            "denominator": 73092308.84512866,
+            "nmse": 0.6927682636004828
+          },
+          "32-63": {
+            "numerator": 46034016.1668706,
+            "denominator": 47220722.3469588,
+            "nmse": 0.9748689532665603
+          },
+          "64-127": {
+            "numerator": 92705587.30736718,
+            "denominator": 97663519.5597822,
+            "nmse": 0.949234552729997
+          }
+        }
+      },
+      "exact_teacher": {
+        "nmse": 1.4260036921478195e-12,
+        "numerator": 0.0003108353661738126,
+        "denominator": 217976550.7518696,
+        "raw_mse": 9.893557124762524e-13,
+        "cosine": 0.9999999999991446,
+        "cosine_excluded": 0,
+        "energy_norm_ratio": 1.0000000687480097,
+        "error_p50": 6.997334781912168e-10,
+        "error_p90": 1.0726425719864707e-09,
+        "error_p99": 1.7822217984026473e-09,
+        "sequences": 3196,
+        "buckets": {
+          "0-31": {
+            "numerator": 7.508304249931147e-05,
+            "denominator": 73092308.84512866,
+            "nmse": 1.027235884125659e-12
+          },
+          "32-63": {
+            "numerator": 7.786983067516975e-05,
+            "denominator": 47220722.3469588,
+            "nmse": 1.649060556571195e-12
+          },
+          "64-127": {
+            "numerator": 0.00015788249299933176,
+            "denominator": 97663519.5597822,
+            "nmse": 1.6165963884056837e-12
+          }
+        }
+      }
+    },
+    "502": {
+      "full_native": {
+        "nmse": 0.6722990661770992,
+        "numerator": 146545431.518987,
+        "denominator": 217976550.7518696,
+        "raw_mse": 0.4664384287904175,
+        "cosine": 0.4825436879714658,
+        "cosine_excluded": 0,
+        "energy_norm_ratio": 0.7096147364653926,
+        "error_p50": 324.29346094207614,
+        "error_p90": 603.6745886749093,
+        "error_p99": 871.0867928106277,
+        "sequences": 3196,
+        "buckets": {
+          "0-31": {
+            "numerator": 31609598.569681074,
+            "denominator": 73092308.84512866,
+            "nmse": 0.432461350162805
+          },
+          "32-63": {
+            "numerator": 36998479.56807978,
+            "denominator": 47220722.3469588,
+            "nmse": 0.7835221006622873
+          },
+          "64-127": {
+            "numerator": 77937353.38122626,
+            "denominator": 97663519.5597822,
+            "nmse": 0.7980190938492536
+          }
+        }
+      },
+      "full_gaussian": {
+        "nmse": 3.0737868377400694,
+        "numerator": 670013452.637077,
+        "denominator": 217976550.7518696,
+        "raw_mse": 2.132581131169481,
+        "cosine": 0.18343619434852948,
+        "cosine_excluded": 0,
+        "energy_norm_ratio": 1.7518129938839309,
+        "error_p50": 1510.2216451011318,
+        "error_p90": 2275.4625090088016,
+        "error_p99": 3936.451006151967,
+        "sequences": 3196,
+        "buckets": {
+          "0-31": {
+            "numerator": 194584131.92112306,
+            "denominator": 73092308.84512866,
+            "nmse": 2.6621697275074023
+          },
+          "32-63": {
+            "numerator": 159682691.79030895,
+            "denominator": 47220722.3469588,
+            "nmse": 3.3816232334826437
+          },
+          "64-127": {
+            "numerator": 315746628.9256448,
+            "denominator": 97663519.5597822,
+            "nmse": 3.2330048143756343
+          }
+        }
+      },
+      "tokenwise": {
+        "nmse": 0.7291018432551402,
+        "numerator": 158927104.93958572,
+        "denominator": 217976550.7518696,
+        "raw_mse": 0.5058479705020735,
+        "cosine": 0.45504603310979364,
+        "cosine_excluded": 0,
+        "energy_norm_ratio": 0.7304891418449511,
+        "error_p50": 347.07462036500567,
+        "error_p90": 651.8302529162323,
+        "error_p99": 1028.499383857348,
+        "sequences": 3196,
+        "buckets": {
+          "0-31": {
+            "numerator": 33275543.218953684,
+            "denominator": 73092308.84512866,
+            "nmse": 0.4552536887220164
+          },
+          "32-63": {
+            "numerator": 40242940.07469628,
+            "denominator": 47220722.3469588,
+            "nmse": 0.8522305054761213
+          },
+          "64-127": {
+            "numerator": 85408621.6459357,
+            "denominator": 97663519.5597822,
+            "nmse": 0.8745191861906534
+          }
+        }
+      },
+      "random": {
+        "nmse": 1.1334816882024898,
+        "numerator": 247072428.73478487,
+        "denominator": 217976550.7518696,
+        "raw_mse": 0.7864051049694715,
+        "cosine": -0.0039023988668239512,
+        "cosine_excluded": 0,
+        "energy_norm_ratio": 0.36140166493303677,
+        "error_p50": 476.57915978491064,
+        "error_p90": 851.0194776693874,
+        "error_p99": 1489.9847571053292,
+        "sequences": 3196,
+        "buckets": {
+          "0-31": {
+            "numerator": 80848927.79605758,
+            "denominator": 73092308.84512866,
+            "nmse": 1.1061208637883366
+          },
+          "32-63": {
+            "numerator": 54402508.01255067,
+            "denominator": 47220722.3469588,
+            "nmse": 1.1520897036013766
+          },
+          "64-127": {
+            "numerator": 111820992.92617656,
+            "denominator": 97663519.5597822,
+            "nmse": 1.1449617362778763
+          }
+        }
+      },
+      "identity": {
+        "nmse": 1.0,
+        "numerator": 217976550.7518696,
+        "denominator": 217976550.7518696,
+        "raw_mse": 0.6937960384843771,
+        "cosine": null,
+        "cosine_excluded": 409088,
+        "energy_norm_ratio": 0.0,
+        "error_p50": 405.8018199770948,
+        "error_p90": 781.8346828419593,
+        "error_p99": 1413.4060874993877,
+        "sequences": 3196,
+        "buckets": {
+          "0-31": {
+            "numerator": 73092308.84512866,
+            "denominator": 73092308.84512866,
+            "nmse": 1.0
+          },
+          "32-63": {
+            "numerator": 47220722.3469588,
+            "denominator": 47220722.3469588,
+            "nmse": 1.0
+          },
+          "64-127": {
+            "numerator": 97663519.5597822,
+            "denominator": 97663519.5597822,
+            "nmse": 1.0
+          }
+        }
+      },
+      "parameter_copy": {
+        "nmse": 0.8687890266279177,
+        "numerator": 189375635.35542768,
+        "denominator": 217976550.7518696,
+        "raw_mse": 0.6027623849531473,
+        "cosine": 0.44717710332357175,
+        "cosine_excluded": 0,
+        "energy_norm_ratio": 0.8935764672566471,
+        "error_p50": 429.2372120822133,
+        "error_p90": 637.3292382032512,
+        "error_p99": 1021.5556000349342,
+        "sequences": 3196,
+        "buckets": {
+          "0-31": {
+            "numerator": 50636031.881189995,
+            "denominator": 73092308.84512866,
+            "nmse": 0.6927682636004828
+          },
+          "32-63": {
+            "numerator": 46034016.1668706,
+            "denominator": 47220722.3469588,
+            "nmse": 0.9748689532665603
+          },
+          "64-127": {
+            "numerator": 92705587.30736718,
+            "denominator": 97663519.5597822,
+            "nmse": 0.949234552729997
+          }
+        }
+      },
+      "exact_teacher": {
+        "nmse": 1.4260036921478195e-12,
+        "numerator": 0.0003108353661738126,
+        "denominator": 217976550.7518696,
+        "raw_mse": 9.893557124762524e-13,
+        "cosine": 0.9999999999991446,
+        "cosine_excluded": 0,
+        "energy_norm_ratio": 1.0000000687480097,
+        "error_p50": 6.997334781912168e-10,
+        "error_p90": 1.0726425719864707e-09,
+        "error_p99": 1.7822217984026473e-09,
+        "sequences": 3196,
+        "buckets": {
+          "0-31": {
+            "numerator": 7.508304249931147e-05,
+            "denominator": 73092308.84512866,
+            "nmse": 1.027235884125659e-12
+          },
+          "32-63": {
+            "numerator": 7.786983067516975e-05,
+            "denominator": 47220722.3469588,
+            "nmse": 1.649060556571195e-12
+          },
+          "64-127": {
+            "numerator": 0.00015788249299933176,
+            "denominator": 97663519.5597822,
+            "nmse": 1.6165963884056837e-12
+          }
+        }
+      }
+    },
+    "503": {
+      "full_native": {
+        "nmse": 0.6660471337880826,
+        "numerator": 145182656.86129525,
+        "denominator": 217976550.7518696,
+        "raw_mse": 0.46210086286604557,
+        "cosine": 0.4878245503566167,
+        "cosine_excluded": 0,
+        "energy_norm_ratio": 0.7099743466320928,
+        "error_p50": 322.2777594638551,
+        "error_p90": 598.1840561853326,
+        "error_p99": 859.6960178729387,
+        "sequences": 3196,
+        "buckets": {
+          "0-31": {
+            "numerator": 31128858.3392154,
+            "denominator": 73092308.84512866,
+            "nmse": 0.425884184410875
+          },
+          "32-63": {
+            "numerator": 36565531.548658825,
+            "denominator": 47220722.3469588,
+            "nmse": 0.7743534984490509
+          },
+          "64-127": {
+            "numerator": 77488266.97342108,
+            "denominator": 97663519.5597822,
+            "nmse": 0.7934207913323115
+          }
+        }
+      },
+      "full_gaussian": {
+        "nmse": 3.2138438766085646,
+        "numerator": 700542602.8781521,
+        "denominator": 217976550.7518696,
+        "raw_mse": 2.2297521498982955,
+        "cosine": 0.17925163432515392,
+        "cosine_excluded": 0,
+        "energy_norm_ratio": 1.7849793847111095,
+        "error_p50": 1602.2584521516333,
+        "error_p90": 2361.7747997474144,
+        "error_p99": 3900.558504050406,
+        "sequences": 3196,
+        "buckets": {
+          "0-31": {
+            "numerator": 183529803.41435692,
+            "denominator": 73092308.84512866,
+            "nmse": 2.5109318109409884
+          },
+          "32-63": {
+            "numerator": 165750735.73372805,
+            "denominator": 47220722.3469588,
+            "nmse": 3.510127069125681
+          },
+          "64-127": {
+            "numerator": 351262063.73006684,
+            "denominator": 97663519.5597822,
+            "nmse": 3.5966557964875596
+          }
+        }
+      },
+      "tokenwise": {
+        "nmse": 0.7300714408132608,
+        "numerator": 159138454.4709223,
+        "denominator": 217976550.7518696,
+        "raw_mse": 0.5065206734468217,
+        "cosine": 0.44949150943589805,
+        "cosine_excluded": 0,
+        "energy_norm_ratio": 0.7250868130969959,
+        "error_p50": 347.14181552649416,
+        "error_p90": 652.1178779444859,
+        "error_p99": 1031.4513060046959,
+        "sequences": 3196,
+        "buckets": {
+          "0-31": {
+            "numerator": 33299866.327698395,
+            "denominator": 73092308.84512866,
+            "nmse": 0.45558646120012003
+          },
+          "32-63": {
+            "numerator": 40324644.40706396,
+            "denominator": 47220722.3469588,
+            "nmse": 0.8539607698242047
+          },
+          "64-127": {
+            "numerator": 85513943.73616003,
+            "denominator": 97663519.5597822,
+            "nmse": 0.875597604116805
+          }
+        }
+      },
+      "random": {
+        "nmse": 1.132879024233583,
+        "numerator": 246941062.12158012,
+        "denominator": 217976550.7518696,
+        "raw_mse": 0.7859869790953066,
+        "cosine": -0.0016766160234049337,
+        "cosine_excluded": 0,
+        "energy_norm_ratio": 0.3654805699603247,
+        "error_p50": 478.0077018727545,
+        "error_p90": 848.5317891496501,
+        "error_p99": 1483.4543335626222,
+        "sequences": 3196,
+        "buckets": {
+          "0-31": {
+            "numerator": 80369034.6365926,
+            "denominator": 73092308.84512866,
+            "nmse": 1.0995552870943262
+          },
+          "32-63": {
+            "numerator": 54533902.38366907,
+            "denominator": 47220722.3469588,
+            "nmse": 1.154872261016593
+          },
+          "64-127": {
+            "numerator": 112038125.10131863,
+            "denominator": 97663519.5597822,
+            "nmse": 1.1471850042506135
+          }
+        }
+      },
+      "identity": {
+        "nmse": 1.0,
+        "numerator": 217976550.7518696,
+        "denominator": 217976550.7518696,
+        "raw_mse": 0.6937960384843771,
+        "cosine": null,
+        "cosine_excluded": 409088,
+        "energy_norm_ratio": 0.0,
+        "error_p50": 405.8018199770948,
+        "error_p90": 781.8346828419593,
+        "error_p99": 1413.4060874993877,
+        "sequences": 3196,
+        "buckets": {
+          "0-31": {
+            "numerator": 73092308.84512866,
+            "denominator": 73092308.84512866,
+            "nmse": 1.0
+          },
+          "32-63": {
+            "numerator": 47220722.3469588,
+            "denominator": 47220722.3469588,
+            "nmse": 1.0
+          },
+          "64-127": {
+            "numerator": 97663519.5597822,
+            "denominator": 97663519.5597822,
+            "nmse": 1.0
+          }
+        }
+      },
+      "parameter_copy": {
+        "nmse": 0.8687890266279177,
+        "numerator": 189375635.35542768,
+        "denominator": 217976550.7518696,
+        "raw_mse": 0.6027623849531473,
+        "cosine": 0.44717710332357175,
+        "cosine_excluded": 0,
+        "energy_norm_ratio": 0.8935764672566471,
+        "error_p50": 429.2372120822133,
+        "error_p90": 637.3292382032512,
+        "error_p99": 1021.5556000349342,
+        "sequences": 3196,
+        "buckets": {
+          "0-31": {
+            "numerator": 50636031.881189995,
+            "denominator": 73092308.84512866,
+            "nmse": 0.6927682636004828
+          },
+          "32-63": {
+            "numerator": 46034016.1668706,
+            "denominator": 47220722.3469588,
+            "nmse": 0.9748689532665603
+          },
+          "64-127": {
+            "numerator": 92705587.30736718,
+            "denominator": 97663519.5597822,
+            "nmse": 0.949234552729997
+          }
+        }
+      },
+      "exact_teacher": {
+        "nmse": 1.4260036921478195e-12,
+        "numerator": 0.0003108353661738126,
+        "denominator": 217976550.7518696,
+        "raw_mse": 9.893557124762524e-13,
+        "cosine": 0.9999999999991446,
+        "cosine_excluded": 0,
+        "energy_norm_ratio": 1.0000000687480097,
+        "error_p50": 6.997334781912168e-10,
+        "error_p90": 1.0726425719864707e-09,
+        "error_p99": 1.7822217984026473e-09,
+        "sequences": 3196,
+        "buckets": {
+          "0-31": {
+            "numerator": 7.508304249931147e-05,
+            "denominator": 73092308.84512866,
+            "nmse": 1.027235884125659e-12
+          },
+          "32-63": {
+            "numerator": 7.786983067516975e-05,
+            "denominator": 47220722.3469588,
+            "nmse": 1.649060556571195e-12
+          },
+          "64-127": {
+            "numerator": 0.00015788249299933176,
+            "denominator": 97663519.5597822,
+            "nmse": 1.6165963884056837e-12
+          }
+        }
+      }
+    }
+  },
+  "context": {
+    "501": {
+      "teacher_intervention_energy_ratio": 0.447833839389319,
+      "uninformative": false,
+      "objects": {
+        "full_native": {
+          "numerator": 1042337.3806384696,
+          "denominator": 1378401.526296272,
+          "nmse": 0.7561928514684704,
+          "delta_energy_ratio": 0.2843338254811896,
+          "delta_cosine": 0.495228468387262,
+          "t63": {
+            "numerator": 493150.8712631024,
+            "denominator": 650621.9931829219,
+            "nmse": 0.7579683386516776,
+            "delta_energy_ratio": 0.28397858770169637,
+            "delta_cosine": 0.493538927601376
+          },
+          "t127": {
+            "numerator": 549186.5093753672,
+            "denominator": 727779.5331133502,
+            "nmse": 0.7546055974204382,
+            "delta_energy_ratio": 0.2846514017548159,
+            "delta_cosine": 0.49673726530549667
+          }
+        },
+        "full_gaussian": {
+          "numerator": 1540700.9758797325,
+          "denominator": 1378401.526296272,
+          "nmse": 1.117744682146105,
+          "delta_energy_ratio": 0.24923589470868146,
+          "delta_cosine": 0.13169262063383066,
+          "t63": {
+            "numerator": 746272.1766597432,
+            "denominator": 650621.9931829219,
+            "nmse": 1.1470134494053743,
+            "delta_energy_ratio": 0.301836921533558,
+            "delta_cosine": 0.14090312521372467
+          },
+          "t127": {
+            "numerator": 794428.7992199895,
+            "denominator": 727779.5331133502,
+            "nmse": 1.0915789233884086,
+            "delta_energy_ratio": 0.20221150976910204,
+            "delta_cosine": 0.12301275184427635
+          }
+        },
+        "tokenwise": {
+          "numerator": 1378401.526296272,
+          "denominator": 1378401.526296272,
+          "nmse": 1.0,
+          "delta_energy_ratio": 0.0,
+          "delta_cosine": null,
+          "t63": {
+            "numerator": 650621.9931829219,
+            "denominator": 650621.9931829219,
+            "nmse": 1.0,
+            "delta_energy_ratio": 0.0,
+            "delta_cosine": null
+          },
+          "t127": {
+            "numerator": 727779.5331133502,
+            "denominator": 727779.5331133502,
+            "nmse": 1.0,
+            "delta_energy_ratio": 0.0,
+            "delta_cosine": null
+          }
+        },
+        "random": {
+          "numerator": 1391707.3204272594,
+          "denominator": 1378401.526296272,
+          "nmse": 1.0096530610835435,
+          "delta_energy_ratio": 0.009273346097149485,
+          "delta_cosine": -0.0019715577736776303,
+          "t63": {
+            "numerator": 658008.4586435336,
+            "denominator": 650621.9931829219,
+            "nmse": 1.011352929255398,
+            "delta_energy_ratio": 0.010905929054925422,
+            "delta_cosine": -0.002140160716487868
+          },
+          "t127": {
+            "numerator": 733698.8617837257,
+            "denominator": 727779.5331133502,
+            "nmse": 1.0081334090903236,
+            "delta_energy_ratio": 0.007813845891804722,
+            "delta_cosine": -0.0018075667457145357
+          }
+        },
+        "identity": {
+          "numerator": 1378401.526296272,
+          "denominator": 1378401.526296272,
+          "nmse": 1.0,
+          "delta_energy_ratio": 0.0,
+          "delta_cosine": null,
+          "t63": {
+            "numerator": 650621.9931829219,
+            "denominator": 650621.9931829219,
+            "nmse": 1.0,
+            "delta_energy_ratio": 0.0,
+            "delta_cosine": null
+          },
+          "t127": {
+            "numerator": 727779.5331133502,
+            "denominator": 727779.5331133502,
+            "nmse": 1.0,
+            "delta_energy_ratio": 0.0,
+            "delta_cosine": null
+          }
+        },
+        "parameter_copy": {
+          "numerator": 952078.6793078746,
+          "denominator": 1378401.526296272,
+          "nmse": 0.6907121481982718,
+          "delta_energy_ratio": 0.3986853293574176,
+          "delta_cosine": 0.5606239968283303,
+          "t63": {
+            "numerator": 462805.05378728715,
+            "denominator": 650621.9931829219,
+            "nmse": 0.7113270972030757,
+            "delta_energy_ratio": 0.3811651922899941,
+            "delta_cosine": 0.5424793741154493
+          },
+          "t127": {
+            "numerator": 489273.62552058743,
+            "denominator": 727779.5331133502,
+            "nmse": 0.6722827494578417,
+            "delta_energy_ratio": 0.41434802112188857,
+            "delta_cosine": 0.5764073062594209
+          }
+        },
+        "exact_teacher": {
+          "numerator": 8.306931330307713e-06,
+          "denominator": 1378401.526296272,
+          "nmse": 6.026496033146608e-12,
+          "delta_energy_ratio": 1.000000438942591,
+          "delta_cosine": 0.999999999997011,
+          "t63": {
+            "numerator": 4.208379455031101e-06,
+            "denominator": 650621.9931829219,
+            "nmse": 6.4682403901583425e-12,
+            "delta_energy_ratio": 1.0000004449508348,
+            "delta_cosine": 0.9999999999967907
+          },
+          "t127": {
+            "numerator": 4.098551875276611e-06,
+            "denominator": 727779.5331133502,
+            "nmse": 5.631584413680222e-12,
+            "delta_energy_ratio": 1.000000433571327,
+            "delta_cosine": 0.9999999999972076
+          }
+        }
+      }
+    },
+    "502": {
+      "teacher_intervention_energy_ratio": 0.447833839389319,
+      "uninformative": false,
+      "objects": {
+        "full_native": {
+          "numerator": 967893.1866270523,
+          "denominator": 1378401.526296272,
+          "nmse": 0.7021852255400176,
+          "delta_energy_ratio": 0.32794349700083414,
+          "delta_cosine": 0.5463577295207116,
+          "t63": {
+            "numerator": 457937.9025430038,
+            "denominator": 650621.9931829219,
+            "nmse": 0.7038463306515599,
+            "delta_energy_ratio": 0.3269684112259853,
+            "delta_cosine": 0.5448666753018223
+          },
+          "t127": {
+            "numerator": 509955.28408404835,
+            "denominator": 727779.5331133502,
+            "nmse": 0.7007002270351341,
+            "delta_energy_ratio": 0.3288152063873876,
+            "delta_cosine": 0.5476879780440274
+          }
+        },
+        "full_gaussian": {
+          "numerator": 1607243.6334975497,
+          "denominator": 1378401.526296272,
+          "nmse": 1.1660199171544523,
+          "delta_energy_ratio": 0.32558240793815674,
+          "delta_cosine": 0.13982033746881534,
+          "t63": {
+            "numerator": 794835.2573871447,
+            "denominator": 650621.9931829219,
+            "nmse": 1.2216544563744518,
+            "delta_energy_ratio": 0.40225541815964266,
+            "delta_cosine": 0.14237676203319324
+          },
+          "t127": {
+            "numerator": 812408.3761104048,
+            "denominator": 727779.5331133502,
+            "nmse": 1.1162836259423552,
+            "delta_energy_ratio": 0.25703809683306794,
+            "delta_cosine": 0.13881405932429716
+          }
+        },
+        "tokenwise": {
+          "numerator": 1378401.526296272,
+          "denominator": 1378401.526296272,
+          "nmse": 1.0,
+          "delta_energy_ratio": 0.0,
+          "delta_cosine": null,
+          "t63": {
+            "numerator": 650621.9931829219,
+            "denominator": 650621.9931829219,
+            "nmse": 1.0,
+            "delta_energy_ratio": 0.0,
+            "delta_cosine": null
+          },
+          "t127": {
+            "numerator": 727779.5331133502,
+            "denominator": 727779.5331133502,
+            "nmse": 1.0,
+            "delta_energy_ratio": 0.0,
+            "delta_cosine": null
+          }
+        },
+        "random": {
+          "numerator": 1391307.683720416,
+          "denominator": 1378401.526296272,
+          "nmse": 1.0093631334396607,
+          "delta_energy_ratio": 0.009345662122893112,
+          "delta_cosine": -9.036299240442647e-05,
+          "t63": {
+            "numerator": 657871.3228572616,
+            "denominator": 650621.9931829219,
+            "nmse": 1.011142152817299,
+            "delta_energy_ratio": 0.011044693308296796,
+            "delta_cosine": -0.0004636789635609759
+          },
+          "t127": {
+            "numerator": 733436.3608631544,
+            "denominator": 727779.5331133502,
+            "nmse": 1.0077727216724617,
+            "delta_energy_ratio": 0.007826758380713924,
+            "delta_cosine": 0.0003053992218499061
+          }
+        },
+        "identity": {
+          "numerator": 1378401.526296272,
+          "denominator": 1378401.526296272,
+          "nmse": 1.0,
+          "delta_energy_ratio": 0.0,
+          "delta_cosine": null,
+          "t63": {
+            "numerator": 650621.9931829219,
+            "denominator": 650621.9931829219,
+            "nmse": 1.0,
+            "delta_energy_ratio": 0.0,
+            "delta_cosine": null
+          },
+          "t127": {
+            "numerator": 727779.5331133502,
+            "denominator": 727779.5331133502,
+            "nmse": 1.0,
+            "delta_energy_ratio": 0.0,
+            "delta_cosine": null
+          }
+        },
+        "parameter_copy": {
+          "numerator": 952078.6793078746,
+          "denominator": 1378401.526296272,
+          "nmse": 0.6907121481982718,
+          "delta_energy_ratio": 0.3986853293574176,
+          "delta_cosine": 0.5606239968283303,
+          "t63": {
+            "numerator": 462805.05378728715,
+            "denominator": 650621.9931829219,
+            "nmse": 0.7113270972030757,
+            "delta_energy_ratio": 0.3811651922899941,
+            "delta_cosine": 0.5424793741154493
+          },
+          "t127": {
+            "numerator": 489273.62552058743,
+            "denominator": 727779.5331133502,
+            "nmse": 0.6722827494578417,
+            "delta_energy_ratio": 0.41434802112188857,
+            "delta_cosine": 0.5764073062594209
+          }
+        },
+        "exact_teacher": {
+          "numerator": 8.306931330307713e-06,
+          "denominator": 1378401.526296272,
+          "nmse": 6.026496033146608e-12,
+          "delta_energy_ratio": 1.000000438942591,
+          "delta_cosine": 0.999999999997011,
+          "t63": {
+            "numerator": 4.208379455031101e-06,
+            "denominator": 650621.9931829219,
+            "nmse": 6.4682403901583425e-12,
+            "delta_energy_ratio": 1.0000004449508348,
+            "delta_cosine": 0.9999999999967907
+          },
+          "t127": {
+            "numerator": 4.098551875276611e-06,
+            "denominator": 727779.5331133502,
+            "nmse": 5.631584413680222e-12,
+            "delta_energy_ratio": 1.000000433571327,
+            "delta_cosine": 0.9999999999972076
+          }
+        }
+      }
+    },
+    "503": {
+      "teacher_intervention_energy_ratio": 0.447833839389319,
+      "uninformative": false,
+      "objects": {
+        "full_native": {
+          "numerator": 1005819.6320515187,
+          "denominator": 1378401.526296272,
+          "nmse": 0.7297000277953327,
+          "delta_energy_ratio": 0.2869082385783264,
+          "delta_cosine": 0.5201349084768527,
+          "t63": {
+            "numerator": 475422.3448205874,
+            "denominator": 650621.9931829219,
+            "nmse": 0.7307197570969949,
+            "delta_energy_ratio": 0.287721481476538,
+            "delta_cosine": 0.5192068339079776
+          },
+          "t127": {
+            "numerator": 530397.2872309312,
+            "denominator": 727779.5331133502,
+            "nmse": 0.7287884078876988,
+            "delta_energy_ratio": 0.2861812138527027,
+            "delta_cosine": 0.5209677058825274
+          }
+        },
+        "full_gaussian": {
+          "numerator": 1608123.8294881985,
+          "denominator": 1378401.526296272,
+          "nmse": 1.1666584799925348,
+          "delta_energy_ratio": 0.3223110424327111,
+          "delta_cosine": 0.13708460551568788,
+          "t63": {
+            "numerator": 791363.4382735122,
+            "denominator": 650621.9931829219,
+            "nmse": 1.216318302432517,
+            "delta_energy_ratio": 0.3982384523959486,
+            "delta_cosine": 0.1441382397042561
+          },
+          "t127": {
+            "numerator": 816760.3912146862,
+            "denominator": 727779.5331133502,
+            "nmse": 1.1222634796016961,
+            "delta_energy_ratio": 0.25443328473297033,
+            "delta_cosine": 0.13101327156933681
+          }
+        },
+        "tokenwise": {
+          "numerator": 1378401.526296272,
+          "denominator": 1378401.526296272,
+          "nmse": 1.0,
+          "delta_energy_ratio": 0.0,
+          "delta_cosine": null,
+          "t63": {
+            "numerator": 650621.9931829219,
+            "denominator": 650621.9931829219,
+            "nmse": 1.0,
+            "delta_energy_ratio": 0.0,
+            "delta_cosine": null
+          },
+          "t127": {
+            "numerator": 727779.5331133502,
+            "denominator": 727779.5331133502,
+            "nmse": 1.0,
+            "delta_energy_ratio": 0.0,
+            "delta_cosine": null
+          }
+        },
+        "random": {
+          "numerator": 1392550.0806235624,
+          "denominator": 1378401.526296272,
+          "nmse": 1.01026446507594,
+          "delta_energy_ratio": 0.009745606787935526,
+          "delta_cosine": -0.002627933192466168,
+          "t63": {
+            "numerator": 658456.4251687361,
+            "denominator": 650621.9931829219,
+            "nmse": 1.0120414496710866,
+            "delta_energy_ratio": 0.011456902826560757,
+            "delta_cosine": -0.0027305850618693276
+          },
+          "t127": {
+            "numerator": 734093.6554548265,
+            "denominator": 727779.5331133502,
+            "nmse": 1.0086758723681957,
+            "delta_energy_ratio": 0.008215738484531377,
+            "delta_cosine": -0.00253822966941225
+          }
+        },
+        "identity": {
+          "numerator": 1378401.526296272,
+          "denominator": 1378401.526296272,
+          "nmse": 1.0,
+          "delta_energy_ratio": 0.0,
+          "delta_cosine": null,
+          "t63": {
+            "numerator": 650621.9931829219,
+            "denominator": 650621.9931829219,
+            "nmse": 1.0,
+            "delta_energy_ratio": 0.0,
+            "delta_cosine": null
+          },
+          "t127": {
+            "numerator": 727779.5331133502,
+            "denominator": 727779.5331133502,
+            "nmse": 1.0,
+            "delta_energy_ratio": 0.0,
+            "delta_cosine": null
+          }
+        },
+        "parameter_copy": {
+          "numerator": 952078.6793078746,
+          "denominator": 1378401.526296272,
+          "nmse": 0.6907121481982718,
+          "delta_energy_ratio": 0.3986853293574176,
+          "delta_cosine": 0.5606239968283303,
+          "t63": {
+            "numerator": 462805.05378728715,
+            "denominator": 650621.9931829219,
+            "nmse": 0.7113270972030757,
+            "delta_energy_ratio": 0.3811651922899941,
+            "delta_cosine": 0.5424793741154493
+          },
+          "t127": {
+            "numerator": 489273.62552058743,
+            "denominator": 727779.5331133502,
+            "nmse": 0.6722827494578417,
+            "delta_energy_ratio": 0.41434802112188857,
+            "delta_cosine": 0.5764073062594209
+          }
+        },
+        "exact_teacher": {
+          "numerator": 8.306931330307713e-06,
+          "denominator": 1378401.526296272,
+          "nmse": 6.026496033146608e-12,
+          "delta_energy_ratio": 1.000000438942591,
+          "delta_cosine": 0.999999999997011,
+          "t63": {
+            "numerator": 4.208379455031101e-06,
+            "denominator": 650621.9931829219,
+            "nmse": 6.4682403901583425e-12,
+            "delta_energy_ratio": 1.0000004449508348,
+            "delta_cosine": 0.9999999999967907
+          },
+          "t127": {
+            "numerator": 4.098551875276611e-06,
+            "denominator": 727779.5331133502,
+            "nmse": 5.631584413680222e-12,
+            "delta_energy_ratio": 1.000000433571327,
+            "delta_cosine": 0.9999999999972076
+          }
+        }
+      }
+    }
+  },
+  "causality": {
+    "501": {
+      "query": 63,
+      "max_abs_change": {
+        "full_native": 0.0,
+        "full_gaussian": 0.0,
+        "tokenwise": 0.0,
+        "random": 0.0,
+        "identity": 0.0,
+        "parameter_copy": 0.0,
+        "exact_teacher": 0.0,
+        "teacher": 0.0
+      },
+      "tolerance": 1e-06,
+      "passed": true,
+      "future_input_changed": true,
+      "note": "t = L-1 replaces an empty slice and is a no-op; it is never evidence",
+      "implementation": "memory-bounded streaming equivalent, verified against the frozen function before use"
+    },
+    "502": {
+      "query": 63,
+      "max_abs_change": {
+        "full_native": 0.0,
+        "full_gaussian": 0.0,
+        "tokenwise": 0.0,
+        "random": 0.0,
+        "identity": 0.0,
+        "parameter_copy": 0.0,
+        "exact_teacher": 0.0,
+        "teacher": 0.0
+      },
+      "tolerance": 1e-06,
+      "passed": true,
+      "future_input_changed": true,
+      "note": "t = L-1 replaces an empty slice and is a no-op; it is never evidence",
+      "implementation": "memory-bounded streaming equivalent, verified against the frozen function before use"
+    },
+    "503": {
+      "query": 63,
+      "max_abs_change": {
+        "full_native": 0.0,
+        "full_gaussian": 0.0,
+        "tokenwise": 0.0,
+        "random": 0.0,
+        "identity": 0.0,
+        "parameter_copy": 0.0,
+        "exact_teacher": 0.0,
+        "teacher": 0.0
+      },
+      "tolerance": 1e-06,
+      "passed": true,
+      "future_input_changed": true,
+      "note": "t = L-1 replaces an empty slice and is a no-op; it is never evidence",
+      "implementation": "memory-bounded streaming equivalent, verified against the frozen function before use"
+    }
+  },
+  "functional": {
+    "501": {
+      "full_native": {
+        "scored_tokens": 405892,
+        "kl_mean_over_tokens": 0.11543651759437668,
+        "top1_agreement": 0.7964630985582372,
+        "top5_set_overlap": 0.8057951376228158,
+        "nll_teacher": 4.141143498402392,
+        "nll_replaced": 4.144828451194245,
+        "delta_nll": 0.0036849527918532132,
+        "ppl_teacher": 62.87466812133789,
+        "ppl_replaced": 63.106788635253906,
+        "note": "KL(p_T||p_S) is the Teacher-behavior fidelity axis; NLL_S < NLL_T would mean a better language model, not a closer Teacher match"
+      },
+      "full_gaussian": {
+        "scored_tokens": 405892,
+        "kl_mean_over_tokens": 1.0331238427975449,
+        "top1_agreement": 0.4631921792003784,
+        "top5_set_overlap": 0.4941925438293931,
+        "nll_teacher": 4.141143498402392,
+        "nll_replaced": 5.203043828762064,
+        "delta_nll": 1.0619003303596726,
+        "ppl_teacher": 62.87466812133789,
+        "ppl_replaced": 181.82485961914062,
+        "note": "KL(p_T||p_S) is the Teacher-behavior fidelity axis; NLL_S < NLL_T would mean a better language model, not a closer Teacher match"
+      },
+      "tokenwise": {
+        "scored_tokens": 405892,
+        "kl_mean_over_tokens": 0.1356307184291251,
+        "top1_agreement": 0.7853862603845357,
+        "top5_set_overlap": 0.7928246922826762,
+        "nll_teacher": 4.141143498402392,
+        "nll_replaced": 4.127395846235265,
+        "delta_nll": -0.013747652167126923,
+        "ppl_teacher": 62.87466812133789,
+        "ppl_replaced": 62.016197204589844,
+        "note": "KL(p_T||p_S) is the Teacher-behavior fidelity axis; NLL_S < NLL_T would mean a better language model, not a closer Teacher match"
+      },
+      "random": {
+        "scored_tokens": 405892,
+        "kl_mean_over_tokens": 0.1601875229716507,
+        "top1_agreement": 0.7657233944004809,
+        "top5_set_overlap": 0.7735032964433889,
+        "nll_teacher": 4.141143498402392,
+        "nll_replaced": 4.251503165332216,
+        "delta_nll": 0.11035966692982413,
+        "ppl_teacher": 62.87466812133789,
+        "ppl_replaced": 70.21086120605469,
+        "note": "KL(p_T||p_S) is the Teacher-behavior fidelity axis; NLL_S < NLL_T would mean a better language model, not a closer Teacher match"
+      },
+      "identity": {
+        "scored_tokens": 405892,
+        "kl_mean_over_tokens": 0.13741078541145843,
+        "top1_agreement": 0.7833536999990145,
+        "top5_set_overlap": 0.7911646447823559,
+        "nll_teacher": 4.141143498402392,
+        "nll_replaced": 4.230509243506545,
+        "delta_nll": 0.0893657451041534,
+        "ppl_teacher": 62.87466812133789,
+        "ppl_replaced": 68.75223541259766,
+        "note": "KL(p_T||p_S) is the Teacher-behavior fidelity axis; NLL_S < NLL_T would mean a better language model, not a closer Teacher match"
+      },
+      "parameter_copy": {
+        "scored_tokens": 405892,
+        "kl_mean_over_tokens": 0.16652276722729492,
+        "top1_agreement": 0.7526780522897717,
+        "top5_set_overlap": 0.7802346436983237,
+        "nll_teacher": 4.141143498402392,
+        "nll_replaced": 4.3279117941050735,
+        "delta_nll": 0.18676829570268172,
+        "ppl_teacher": 62.87466812133789,
+        "ppl_replaced": 75.7858657836914,
+        "note": "KL(p_T||p_S) is the Teacher-behavior fidelity axis; NLL_S < NLL_T would mean a better language model, not a closer Teacher match"
+      },
+      "exact_teacher": {
+        "scored_tokens": 405892,
+        "kl_mean_over_tokens": 3.2302270595078734e-11,
+        "top1_agreement": 1.0,
+        "top5_set_overlap": 0.9999950725808836,
+        "nll_teacher": 4.141143498402392,
+        "nll_replaced": 4.141143472920621,
+        "delta_nll": -2.5481770471458276e-08,
+        "ppl_teacher": 62.87466812133789,
+        "ppl_replaced": 62.87466812133789,
+        "note": "KL(p_T||p_S) is the Teacher-behavior fidelity axis; NLL_S < NLL_T would mean a better language model, not a closer Teacher match"
+      }
+    },
+    "502": {
+      "full_native": {
+        "scored_tokens": 405892,
+        "kl_mean_over_tokens": 0.11968442931176121,
+        "top1_agreement": 0.79291289308486,
+        "top5_set_overlap": 0.8061548392183142,
+        "nll_teacher": 4.141143498402392,
+        "nll_replaced": 4.119665786084688,
+        "delta_nll": -0.021477712317703457,
+        "ppl_teacher": 62.87466812133789,
+        "ppl_replaced": 61.53866195678711,
+        "note": "KL(p_T||p_S) is the Teacher-behavior fidelity axis; NLL_S < NLL_T would mean a better language model, not a closer Teacher match"
+      },
+      "full_gaussian": {
+        "scored_tokens": 405892,
+        "kl_mean_over_tokens": 1.0461952847479508,
+        "top1_agreement": 0.45588481665073466,
+        "top5_set_overlap": 0.4870039320804549,
+        "nll_teacher": 4.141143498402392,
+        "nll_replaced": 5.193816701314363,
+        "delta_nll": 1.0526732029119712,
+        "ppl_teacher": 62.87466812133789,
+        "ppl_replaced": 180.1548309326172,
+        "note": "KL(p_T||p_S) is the Teacher-behavior fidelity axis; NLL_S < NLL_T would mean a better language model, not a closer Teacher match"
+      },
+      "tokenwise": {
+        "scored_tokens": 405892,
+        "kl_mean_over_tokens": 0.14069551623098786,
+        "top1_agreement": 0.7897273166260976,
+        "top5_set_overlap": 0.7933474914509279,
+        "nll_teacher": 4.141143498402392,
+        "nll_replaced": 4.115166651288806,
+        "delta_nll": -0.0259768471135855,
+        "ppl_teacher": 62.87466812133789,
+        "ppl_replaced": 61.26242446899414,
+        "note": "KL(p_T||p_S) is the Teacher-behavior fidelity axis; NLL_S < NLL_T would mean a better language model, not a closer Teacher match"
+      },
+      "random": {
+        "scored_tokens": 405892,
+        "kl_mean_over_tokens": 0.16450280675410373,
+        "top1_agreement": 0.7610004631773969,
+        "top5_set_overlap": 0.7672568072295094,
+        "nll_teacher": 4.141143498402392,
+        "nll_replaced": 4.233276148528075,
+        "delta_nll": 0.09213265012568339,
+        "ppl_teacher": 62.87466812133789,
+        "ppl_replaced": 68.9427490234375,
+        "note": "KL(p_T||p_S) is the Teacher-behavior fidelity axis; NLL_S < NLL_T would mean a better language model, not a closer Teacher match"
+      },
+      "identity": {
+        "scored_tokens": 405892,
+        "kl_mean_over_tokens": 0.13741078541145843,
+        "top1_agreement": 0.7833536999990145,
+        "top5_set_overlap": 0.7911646447823559,
+        "nll_teacher": 4.141143498402392,
+        "nll_replaced": 4.230509243506545,
+        "delta_nll": 0.0893657451041534,
+        "ppl_teacher": 62.87466812133789,
+        "ppl_replaced": 68.75223541259766,
+        "note": "KL(p_T||p_S) is the Teacher-behavior fidelity axis; NLL_S < NLL_T would mean a better language model, not a closer Teacher match"
+      },
+      "parameter_copy": {
+        "scored_tokens": 405892,
+        "kl_mean_over_tokens": 0.16652276722729492,
+        "top1_agreement": 0.7526780522897717,
+        "top5_set_overlap": 0.7802346436983237,
+        "nll_teacher": 4.141143498402392,
+        "nll_replaced": 4.3279117941050735,
+        "delta_nll": 0.18676829570268172,
+        "ppl_teacher": 62.87466812133789,
+        "ppl_replaced": 75.7858657836914,
+        "note": "KL(p_T||p_S) is the Teacher-behavior fidelity axis; NLL_S < NLL_T would mean a better language model, not a closer Teacher match"
+      },
+      "exact_teacher": {
+        "scored_tokens": 405892,
+        "kl_mean_over_tokens": 3.2302270595078734e-11,
+        "top1_agreement": 1.0,
+        "top5_set_overlap": 0.9999950725808836,
+        "nll_teacher": 4.141143498402392,
+        "nll_replaced": 4.141143472920621,
+        "delta_nll": -2.5481770471458276e-08,
+        "ppl_teacher": 62.87466812133789,
+        "ppl_replaced": 62.87466812133789,
+        "note": "KL(p_T||p_S) is the Teacher-behavior fidelity axis; NLL_S < NLL_T would mean a better language model, not a closer Teacher match"
+      }
+    },
+    "503": {
+      "full_native": {
+        "scored_tokens": 405892,
+        "kl_mean_over_tokens": 0.11523258325908654,
+        "top1_agreement": 0.8033294570969618,
+        "top5_set_overlap": 0.8099346624225163,
+        "nll_teacher": 4.141143498402392,
+        "nll_replaced": 4.127974254321375,
+        "delta_nll": -0.013169244081017162,
+        "ppl_teacher": 62.87466812133789,
+        "ppl_replaced": 62.05207824707031,
+        "note": "KL(p_T||p_S) is the Teacher-behavior fidelity axis; NLL_S < NLL_T would mean a better language model, not a closer Teacher match"
+      },
+      "full_gaussian": {
+        "scored_tokens": 405892,
+        "kl_mean_over_tokens": 1.080099454078368,
+        "top1_agreement": 0.45175317572162055,
+        "top5_set_overlap": 0.4840597991583968,
+        "nll_teacher": 4.141143498402392,
+        "nll_replaced": 5.243825888359526,
+        "delta_nll": 1.1026823899571339,
+        "ppl_teacher": 62.87466812133789,
+        "ppl_replaced": 189.39332580566406,
+        "note": "KL(p_T||p_S) is the Teacher-behavior fidelity axis; NLL_S < NLL_T would mean a better language model, not a closer Teacher match"
+      },
+      "tokenwise": {
+        "scored_tokens": 405892,
+        "kl_mean_over_tokens": 0.14213985411235427,
+        "top1_agreement": 0.7893922521261814,
+        "top5_set_overlap": 0.7924132527864556,
+        "nll_teacher": 4.141143498402392,
+        "nll_replaced": 4.100019222346349,
+        "delta_nll": -0.04112427605604285,
+        "ppl_teacher": 62.87466812133789,
+        "ppl_replaced": 60.341461181640625,
+        "note": "KL(p_T||p_S) is the Teacher-behavior fidelity axis; NLL_S < NLL_T would mean a better language model, not a closer Teacher match"
+      },
+      "random": {
+        "scored_tokens": 405892,
+        "kl_mean_over_tokens": 0.17031991049553416,
+        "top1_agreement": 0.7589284834389444,
+        "top5_set_overlap": 0.766061415351867,
+        "nll_teacher": 4.141143498402392,
+        "nll_replaced": 4.264358426443453,
+        "delta_nll": 0.12321492804106082,
+        "ppl_teacher": 62.87466812133789,
+        "ppl_replaced": 71.1192855834961,
+        "note": "KL(p_T||p_S) is the Teacher-behavior fidelity axis; NLL_S < NLL_T would mean a better language model, not a closer Teacher match"
+      },
+      "identity": {
+        "scored_tokens": 405892,
+        "kl_mean_over_tokens": 0.13741078541145843,
+        "top1_agreement": 0.7833536999990145,
+        "top5_set_overlap": 0.7911646447823559,
+        "nll_teacher": 4.141143498402392,
+        "nll_replaced": 4.230509243506545,
+        "delta_nll": 0.0893657451041534,
+        "ppl_teacher": 62.87466812133789,
+        "ppl_replaced": 68.75223541259766,
+        "note": "KL(p_T||p_S) is the Teacher-behavior fidelity axis; NLL_S < NLL_T would mean a better language model, not a closer Teacher match"
+      },
+      "parameter_copy": {
+        "scored_tokens": 405892,
+        "kl_mean_over_tokens": 0.16652276722729492,
+        "top1_agreement": 0.7526780522897717,
+        "top5_set_overlap": 0.7802346436983237,
+        "nll_teacher": 4.141143498402392,
+        "nll_replaced": 4.3279117941050735,
+        "delta_nll": 0.18676829570268172,
+        "ppl_teacher": 62.87466812133789,
+        "ppl_replaced": 75.7858657836914,
+        "note": "KL(p_T||p_S) is the Teacher-behavior fidelity axis; NLL_S < NLL_T would mean a better language model, not a closer Teacher match"
+      },
+      "exact_teacher": {
+        "scored_tokens": 405892,
+        "kl_mean_over_tokens": 3.2302270595078734e-11,
+        "top1_agreement": 1.0,
+        "top5_set_overlap": 0.9999950725808836,
+        "nll_teacher": 4.141143498402392,
+        "nll_replaced": 4.141143472920621,
+        "delta_nll": -2.5481770471458276e-08,
+        "ppl_teacher": 62.87466812133789,
+        "ppl_replaced": 62.87466812133789,
+        "note": "KL(p_T||p_S) is the Teacher-behavior fidelity axis; NLL_S < NLL_T would mean a better language model, not a closer Teacher match"
+      }
+    }
+  },
+  "exact_sanity": {
+    "tolerance": {
+      "value_nmse": 1e-09,
+      "context_nmse": 1e-09,
+      "kl": 1e-09,
+      "top1": 1e-05
+    },
+    "per_seed": {
+      "501": {
+        "value_nmse": 1.4260036921478195e-12,
+        "context_nmse": 6.026496033146608e-12,
+        "kl": 3.2302270595078734e-11,
+        "top1": 1.0,
+        "scored_tokens": 405892
+      },
+      "502": {
+        "value_nmse": 1.4260036921478195e-12,
+        "context_nmse": 6.026496033146608e-12,
+        "kl": 3.2302270595078734e-11,
+        "top1": 1.0,
+        "scored_tokens": 405892
+      },
+      "503": {
+        "value_nmse": 1.4260036921478195e-12,
+        "context_nmse": 6.026496033146608e-12,
+        "kl": 3.2302270595078734e-11,
+        "top1": 1.0,
+        "scored_tokens": 405892
+      }
+    },
+    "passed": true
+  },
+  "criteria": {
+    "per_seed": {
+      "501": {
+        "primary": {
+          "l3_value": {
+            "native_lt_random": true,
+            "native_lt_identity": true,
+            "native_lt_gaussian": true,
+            "native_lt_tokenwise": true
+          },
+          "l3_context": {
+            "native_lt_1": true,
+            "native_lt_random": true,
+            "native_lt_gaussian": true,
+            "tokenwise_equals_1": true,
+            "teacher_delta_nondegenerate": true
+          },
+          "l4a": {
+            "native_lt_random": true,
+            "native_lt_identity": true,
+            "native_lt_gaussian": true,
+            "native_lt_tokenwise": true
+          }
+        },
+        "primary_all_met": true,
+        "secondary": {
+          "native_value_lt_headcopy": true,
+          "native_context_lt_headcopy": false
+        },
+        "l4b_report_only": {
+          "full_native": {
+            "nll": 4.144828451194245,
+            "ppl": 63.106788635253906,
+            "delta_nll": 0.0036849527918532132,
+            "nll_teacher": 4.141143498402392
+          },
+          "full_gaussian": {
+            "nll": 5.203043828762064,
+            "ppl": 181.82485961914062,
+            "delta_nll": 1.0619003303596726,
+            "nll_teacher": 4.141143498402392
+          },
+          "tokenwise": {
+            "nll": 4.127395846235265,
+            "ppl": 62.016197204589844,
+            "delta_nll": -0.013747652167126923,
+            "nll_teacher": 4.141143498402392
+          },
+          "random": {
+            "nll": 4.251503165332216,
+            "ppl": 70.21086120605469,
+            "delta_nll": 0.11035966692982413,
+            "nll_teacher": 4.141143498402392
+          },
+          "identity": {
+            "nll": 4.230509243506545,
+            "ppl": 68.75223541259766,
+            "delta_nll": 0.0893657451041534,
+            "nll_teacher": 4.141143498402392
+          },
+          "parameter_copy": {
+            "nll": 4.3279117941050735,
+            "ppl": 75.7858657836914,
+            "delta_nll": 0.18676829570268172,
+            "nll_teacher": 4.141143498402392
+          },
+          "exact_teacher": {
+            "nll": 4.141143472920621,
+            "ppl": 62.87466812133789,
+            "delta_nll": -2.5481770471458276e-08,
+            "nll_teacher": 4.141143498402392
+          }
+        }
+      },
+      "502": {
+        "primary": {
+          "l3_value": {
+            "native_lt_random": true,
+            "native_lt_identity": true,
+            "native_lt_gaussian": true,
+            "native_lt_tokenwise": true
+          },
+          "l3_context": {
+            "native_lt_1": true,
+            "native_lt_random": true,
+            "native_lt_gaussian": true,
+            "tokenwise_equals_1": true,
+            "teacher_delta_nondegenerate": true
+          },
+          "l4a": {
+            "native_lt_random": true,
+            "native_lt_identity": true,
+            "native_lt_gaussian": true,
+            "native_lt_tokenwise": true
+          }
+        },
+        "primary_all_met": true,
+        "secondary": {
+          "native_value_lt_headcopy": true,
+          "native_context_lt_headcopy": false
+        },
+        "l4b_report_only": {
+          "full_native": {
+            "nll": 4.119665786084688,
+            "ppl": 61.53866195678711,
+            "delta_nll": -0.021477712317703457,
+            "nll_teacher": 4.141143498402392
+          },
+          "full_gaussian": {
+            "nll": 5.193816701314363,
+            "ppl": 180.1548309326172,
+            "delta_nll": 1.0526732029119712,
+            "nll_teacher": 4.141143498402392
+          },
+          "tokenwise": {
+            "nll": 4.115166651288806,
+            "ppl": 61.26242446899414,
+            "delta_nll": -0.0259768471135855,
+            "nll_teacher": 4.141143498402392
+          },
+          "random": {
+            "nll": 4.233276148528075,
+            "ppl": 68.9427490234375,
+            "delta_nll": 0.09213265012568339,
+            "nll_teacher": 4.141143498402392
+          },
+          "identity": {
+            "nll": 4.230509243506545,
+            "ppl": 68.75223541259766,
+            "delta_nll": 0.0893657451041534,
+            "nll_teacher": 4.141143498402392
+          },
+          "parameter_copy": {
+            "nll": 4.3279117941050735,
+            "ppl": 75.7858657836914,
+            "delta_nll": 0.18676829570268172,
+            "nll_teacher": 4.141143498402392
+          },
+          "exact_teacher": {
+            "nll": 4.141143472920621,
+            "ppl": 62.87466812133789,
+            "delta_nll": -2.5481770471458276e-08,
+            "nll_teacher": 4.141143498402392
+          }
+        }
+      },
+      "503": {
+        "primary": {
+          "l3_value": {
+            "native_lt_random": true,
+            "native_lt_identity": true,
+            "native_lt_gaussian": true,
+            "native_lt_tokenwise": true
+          },
+          "l3_context": {
+            "native_lt_1": true,
+            "native_lt_random": true,
+            "native_lt_gaussian": true,
+            "tokenwise_equals_1": true,
+            "teacher_delta_nondegenerate": true
+          },
+          "l4a": {
+            "native_lt_random": true,
+            "native_lt_identity": true,
+            "native_lt_gaussian": true,
+            "native_lt_tokenwise": true
+          }
+        },
+        "primary_all_met": true,
+        "secondary": {
+          "native_value_lt_headcopy": true,
+          "native_context_lt_headcopy": false
+        },
+        "l4b_report_only": {
+          "full_native": {
+            "nll": 4.127974254321375,
+            "ppl": 62.05207824707031,
+            "delta_nll": -0.013169244081017162,
+            "nll_teacher": 4.141143498402392
+          },
+          "full_gaussian": {
+            "nll": 5.243825888359526,
+            "ppl": 189.39332580566406,
+            "delta_nll": 1.1026823899571339,
+            "nll_teacher": 4.141143498402392
+          },
+          "tokenwise": {
+            "nll": 4.100019222346349,
+            "ppl": 60.341461181640625,
+            "delta_nll": -0.04112427605604285,
+            "nll_teacher": 4.141143498402392
+          },
+          "random": {
+            "nll": 4.264358426443453,
+            "ppl": 71.1192855834961,
+            "delta_nll": 0.12321492804106082,
+            "nll_teacher": 4.141143498402392
+          },
+          "identity": {
+            "nll": 4.230509243506545,
+            "ppl": 68.75223541259766,
+            "delta_nll": 0.0893657451041534,
+            "nll_teacher": 4.141143498402392
+          },
+          "parameter_copy": {
+            "nll": 4.3279117941050735,
+            "ppl": 75.7858657836914,
+            "delta_nll": 0.18676829570268172,
+            "nll_teacher": 4.141143498402392
+          },
+          "exact_teacher": {
+            "nll": 4.141143472920621,
+            "ppl": 62.87466812133789,
+            "delta_nll": -2.5481770471458276e-08,
+            "nll_teacher": 4.141143498402392
+          }
+        }
+      }
+    },
+    "classification": "replicated across all seeds",
+    "notes": [
+      "no absolute NMSE threshold",
+      "Parameter-copy is secondary",
+      "L4b (NLL/PPL/delta-NLL) is auxiliary and never Teacher fidelity",
+      "book-level bootstrap describes book sampling variation only"
+    ]
+  },
+  "engineering_checks": {
+    "streaming_equivalence": {
+      "slice_windows": 1600,
+      "blocks": 2,
+      "objects": [
+        "full_native",
+        "tokenwise",
+        "identity"
+      ],
+      "max_abs_difference": 1.5731860258938468e-13,
+      "tolerance": 1e-12,
+      "passed": true,
+      "frozen_causality_passed": true,
+      "streaming_causality_passed": true,
+      "note": "the streaming implementation reproduces the frozen functions' outputs on real test data before it is used for the full set"
+    },
+    "wiring_proof": {
+      "501": {
+        "full_native": true,
+        "full_gaussian": true,
+        "tokenwise": true,
+        "random": true,
+        "identity": true,
+        "parameter_copy": true,
+        "exact_teacher": true
+      },
+      "502": {
+        "full_native": true,
+        "full_gaussian": true,
+        "tokenwise": true,
+        "random": true,
+        "identity": true,
+        "parameter_copy": true,
+        "exact_teacher": true
+      },
+      "503": {
+        "full_native": true,
+        "full_gaussian": true,
+        "tokenwise": true,
+        "random": true,
+        "identity": true,
+        "parameter_copy": true,
+        "exact_teacher": true
+      }
+    },
+    "expected_scored_tokens": 405892,
+    "zero_controls": {
+      "identity_value_exactly_1": true,
+      "tokenwise_context_exactly_1": true,
+      "all_wiring_proofs_true": true
+    }
+  },
+  "engineering_events": [
+    {
+      "utc": "2026-09-19T16:49:09.774150+00:00",
+      "phase": "H generation (first attempt)",
+      "error": "RuntimeError: indices should be either on cpu or on the same device as the indexed tensor (cpu) — wte embeddings were CPU-side while the batch index tensor was on the GPU",
+      "scientific_metrics_seen_before_fault": false,
+      "materialization_regenerated": false,
+      "action": "pure engineering fix (device placement of the embedding lookup); the already-materialized listing/books/selected token ids were reused and verified byte-identical; no scientific setting, threshold, checkpoint or selection rule changed; the realized window set was NOT regenerated",
+      "note": "first attempt stopped before H was saved; no metric existed",
+      "selection_verified_byte_identical": true,
+      "selection_sha256": "a74fea99e42b88822c88fb60395e35d2c67cfdff0e2734f340e7f3f3fae8f5af"
+    },
+    {
+      "utc": "2026-09-19T16:59:05Z",
+      "phase": "L3 context (first attempt after the boundary freeze)",
+      "error": "RuntimeError: DefaultCPUAllocator: not enough memory (1.26 GB splice clone)",
+      "action": "documented engineering amendment of the evaluator (see evaluator_code_history); the realized test set, its hashes and every scientific setting are unchanged",
+      "scientific_metrics_seen_before_fault": true,
+      "metrics_seen": "L3 value NMSE for all seeds/objects (same numbers the value phase had already produced); no context/causality/functional/classification result existed"
+    },
+    {
+      "utc": "2026-09-19T17:26:40Z",
+      "phase": "L3 context (first attempt)",
+      "error": "RuntimeError: DefaultCPUAllocator: not enough memory — full_block_context_evaluation clones the whole recipient set (3196x128x768 float32 = 1.26 GB) for the history splice",
+      "scientific_metrics_seen_before_fault": true,
+      "metrics_seen": [
+        "L3 value NMSE for all 3 seeds x 7 objects (printed before the fault); no context, causality, functional or classification result existed"
+      ],
+      "materialization_regenerated": false,
+      "action": "pure engineering fix: memory-bounded streaming re-implementation with the identical splice, query positions, float64 pooled sums and ratio definitions; equivalence against the frozen functions is verified on the first 800-window block and recorded before the streaming path is used; no scientific setting, threshold, checkpoint, object or criterion changed",
+      "streaming_equivalence_max_abs_difference": 1.5731860258938468e-13
+    }
+  ],
+  "pg19_test_accessed": true,
+  "pg19_test_status": "SPENT",
+  "language_data_used": true,
+  "heldout_classification": "HELDOUT_CONFIRMED_REPLICATED",
+  "status": "complete"
+}

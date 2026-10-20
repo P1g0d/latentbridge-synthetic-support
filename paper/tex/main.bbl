@@ -1,0 +1,184 @@
+\begin{thebibliography}{18}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ben-David et~al.(2010)Ben-David, Blitzer, Crammer, Kulesza, Pereira,
+  and Vaughan]{ben2010domains}
+Shai Ben-David, John Blitzer, Koby Crammer, Alex Kulesza, Fernando Pereira, and
+  Jennifer~Wortman Vaughan.
+\newblock A theory of learning from different domains.
+\newblock \emph{Machine Learning}, 79:\penalty0 151--175, 2010.
+\newblock \doi{10.1007/s10994-009-5152-4}.
+\newblock URL
+  \url{https://link.springer.com/article/10.1007/s10994-009-5152-4}.
+
+\bibitem[Biderman et~al.(2023)Biderman, Schoelkopf, Anthony, Bradley, O'Brien,
+  Hallahan, Khan, Purohit, Prashanth, Raff, Skowron, Sutawika, and Van
+  Der~Wal]{biderman2023pythia}
+Stella Biderman, Hailey Schoelkopf, Quentin~Gregory Anthony, Herbie Bradley,
+  Kyle O'Brien, Eric Hallahan, Mohammad~Aflah Khan, Shivanshu Purohit,
+  Usvsn~Sai Prashanth, Edward Raff, Aviya Skowron, Lintang Sutawika, and Oskar
+  Van Der~Wal.
+\newblock Pythia: A suite for analyzing large language models across training
+  and scaling.
+\newblock In \emph{Proceedings of the 40th International Conference on Machine
+  Learning}, volume 202 of \emph{Proceedings of Machine Learning Research},
+  pages 2397--2430, 2023.
+\newblock URL \url{https://proceedings.mlr.press/v202/biderman23a.html}.
+
+\bibitem[Bucilu{\v{a}} et~al.(2006)Bucilu{\v{a}}, Caruana, and
+  Niculescu-Mizil]{bucila2006compression}
+Cristian Bucilu{\v{a}}, Rich Caruana, and Alexandru Niculescu-Mizil.
+\newblock Model compression.
+\newblock In \emph{Proceedings of the 12th ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, 2006.
+\newblock URL \url{https://www.cs.cornell.edu/~caruana/compression.kdd06.pdf}.
+
+\bibitem[Craven and Shavlik(1995)]{craven1995trepan}
+Mark Craven and Jude~W. Shavlik.
+\newblock Extracting tree-structured representations of trained networks.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~8, 1995.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/1995/hash/45f31d16b1058d586fc3be7207b58053-Abstract.html}.
+
+\bibitem[D'Amour et~al.(2022)D'Amour, Heller, Moldovan, Adlam, Alipanahi,
+  Beutel, Chen, Deaton, Eisenstein, Hoffman, Hormozdiari, Houlsby, Hou, Jerfel,
+  Karthikesalingam, Lucic, Ma, McLean, Mincu, Mitani, Montanari, Nado,
+  Natarajan, Nielson, Osborne, Raman, Ramasamy, Sayres, Schrouff, Seneviratne,
+  Sequeira, Suresh, Veitch, Vladymyrov, Wang, Webster, Yadlowsky, Yun, Zhai,
+  and Sculley]{damour2022underspecification}
+Alexander D'Amour, Katherine Heller, Dan Moldovan, Ben Adlam, Babak Alipanahi,
+  Alex Beutel, Christina Chen, Jonathan Deaton, Jacob Eisenstein, Matthew~D.
+  Hoffman, Farhad Hormozdiari, Neil Houlsby, Shaobo Hou, Ghassen Jerfel, Alan
+  Karthikesalingam, Mario Lucic, Yian Ma, Cory McLean, Diana Mincu, Akinori
+  Mitani, Andrea Montanari, Zachary Nado, Vivek Natarajan, Christopher Nielson,
+  Thomas~F. Osborne, Rajiv Raman, Kim Ramasamy, Rory Sayres, Jessica Schrouff,
+  Martin Seneviratne, Shannon Sequeira, Harini Suresh, Victor Veitch, Max
+  Vladymyrov, Xuezhi Wang, Kellie Webster, Steve Yadlowsky, Taedong Yun,
+  Xiaohua Zhai, and D.~Sculley.
+\newblock Underspecification presents challenges for credibility in modern
+  machine learning.
+\newblock \emph{Journal of Machine Learning Research}, 23\penalty0
+  (226):\penalty0 1--61, 2022.
+\newblock URL \url{https://jmlr.org/papers/v23/20-1335.html}.
+
+\bibitem[Horton et~al.(2022)Horton, Jin, Farhadi, and
+  Rastegari]{horton2022layerwise}
+Maxwell Horton, Yanzi Jin, Ali Farhadi, and Mohammad Rastegari.
+\newblock Layer-wise data-free {CNN} compression.
+\newblock In \emph{International Conference on Pattern Recognition}, 2022.
+\newblock URL
+  \url{https://machinelearning.apple.com/research/layer-wise-data-free-cnn-compression}.
+\newblock Preprint first posted in 2020.
+
+\bibitem[Kim and Mnih(2018)]{kim2018factorvae}
+Hyunjik Kim and Andriy Mnih.
+\newblock Disentangling by factorising.
+\newblock In \emph{Proceedings of the 35th International Conference on Machine
+  Learning}, volume~80 of \emph{Proceedings of Machine Learning Research},
+  pages 2649--2658, 2018.
+\newblock URL \url{https://proceedings.mlr.press/v80/kim18b.html}.
+
+\bibitem[Krukowski et~al.(2026)Krukowski, Tabor, Spurek, {\'{S}}mieja, and
+  Struski]{krukowski2026dreams}
+Patryk Krukowski, Jacek Tabor, Przemys{\l}aw Spurek, Marek {\'{S}}mieja, and
+  {\L}ukasz Struski.
+\newblock Stop marginalizing my dreams: Model inversion via laplace kernel for
+  continual learning.
+\newblock \emph{arXiv preprint arXiv:2605.11804}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2605.11804}.
+
+\bibitem[Lopes et~al.(2017)Lopes, Fenu, and Starner]{lopes2017datafree}
+Raphael~Gontijo Lopes, Stefano Fenu, and Thad Starner.
+\newblock Data-free knowledge distillation for deep neural networks.
+\newblock \emph{arXiv preprint arXiv:1710.07535}, 2017.
+\newblock URL \url{https://arxiv.org/abs/1710.07535}.
+
+\bibitem[Ma et~al.(2020)Ma, Shen, Fang, Chen, Jia, and Lu]{ma2020asdfd}
+Xinyin Ma, Yongliang Shen, Gongfan Fang, Chen Chen, Chenghao Jia, and Weiming
+  Lu.
+\newblock Adversarial self-supervised data-free distillation for text
+  classification.
+\newblock In \emph{Proceedings of the 2020 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 6182--6192, 2020.
+\newblock \doi{10.18653/v1/2020.emnlp-main.499}.
+\newblock URL \url{https://aclanthology.org/2020.emnlp-main.499/}.
+
+\bibitem[Park et~al.(2019)Park, Kim, Lu, and Cho]{park2019rkd}
+Wonpyo Park, Dongju Kim, Yan Lu, and Minsu Cho.
+\newblock Relational knowledge distillation.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pages 3967--3976, 2019.
+\newblock URL
+  \url{https://openaccess.thecvf.com/content_CVPR_2019/html/Park_Relational_Knowledge_Distillation_CVPR_2019_paper.html}.
+
+\bibitem[Radford et~al.(2019)Radford, Wu, Child, Luan, Amodei, and
+  Sutskever]{radford2019gpt2}
+Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya
+  Sutskever.
+\newblock Language models are unsupervised multitask learners.
+\newblock Technical report, OpenAI, 2019.
+\newblock URL
+  \url{https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf}.
+
+\bibitem[Romero et~al.(2015)Romero, Ballas, Ebrahimi~Kahou, Chassang, Gatta,
+  and Bengio]{romero2015fitnets}
+Adriana Romero, Nicolas Ballas, Samira Ebrahimi~Kahou, Antoine Chassang, Carlo
+  Gatta, and Yoshua Bengio.
+\newblock {FitNets}: Hints for thin deep nets.
+\newblock In \emph{International Conference on Learning Representations}, 2015.
+\newblock URL \url{https://arxiv.org/abs/1412.6550}.
+
+\bibitem[Stanton et~al.(2021)Stanton, Izmailov, Kirichenko, Alemi, and
+  Wilson]{stanton2021distillation}
+Samuel Stanton, Pavel Izmailov, Polina Kirichenko, Alexander~A. Alemi, and
+  Andrew~Gordon Wilson.
+\newblock Does knowledge distillation really work?
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~34, 2021.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2021/hash/376c6b9ff3bedbbea56751a84fffc10c-Abstract.html}.
+
+\bibitem[Sugiyama et~al.(2007)Sugiyama, Krauledat, and
+  M{\"{u}}ller]{sugiyama2007covariate}
+Masashi Sugiyama, Matthias Krauledat, and Klaus-Robert M{\"{u}}ller.
+\newblock Covariate shift adaptation by importance weighted cross validation.
+\newblock \emph{Journal of Machine Learning Research}, 8\penalty0
+  (35):\penalty0 985--1005, 2007.
+\newblock URL \url{https://jmlr.org/papers/v8/sugiyama07a.html}.
+
+\bibitem[Wang et~al.(2021)Wang, Bao, Huang, Dong, and Wei]{wang2021minilmv2}
+Wenhui Wang, Hangbo Bao, Shaohan Huang, Li~Dong, and Furu Wei.
+\newblock {MiniLMv2}: Multi-head self-attention relation distillation for
+  compressing pretrained transformers.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL-IJCNLP 2021}, pages 2140--2151, 2021.
+\newblock \doi{10.18653/v1/2021.findings-acl.188}.
+\newblock URL \url{https://aclanthology.org/2021.findings-acl.188/}.
+
+\bibitem[Wu et~al.(2024)Wu, Lubana, Mlodozeniec, Kirk, and
+  Krueger]{wu2024mechanisms}
+Cindy Wu, Ekdeep~Singh Lubana, Bruno~Kacper Mlodozeniec, Robert Kirk, and David
+  Krueger.
+\newblock What mechanisms does knowledge distillation distill?
+\newblock In \emph{Proceedings of the First Workshop on Unifying
+  Representations in Neural Models}, volume 243 of \emph{Proceedings of Machine
+  Learning Research}, pages 60--75, 2024.
+\newblock URL \url{https://proceedings.mlr.press/v243/wu24a.html}.
+
+\bibitem[Yin et~al.(2020)Yin, Molchanov, Alvarez, Li, Mallya, Hoiem, Jha, and
+  Kautz]{yin2020deepinversion}
+Hongxu Yin, Pavlo Molchanov, Jose~M. Alvarez, Zhizhong Li, Arun Mallya, Derek
+  Hoiem, Niraj~K. Jha, and Jan Kautz.
+\newblock Dreaming to distill: Data-free knowledge transfer via
+  {DeepInversion}.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pages 8715--8724, 2020.
+\newblock URL
+  \url{https://openaccess.thecvf.com/content_CVPR_2020/html/Yin_Dreaming_to_Distill_Data-Free_Knowledge_Transfer_via_DeepInversion_CVPR_2020_paper.html}.
+
+\end{thebibliography}

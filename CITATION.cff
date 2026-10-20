@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this software snapshot and the associated paper separately."
+type: software
+title: "LatentBridge: Synthetic Support Interventions"
+authors:
+  - family-names: Hu
+    given-names: Haofeng
+    affiliation: "Tianjin University, Tianjin, China"
+    email: "1772027289@qq.com"
+version: "0.1.0-rc1"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Marginal-Preserving Support Interventions in Synthetic Transformer-Block Distillation"
+  authors:
+    - family-names: Hu
+      given-names: Haofeng
+      affiliation: "Tianjin University, Tianjin, China"
+  year: 2026
+  notes: "Unpublished preprint, release-ready v3.1; no archival DOI assigned."

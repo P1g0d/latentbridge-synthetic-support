@@ -1,0 +1,2170 @@
+{
+  "schema": "latentbridge.public_rng_export.v1",
+  "campaign": "cmr1",
+  "source_sha256": "ef7f39e905aae1084db8a4a81ec162750c58b46033110df0866c90aac3bbbf55",
+  "source": "manifests/cmr1_stage_b_verified_local_admin_refresh/frozen.json",
+  "scientific_roles_unchanged": true,
+  "exported_field": "campaign_records",
+  "records": [
+    {
+      "domain": "campaign",
+      "integer_seed": 731812112013865256,
+      "role_key": "replicate-01/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1262454168798839510,
+      "role_key": "replicate-01/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5042160941791226455,
+      "role_key": "replicate-01/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8114456836028397127,
+      "role_key": "replicate-01/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6880793471251109058,
+      "role_key": "replicate-01/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1907976023422314268,
+      "role_key": "replicate-01/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4346253394340056043,
+      "role_key": "replicate-01/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2091748564806981118,
+      "role_key": "replicate-01/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3242961566287194960,
+      "role_key": "replicate-01/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3974617990112067193,
+      "role_key": "replicate-02/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8068242118267447940,
+      "role_key": "replicate-02/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2235045305093639518,
+      "role_key": "replicate-02/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 9498912755755063,
+      "role_key": "replicate-02/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 41647272064192123,
+      "role_key": "replicate-02/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5523061908702792358,
+      "role_key": "replicate-02/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6850874989823600831,
+      "role_key": "replicate-02/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3526730455919697187,
+      "role_key": "replicate-02/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6906169306224421372,
+      "role_key": "replicate-02/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2246530380613874789,
+      "role_key": "replicate-03/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 13826237826445389,
+      "role_key": "replicate-03/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5586876616343905082,
+      "role_key": "replicate-03/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8386785733027041532,
+      "role_key": "replicate-03/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7632764633271395441,
+      "role_key": "replicate-03/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7261596600996098868,
+      "role_key": "replicate-03/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3688506314830398354,
+      "role_key": "replicate-03/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 9017064858392781584,
+      "role_key": "replicate-03/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3040804091220082456,
+      "role_key": "replicate-03/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 411254589736268243,
+      "role_key": "replicate-04/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8729292418613242893,
+      "role_key": "replicate-04/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 9117750753676894195,
+      "role_key": "replicate-04/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4975521756138786611,
+      "role_key": "replicate-04/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3397295344067267497,
+      "role_key": "replicate-04/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2149651702466879046,
+      "role_key": "replicate-04/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5415631604816855757,
+      "role_key": "replicate-04/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7533080214662116397,
+      "role_key": "replicate-04/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3768463371538647510,
+      "role_key": "replicate-04/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1529632670470809848,
+      "role_key": "replicate-05/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2955248037565671929,
+      "role_key": "replicate-05/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6227720277966882109,
+      "role_key": "replicate-05/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 717393960694477295,
+      "role_key": "replicate-05/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2407763570573257807,
+      "role_key": "replicate-05/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 596097805231967587,
+      "role_key": "replicate-05/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5124904255023188792,
+      "role_key": "replicate-05/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6588891718777561808,
+      "role_key": "replicate-05/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6892203940586667879,
+      "role_key": "replicate-05/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3082047601080007488,
+      "role_key": "replicate-06/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5797109990581040237,
+      "role_key": "replicate-06/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 672111108871668944,
+      "role_key": "replicate-06/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8514953777511281184,
+      "role_key": "replicate-06/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3730702755641941892,
+      "role_key": "replicate-06/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4172510264717939332,
+      "role_key": "replicate-06/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 854372695384404970,
+      "role_key": "replicate-06/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 848723205882709856,
+      "role_key": "replicate-06/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 76536496038584291,
+      "role_key": "replicate-06/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6435752299168247114,
+      "role_key": "replicate-07/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5024559948388274164,
+      "role_key": "replicate-07/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8955505742586971129,
+      "role_key": "replicate-07/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3399057003979513435,
+      "role_key": "replicate-07/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1113658630830364809,
+      "role_key": "replicate-07/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6975017151940405282,
+      "role_key": "replicate-07/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6890369507233854284,
+      "role_key": "replicate-07/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2480018478627157123,
+      "role_key": "replicate-07/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 171799301164793411,
+      "role_key": "replicate-07/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4235908859678231812,
+      "role_key": "replicate-08/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1198569236892724785,
+      "role_key": "replicate-08/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1659910439153406637,
+      "role_key": "replicate-08/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6909894197980373278,
+      "role_key": "replicate-08/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4317769185770992642,
+      "role_key": "replicate-08/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3412463427125772555,
+      "role_key": "replicate-08/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4730196083780703037,
+      "role_key": "replicate-08/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4391820062194027730,
+      "role_key": "replicate-08/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8753071020220524530,
+      "role_key": "replicate-08/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2660133767577957234,
+      "role_key": "replicate-09/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4118080015999978665,
+      "role_key": "replicate-09/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2979830262979692129,
+      "role_key": "replicate-09/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5404470321193697497,
+      "role_key": "replicate-09/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1430116149253560916,
+      "role_key": "replicate-09/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2326282866028345525,
+      "role_key": "replicate-09/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2842422892767111494,
+      "role_key": "replicate-09/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4313816260628595034,
+      "role_key": "replicate-09/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1611047838034869358,
+      "role_key": "replicate-09/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5798530090950689180,
+      "role_key": "replicate-10/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 130963740230067125,
+      "role_key": "replicate-10/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1108593004189944052,
+      "role_key": "replicate-10/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 928187608922493045,
+      "role_key": "replicate-10/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1088501977560687455,
+      "role_key": "replicate-10/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6543291350848808320,
+      "role_key": "replicate-10/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4442732453312183389,
+      "role_key": "replicate-10/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4559332849506871562,
+      "role_key": "replicate-10/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2006043850073382025,
+      "role_key": "replicate-10/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5728397330486485357,
+      "role_key": "replicate-11/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5904688016312702892,
+      "role_key": "replicate-11/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7306195002411095078,
+      "role_key": "replicate-11/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 9110949984886391946,
+      "role_key": "replicate-11/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4025271651592936873,
+      "role_key": "replicate-11/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2082076101613745173,
+      "role_key": "replicate-11/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 146171856632760325,
+      "role_key": "replicate-11/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 9070246317691497500,
+      "role_key": "replicate-11/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 610338706526798016,
+      "role_key": "replicate-11/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7279190676464198345,
+      "role_key": "replicate-12/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 860634716989439431,
+      "role_key": "replicate-12/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8064788836578963744,
+      "role_key": "replicate-12/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1563569768324684642,
+      "role_key": "replicate-12/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1105899678031806470,
+      "role_key": "replicate-12/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1653238636955035257,
+      "role_key": "replicate-12/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6812187222080281309,
+      "role_key": "replicate-12/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3919797931539816430,
+      "role_key": "replicate-12/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8638939672928435520,
+      "role_key": "replicate-12/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 779180228700148823,
+      "role_key": "replicate-13/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4564166623611759635,
+      "role_key": "replicate-13/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 137743267636096690,
+      "role_key": "replicate-13/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3960387559940861385,
+      "role_key": "replicate-13/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7795319545926924940,
+      "role_key": "replicate-13/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8244190846859801177,
+      "role_key": "replicate-13/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6786672832654522409,
+      "role_key": "replicate-13/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8249287537250477565,
+      "role_key": "replicate-13/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2654724802522902172,
+      "role_key": "replicate-13/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5378005143556422334,
+      "role_key": "replicate-14/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 9195460434826593002,
+      "role_key": "replicate-14/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1481645433970386325,
+      "role_key": "replicate-14/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6670515128988011883,
+      "role_key": "replicate-14/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6602781893581846607,
+      "role_key": "replicate-14/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1377084588753472199,
+      "role_key": "replicate-14/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1562777147083504425,
+      "role_key": "replicate-14/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1232273366804206009,
+      "role_key": "replicate-14/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6747999225825509636,
+      "role_key": "replicate-14/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1397068340921141345,
+      "role_key": "replicate-15/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8886890455996375769,
+      "role_key": "replicate-15/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4861181128428667868,
+      "role_key": "replicate-15/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3749411681719143762,
+      "role_key": "replicate-15/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5469738919303958199,
+      "role_key": "replicate-15/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 9034534959329694611,
+      "role_key": "replicate-15/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6019805087383371672,
+      "role_key": "replicate-15/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 9129355976842740632,
+      "role_key": "replicate-15/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5555470014806058565,
+      "role_key": "replicate-15/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7460647120181326035,
+      "role_key": "replicate-16/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6934065943316487959,
+      "role_key": "replicate-16/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8294052756053109768,
+      "role_key": "replicate-16/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1923414036387748426,
+      "role_key": "replicate-16/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2354067941483643206,
+      "role_key": "replicate-16/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8122185004821419076,
+      "role_key": "replicate-16/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 160331282600162007,
+      "role_key": "replicate-16/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8766055339448197139,
+      "role_key": "replicate-16/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7809068484136303287,
+      "role_key": "replicate-16/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6797251360780005700,
+      "role_key": "replicate-17/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7325909096840296191,
+      "role_key": "replicate-17/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3413006953085004060,
+      "role_key": "replicate-17/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1969363649446808040,
+      "role_key": "replicate-17/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2275978105434279372,
+      "role_key": "replicate-17/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4588707681715888941,
+      "role_key": "replicate-17/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2995373189747396031,
+      "role_key": "replicate-17/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6084805173997762889,
+      "role_key": "replicate-17/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2792507749080635993,
+      "role_key": "replicate-17/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3522683939409517748,
+      "role_key": "replicate-18/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1329437238741987442,
+      "role_key": "replicate-18/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5235527490376561034,
+      "role_key": "replicate-18/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2700117706391459322,
+      "role_key": "replicate-18/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6157866433183135949,
+      "role_key": "replicate-18/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5442028157948146401,
+      "role_key": "replicate-18/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8797313862798830559,
+      "role_key": "replicate-18/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5286930562787089413,
+      "role_key": "replicate-18/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3040759347336512661,
+      "role_key": "replicate-18/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5824634872325586940,
+      "role_key": "replicate-19/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2248738804708886711,
+      "role_key": "replicate-19/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6165369593307392225,
+      "role_key": "replicate-19/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6183824157891841519,
+      "role_key": "replicate-19/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5949317792397148734,
+      "role_key": "replicate-19/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8494755485463169002,
+      "role_key": "replicate-19/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6846802016927746192,
+      "role_key": "replicate-19/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3856892352596025660,
+      "role_key": "replicate-19/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1898052305111953898,
+      "role_key": "replicate-19/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7660303067784266277,
+      "role_key": "replicate-20/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8209536669183296267,
+      "role_key": "replicate-20/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6002931806626743817,
+      "role_key": "replicate-20/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1035362428308361925,
+      "role_key": "replicate-20/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3073737168943964693,
+      "role_key": "replicate-20/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3006707946809386114,
+      "role_key": "replicate-20/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1207900533390658552,
+      "role_key": "replicate-20/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8216523008270534680,
+      "role_key": "replicate-20/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3491610177570690330,
+      "role_key": "replicate-20/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6898210890407430573,
+      "role_key": "replicate-21/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1781929889517905265,
+      "role_key": "replicate-21/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7915207031196083127,
+      "role_key": "replicate-21/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7203951450281479482,
+      "role_key": "replicate-21/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7874074354660951849,
+      "role_key": "replicate-21/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8492933129730912057,
+      "role_key": "replicate-21/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3191945062438571496,
+      "role_key": "replicate-21/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1346842719936995625,
+      "role_key": "replicate-21/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4294848746763093540,
+      "role_key": "replicate-21/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 733267854046103777,
+      "role_key": "replicate-22/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1884239592490361076,
+      "role_key": "replicate-22/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 195689561796130348,
+      "role_key": "replicate-22/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2594381784977814819,
+      "role_key": "replicate-22/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5605566818461409866,
+      "role_key": "replicate-22/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3710246928578945940,
+      "role_key": "replicate-22/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4112248665749135993,
+      "role_key": "replicate-22/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1038529511655504818,
+      "role_key": "replicate-22/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7809252070190724093,
+      "role_key": "replicate-22/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7584352914549634525,
+      "role_key": "replicate-23/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5493558568467076729,
+      "role_key": "replicate-23/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2452804013734899127,
+      "role_key": "replicate-23/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3844902491680269050,
+      "role_key": "replicate-23/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 9114025250246861691,
+      "role_key": "replicate-23/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3475327794466486503,
+      "role_key": "replicate-23/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 571833325086489358,
+      "role_key": "replicate-23/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5257439404134512005,
+      "role_key": "replicate-23/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 941856290385828537,
+      "role_key": "replicate-23/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6198339499148331936,
+      "role_key": "replicate-24/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7787215970494248720,
+      "role_key": "replicate-24/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2433248080755221384,
+      "role_key": "replicate-24/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7263393655252596508,
+      "role_key": "replicate-24/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7687558979921884104,
+      "role_key": "replicate-24/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 788976527282148346,
+      "role_key": "replicate-24/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5657413849932549286,
+      "role_key": "replicate-24/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 560305795539597859,
+      "role_key": "replicate-24/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6059670424902694512,
+      "role_key": "replicate-24/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8538614241658154273,
+      "role_key": "replicate-25/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6771655957537611705,
+      "role_key": "replicate-25/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6718942586701965283,
+      "role_key": "replicate-25/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6770733692374345403,
+      "role_key": "replicate-25/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 45651592724809940,
+      "role_key": "replicate-25/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6572942037732256466,
+      "role_key": "replicate-25/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6603605549168302433,
+      "role_key": "replicate-25/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5157394828652161380,
+      "role_key": "replicate-25/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3797495771324788299,
+      "role_key": "replicate-25/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6125324277425356931,
+      "role_key": "replicate-26/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1349468374361004434,
+      "role_key": "replicate-26/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7735056235664844570,
+      "role_key": "replicate-26/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3286662271684745236,
+      "role_key": "replicate-26/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8397201449951715170,
+      "role_key": "replicate-26/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 107402856355725354,
+      "role_key": "replicate-26/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2816050845988159430,
+      "role_key": "replicate-26/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5873664329465832101,
+      "role_key": "replicate-26/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7742143505728340467,
+      "role_key": "replicate-26/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7534155258033629311,
+      "role_key": "replicate-27/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1042617125429142692,
+      "role_key": "replicate-27/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3171056943374387346,
+      "role_key": "replicate-27/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3361285073826383133,
+      "role_key": "replicate-27/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2798299002420492232,
+      "role_key": "replicate-27/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8532411004763153326,
+      "role_key": "replicate-27/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8165402812573580782,
+      "role_key": "replicate-27/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4661453062639465110,
+      "role_key": "replicate-27/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8017454700255926882,
+      "role_key": "replicate-27/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7797898450157603453,
+      "role_key": "replicate-28/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 683334909218106598,
+      "role_key": "replicate-28/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 715859905756799640,
+      "role_key": "replicate-28/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4971899223700017934,
+      "role_key": "replicate-28/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7387605263855442788,
+      "role_key": "replicate-28/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2063767429999099874,
+      "role_key": "replicate-28/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3213450508996710877,
+      "role_key": "replicate-28/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6086823425323788074,
+      "role_key": "replicate-28/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5331536957213518232,
+      "role_key": "replicate-28/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1207905934825754063,
+      "role_key": "replicate-29/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6265918739913999392,
+      "role_key": "replicate-29/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4414931687246476658,
+      "role_key": "replicate-29/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 877274883527758389,
+      "role_key": "replicate-29/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 9013841951829398792,
+      "role_key": "replicate-29/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6002162916382760940,
+      "role_key": "replicate-29/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 183143883743941713,
+      "role_key": "replicate-29/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1571846096788426114,
+      "role_key": "replicate-29/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1246806902290068972,
+      "role_key": "replicate-29/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5923882143959827341,
+      "role_key": "replicate-30/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6930772999483740043,
+      "role_key": "replicate-30/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4118574263106072658,
+      "role_key": "replicate-30/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5018503186115839195,
+      "role_key": "replicate-30/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7348180312762859956,
+      "role_key": "replicate-30/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4713162184630364055,
+      "role_key": "replicate-30/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1331568831616279404,
+      "role_key": "replicate-30/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7397839166404689183,
+      "role_key": "replicate-30/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1820590195765108025,
+      "role_key": "replicate-30/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4132759681702594089,
+      "role_key": "replicate-31/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4162677504518237006,
+      "role_key": "replicate-31/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7487031901620269600,
+      "role_key": "replicate-31/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5516786787088147893,
+      "role_key": "replicate-31/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4925000545069841618,
+      "role_key": "replicate-31/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7107849345150854706,
+      "role_key": "replicate-31/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4916820542209397537,
+      "role_key": "replicate-31/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7817186854723025317,
+      "role_key": "replicate-31/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5087271682955933003,
+      "role_key": "replicate-31/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7054519854448417633,
+      "role_key": "replicate-32/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5035827323197503521,
+      "role_key": "replicate-32/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8498234230008984588,
+      "role_key": "replicate-32/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7067881581790302200,
+      "role_key": "replicate-32/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8491650659329776682,
+      "role_key": "replicate-32/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8510402412348992086,
+      "role_key": "replicate-32/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4873899315146161469,
+      "role_key": "replicate-32/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7037645082703561089,
+      "role_key": "replicate-32/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7781895519602525856,
+      "role_key": "replicate-32/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2112109342389104174,
+      "role_key": "replicate-33/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5294711598069128801,
+      "role_key": "replicate-33/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3133249033805933696,
+      "role_key": "replicate-33/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5020362689982181179,
+      "role_key": "replicate-33/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4859076906927029548,
+      "role_key": "replicate-33/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4908107770587986052,
+      "role_key": "replicate-33/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5435685395597090294,
+      "role_key": "replicate-33/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7120917011463051916,
+      "role_key": "replicate-33/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4880057100109578916,
+      "role_key": "replicate-33/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7311673590589648843,
+      "role_key": "replicate-34/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4666771200157825159,
+      "role_key": "replicate-34/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2268956332211485960,
+      "role_key": "replicate-34/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2741682114756261476,
+      "role_key": "replicate-34/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1687367631090532052,
+      "role_key": "replicate-34/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4707167316215789926,
+      "role_key": "replicate-34/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2814583934245428999,
+      "role_key": "replicate-34/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5549443676121570301,
+      "role_key": "replicate-34/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 112726167313047806,
+      "role_key": "replicate-34/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1743831301654023499,
+      "role_key": "replicate-35/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8181973516729592250,
+      "role_key": "replicate-35/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 714700117931002416,
+      "role_key": "replicate-35/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 9080967319783358479,
+      "role_key": "replicate-35/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 523951561003735290,
+      "role_key": "replicate-35/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7798796005523233034,
+      "role_key": "replicate-35/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2051450307631630520,
+      "role_key": "replicate-35/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 9216643702923378198,
+      "role_key": "replicate-35/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2428134135573489319,
+      "role_key": "replicate-35/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5886906494447353543,
+      "role_key": "replicate-36/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1795449032863326953,
+      "role_key": "replicate-36/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2237644965959585886,
+      "role_key": "replicate-36/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2317555761603648024,
+      "role_key": "replicate-36/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1754626429180872024,
+      "role_key": "replicate-36/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8731567886775909536,
+      "role_key": "replicate-36/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2412374560301549268,
+      "role_key": "replicate-36/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1649212493382758041,
+      "role_key": "replicate-36/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2261358495690835590,
+      "role_key": "replicate-36/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4393973734314309526,
+      "role_key": "replicate-37/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4178441327021243606,
+      "role_key": "replicate-37/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6318496262989740657,
+      "role_key": "replicate-37/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 791416054925789926,
+      "role_key": "replicate-37/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6432895688320717828,
+      "role_key": "replicate-37/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4684435327328454033,
+      "role_key": "replicate-37/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5755377274029162638,
+      "role_key": "replicate-37/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1591921058476780251,
+      "role_key": "replicate-37/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7379862185468640667,
+      "role_key": "replicate-37/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4986734213542151836,
+      "role_key": "replicate-38/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4801987312123027980,
+      "role_key": "replicate-38/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3629418816837445587,
+      "role_key": "replicate-38/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3111182958256357589,
+      "role_key": "replicate-38/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7182606960427594706,
+      "role_key": "replicate-38/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5353737232377043212,
+      "role_key": "replicate-38/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1922368717471712012,
+      "role_key": "replicate-38/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7797471752897399823,
+      "role_key": "replicate-38/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6918309372733570132,
+      "role_key": "replicate-38/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 9012042276114753062,
+      "role_key": "replicate-39/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 619661737019725185,
+      "role_key": "replicate-39/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1434935902276183941,
+      "role_key": "replicate-39/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 9077296491478607381,
+      "role_key": "replicate-39/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3661289044611036884,
+      "role_key": "replicate-39/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2640965474923548957,
+      "role_key": "replicate-39/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1916174087294712955,
+      "role_key": "replicate-39/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8876527717352339164,
+      "role_key": "replicate-39/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4673529882103442624,
+      "role_key": "replicate-39/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 469272346897203146,
+      "role_key": "replicate-40/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1892643152973382381,
+      "role_key": "replicate-40/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5441684601295138330,
+      "role_key": "replicate-40/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6260497240887690757,
+      "role_key": "replicate-40/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6575262621351869668,
+      "role_key": "replicate-40/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 625940654547591438,
+      "role_key": "replicate-40/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7098255050350230972,
+      "role_key": "replicate-40/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 854702534509847794,
+      "role_key": "replicate-40/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3862064229334578592,
+      "role_key": "replicate-40/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4141732197945051109,
+      "role_key": "replicate-41/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6557710526289215278,
+      "role_key": "replicate-41/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 9087276370108340027,
+      "role_key": "replicate-41/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2217797515434514333,
+      "role_key": "replicate-41/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2096053383755463438,
+      "role_key": "replicate-41/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4691911918198021482,
+      "role_key": "replicate-41/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8668350506960546133,
+      "role_key": "replicate-41/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2948795090805357708,
+      "role_key": "replicate-41/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1562175335371480983,
+      "role_key": "replicate-41/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1880119423369495780,
+      "role_key": "replicate-42/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5183821876428834776,
+      "role_key": "replicate-42/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6865573608853145885,
+      "role_key": "replicate-42/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 843440353748585827,
+      "role_key": "replicate-42/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4623664373354743757,
+      "role_key": "replicate-42/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 152642352290489491,
+      "role_key": "replicate-42/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 612412518142315068,
+      "role_key": "replicate-42/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 226601526885785459,
+      "role_key": "replicate-42/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8541546016135602897,
+      "role_key": "replicate-42/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3720926835353145319,
+      "role_key": "replicate-43/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7494658635205191158,
+      "role_key": "replicate-43/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6133581954176258103,
+      "role_key": "replicate-43/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7310829685236382692,
+      "role_key": "replicate-43/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 431581764144994186,
+      "role_key": "replicate-43/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7143864966148060700,
+      "role_key": "replicate-43/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4362189202761593142,
+      "role_key": "replicate-43/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6912443945827577733,
+      "role_key": "replicate-43/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4302308213145027817,
+      "role_key": "replicate-43/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7625598340068679001,
+      "role_key": "replicate-44/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8112788614604145812,
+      "role_key": "replicate-44/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 5461025228013635179,
+      "role_key": "replicate-44/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6335686087226059854,
+      "role_key": "replicate-44/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1704350902695618226,
+      "role_key": "replicate-44/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2700782101358797314,
+      "role_key": "replicate-44/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 232986347087869221,
+      "role_key": "replicate-44/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8285776223576686802,
+      "role_key": "replicate-44/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6221089759127935191,
+      "role_key": "replicate-44/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8485479171232898885,
+      "role_key": "replicate-45/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1930853862094485298,
+      "role_key": "replicate-45/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 984278443558625688,
+      "role_key": "replicate-45/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1901563054109983810,
+      "role_key": "replicate-45/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4133977811586468446,
+      "role_key": "replicate-45/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3841435254566477611,
+      "role_key": "replicate-45/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6128318948758220258,
+      "role_key": "replicate-45/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6898246881366695990,
+      "role_key": "replicate-45/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4493691216626970006,
+      "role_key": "replicate-45/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7119647341007959900,
+      "role_key": "replicate-46/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 1117257703449011766,
+      "role_key": "replicate-46/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 9187829090918035047,
+      "role_key": "replicate-46/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2896339954711192106,
+      "role_key": "replicate-46/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 91461671722822252,
+      "role_key": "replicate-46/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7340993138996233105,
+      "role_key": "replicate-46/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7065422506121249724,
+      "role_key": "replicate-46/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8589658783210349348,
+      "role_key": "replicate-46/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4181315710296149820,
+      "role_key": "replicate-46/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 982707960695068520,
+      "role_key": "replicate-47/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2019491530751290880,
+      "role_key": "replicate-47/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4961861775003868876,
+      "role_key": "replicate-47/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 851891720710794758,
+      "role_key": "replicate-47/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6242718725539401926,
+      "role_key": "replicate-47/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3917874754029611634,
+      "role_key": "replicate-47/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 8976770482686481439,
+      "role_key": "replicate-47/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2663166667295121392,
+      "role_key": "replicate-47/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6099765144121324334,
+      "role_key": "replicate-47/context_donor"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 6888333256652430404,
+      "role_key": "replicate-48/donor_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 7564897419404341948,
+      "role_key": "replicate-48/donor_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4300388467363008663,
+      "role_key": "replicate-48/donor_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 2756585210986896612,
+      "role_key": "replicate-48/permutation_train"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 464832839861158488,
+      "role_key": "replicate-48/permutation_dev"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 681993707328185400,
+      "role_key": "replicate-48/permutation_audit"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 3070010477194399847,
+      "role_key": "replicate-48/student_init"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 4158858135778988104,
+      "role_key": "replicate-48/minibatch_schedule"
+    },
+    {
+      "domain": "campaign",
+      "integer_seed": 386623541626455164,
+      "role_key": "replicate-48/context_donor"
+    }
+  ]
+}

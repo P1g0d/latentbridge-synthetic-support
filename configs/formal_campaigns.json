@@ -1,0 +1,59 @@
+{
+  "schema": "latentbridge.public_recipe.v1",
+  "training_contract": {
+    "steps": 10000,
+    "horizon": 10000,
+    "microbatch": 8,
+    "accumulation": 4,
+    "effective_batch": 32,
+    "optimizer": "AdamW",
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0.0,
+    "lr_peak": 0.001,
+    "lr_final": 0.0001,
+    "lr_final_ratio": 0.1,
+    "warmup": 200,
+    "clip_norm": 1.0,
+    "eval_every": 500,
+    "precision": "fp32",
+    "amp": false,
+    "tf32": false,
+    "deterministic_algorithms": true,
+    "cublas_workspace_config": ":4096:8",
+    "terminal_checkpoint_step": 10000,
+    "checkpoint_selection": "none",
+    "early_stopping": "none",
+    "extension": "none"
+  },
+  "bank_counts": {
+    "train": 4096,
+    "dev": 256,
+    "audit": 512
+  },
+  "length": 128,
+  "residual_width": 768,
+  "campaigns": {
+    "id2": {
+      "teacher": "GPT-2",
+      "zero_based_block": 5,
+      "paired_replicates": 48
+    },
+    "xr1": {
+      "teacher": "GPT-2",
+      "zero_based_block": 9,
+      "paired_replicates": 24
+    },
+    "cmr1": {
+      "teacher": "Pythia-160M",
+      "zero_based_block": 5,
+      "paired_replicates": 48
+    }
+  },
+  "source": "src/silent_teacher/h9_id2.py",
+  "source_sha256": "c18442888397a58ff40698bae976d82f385d471c99f43986ea25cada38e4276a",
+  "scope": "Scientific recipe export, not a replacement execution authorization or a new campaign"
+}

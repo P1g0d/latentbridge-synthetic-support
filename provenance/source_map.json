@@ -1,0 +1,1400 @@
+{
+  "schema": "latentbridge.release_sources.v1",
+  "development_baseline_commit": "7ef2f0ff2b9717b180c0167e65cea141a19041d8",
+  "scope": "Curated independent snapshot, no inherited development Git history",
+  "files": [
+    {
+      "source": "release_preparation/templates/README.md",
+      "release": "README.md",
+      "source_sha256": "bdfd7a6c9ee651f6d2ccfa87c8d5802f2a012c8468a1e62b8401d560fd6c33d8",
+      "release_sha256": "bdfd7a6c9ee651f6d2ccfa87c8d5802f2a012c8468a1e62b8401d560fd6c33d8",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "release_preparation/templates/REPRODUCIBILITY.md",
+      "release": "docs/REPRODUCIBILITY.md",
+      "source_sha256": "c800e0aeadbfdd925fa06d7004f2dbc1629f7c407e3e38b72954e33a276afde3",
+      "release_sha256": "c800e0aeadbfdd925fa06d7004f2dbc1629f7c407e3e38b72954e33a276afde3",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "release_preparation/templates/THIRD_PARTY.md",
+      "release": "docs/THIRD_PARTY.md",
+      "source_sha256": "a4b56ec4c8b398126a59708e9eba25ddf954c080f70e190b2657e347bdc0442b",
+      "release_sha256": "a4b56ec4c8b398126a59708e9eba25ddf954c080f70e190b2657e347bdc0442b",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "release_preparation/templates/check_qpos.py",
+      "release": "tools/check_qpos.py",
+      "source_sha256": "cdc1e4bcdebbd3c0aa39b57a9527d3def87f800b455d3f4f226e9a57a8b413df",
+      "release_sha256": "cdc1e4bcdebbd3c0aa39b57a9527d3def87f800b455d3f4f226e9a57a8b413df",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "release_preparation/templates/verify_release.py",
+      "release": "tools/verify_release.py",
+      "source_sha256": "dca2a740deb734e89515b01f07e1452432d615e947ad097ea92a490998aac1fa",
+      "release_sha256": "dca2a740deb734e89515b01f07e1452432d615e947ad097ea92a490998aac1fa",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/manuscript.md",
+      "release": "paper/manuscript.md",
+      "source_sha256": "e140b7ce1e9311a448497e36dc813d97c5eacb2f92c187ea457bdcd2eb97bcf3",
+      "release_sha256": "e140b7ce1e9311a448497e36dc813d97c5eacb2f92c187ea457bdcd2eb97bcf3",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/appendix.md",
+      "release": "paper/appendix.md",
+      "source_sha256": "812479f8047113dba97a8b099e5c507c56c5325270205a9e7960864a5e7f1281",
+      "release_sha256": "812479f8047113dba97a8b099e5c507c56c5325270205a9e7960864a5e7f1281",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/references.bib",
+      "release": "paper/references.bib",
+      "source_sha256": "0cd2357ea836c386927b068d1318012c989f567c61208afb646520dc9a3ece73",
+      "release_sha256": "0cd2357ea836c386927b068d1318012c989f567c61208afb646520dc9a3ece73",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/latent_support_v3_1_source.zip",
+      "release": "paper/latent_support_v3_1_source.zip",
+      "source_sha256": "c8796ea5745e4dc647382691ff87599b7430e8358c30da626651b5feafd8758f",
+      "release_sha256": "c8796ea5745e4dc647382691ff87599b7430e8358c30da626651b5feafd8758f",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/tex/main.pdf",
+      "release": "paper/main.pdf",
+      "source_sha256": "5c9675769733e0b3c8fcf914457b72f052848f01c6d99b0c810064de9c444a60",
+      "release_sha256": "5c9675769733e0b3c8fcf914457b72f052848f01c6d99b0c810064de9c444a60",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/tex/appendix.tex",
+      "release": "paper/tex/appendix.tex",
+      "source_sha256": "68f8e3ae3d4881f16be472c2cb16dcd8756bafe0d75e12a3697d8c06a1ecc30e",
+      "release_sha256": "68f8e3ae3d4881f16be472c2cb16dcd8756bafe0d75e12a3697d8c06a1ecc30e",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/tex/figures/figure_1_setup.pdf",
+      "release": "paper/tex/figures/figure_1_setup.pdf",
+      "source_sha256": "9b4071cec0e0f38b932007e1784a35bd154f8a0595ac4e5bae250800bc79d5fe",
+      "release_sha256": "9b4071cec0e0f38b932007e1784a35bd154f8a0595ac4e5bae250800bc79d5fe",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/tex/figures/figure_2_formal_effects.pdf",
+      "release": "paper/tex/figures/figure_2_formal_effects.pdf",
+      "source_sha256": "4af9d576781fb685c6d1088d724f812af2a5b8facb83ed8a9f9ef9e9bf80895f",
+      "release_sha256": "4af9d576781fb685c6d1088d724f812af2a5b8facb83ed8a9f9ef9e9bf80895f",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/tex/figures/figure_3_cross_support.pdf",
+      "release": "paper/tex/figures/figure_3_cross_support.pdf",
+      "source_sha256": "b7290dcfe883e2872862bc428bc8c670898beaf47dc9481c83abd393ed03e0df",
+      "release_sha256": "b7290dcfe883e2872862bc428bc8c670898beaf47dc9481c83abd393ed03e0df",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/tex/figures/figure_e1_continuation.pdf",
+      "release": "paper/tex/figures/figure_e1_continuation.pdf",
+      "source_sha256": "82c5317a9272f3ff0e456bf7e21b5c84257bf724497c879f3100f092fd55689f",
+      "release_sha256": "82c5317a9272f3ff0e456bf7e21b5c84257bf724497c879f3100f092fd55689f",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/tex/main-body.tex",
+      "release": "paper/tex/main-body.tex",
+      "source_sha256": "fca7f2e23eac7e0ae3227ccc29ec83d1dd92c1643f0dd0b46097787367fff335",
+      "release_sha256": "fca7f2e23eac7e0ae3227ccc29ec83d1dd92c1643f0dd0b46097787367fff335",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/tex/main.bbl",
+      "release": "paper/tex/main.bbl",
+      "source_sha256": "58d4eb95033ee93801513017508219fe94e8fd7dc9eca1017a0111fc82281dd7",
+      "release_sha256": "58d4eb95033ee93801513017508219fe94e8fd7dc9eca1017a0111fc82281dd7",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/tex/main.tex",
+      "release": "paper/tex/main.tex",
+      "source_sha256": "a80664e63323b13561abde538e2a6f3b16a1907d9be651208c50839dbfcd74cd",
+      "release_sha256": "a80664e63323b13561abde538e2a6f3b16a1907d9be651208c50839dbfcd74cd",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/tex/references.bib",
+      "release": "paper/tex/references.bib",
+      "source_sha256": "0cd2357ea836c386927b068d1318012c989f567c61208afb646520dc9a3ece73",
+      "release_sha256": "0cd2357ea836c386927b068d1318012c989f567c61208afb646520dc9a3ece73",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/figures/figure_1_setup.pdf",
+      "release": "paper/figures/figure_1_setup.pdf",
+      "source_sha256": "9b4071cec0e0f38b932007e1784a35bd154f8a0595ac4e5bae250800bc79d5fe",
+      "release_sha256": "9b4071cec0e0f38b932007e1784a35bd154f8a0595ac4e5bae250800bc79d5fe",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/figures/figure_1_setup.png",
+      "release": "paper/figures/figure_1_setup.png",
+      "source_sha256": "dd01409ef807c4db7042acf58e3011ad620c84431e4cfd34eba7361747bcb3bd",
+      "release_sha256": "dd01409ef807c4db7042acf58e3011ad620c84431e4cfd34eba7361747bcb3bd",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/figures/figure_2_formal_effects.pdf",
+      "release": "paper/figures/figure_2_formal_effects.pdf",
+      "source_sha256": "4af9d576781fb685c6d1088d724f812af2a5b8facb83ed8a9f9ef9e9bf80895f",
+      "release_sha256": "4af9d576781fb685c6d1088d724f812af2a5b8facb83ed8a9f9ef9e9bf80895f",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/figures/figure_2_formal_effects.png",
+      "release": "paper/figures/figure_2_formal_effects.png",
+      "source_sha256": "360cec679aabf0e92ff06fea2a4da91c386cfa1cfee5742256ca08efbae61db8",
+      "release_sha256": "360cec679aabf0e92ff06fea2a4da91c386cfa1cfee5742256ca08efbae61db8",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/figures/figure_3_cross_support.pdf",
+      "release": "paper/figures/figure_3_cross_support.pdf",
+      "source_sha256": "b7290dcfe883e2872862bc428bc8c670898beaf47dc9481c83abd393ed03e0df",
+      "release_sha256": "b7290dcfe883e2872862bc428bc8c670898beaf47dc9481c83abd393ed03e0df",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/figures/figure_3_cross_support.png",
+      "release": "paper/figures/figure_3_cross_support.png",
+      "source_sha256": "33cc39fcca464259dcffe232c4b41095850df6cc0ae175e3f97f0da1a03031e1",
+      "release_sha256": "33cc39fcca464259dcffe232c4b41095850df6cc0ae175e3f97f0da1a03031e1",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/figures/figure_e1_continuation.pdf",
+      "release": "paper/figures/figure_e1_continuation.pdf",
+      "source_sha256": "82c5317a9272f3ff0e456bf7e21b5c84257bf724497c879f3100f092fd55689f",
+      "release_sha256": "82c5317a9272f3ff0e456bf7e21b5c84257bf724497c879f3100f092fd55689f",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/release_ready/v3_1/figures/figure_e1_continuation.png",
+      "release": "paper/figures/figure_e1_continuation.png",
+      "source_sha256": "b5e81fe28b983a54d2b294f4764af37415847d1f841502889e55b5f03fbbeca0",
+      "release_sha256": "b5e81fe28b983a54d2b294f4764af37415847d1f841502889e55b5f03fbbeca0",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "artifacts/h9_id2/evaluation/results.json",
+      "release": "results/formal/id2/results.json",
+      "source_sha256": "1ce0085a2eb82b16e15ed1cbbee21fd6ea2944ac6911c0ba120b1c3287decd7f",
+      "release_sha256": "1ce0085a2eb82b16e15ed1cbbee21fd6ea2944ac6911c0ba120b1c3287decd7f",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "artifacts/h9_id2/evaluation/per_student.json",
+      "release": "results/formal/id2/per_student.json",
+      "source_sha256": "9d28fa19b1b42c5bb26ef0b4e544887822abf44482f089dd63ed240e2075bd9a",
+      "release_sha256": "9d28fa19b1b42c5bb26ef0b4e544887822abf44482f089dd63ed240e2075bd9a",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "artifacts/h9_xr1/evaluation/results.json",
+      "release": "results/formal/xr1/results.json",
+      "source_sha256": "529b1768933d910974319e2fa7719362e9ee933146d2af8f031c695156d612c5",
+      "release_sha256": "529b1768933d910974319e2fa7719362e9ee933146d2af8f031c695156d612c5",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "artifacts/h9_xr1/evaluation/per_student.json",
+      "release": "results/formal/xr1/per_student.json",
+      "source_sha256": "f62d139fafceeda72963dc6711557dd5dcca978088d3c1c3b316967a4961f41a",
+      "release_sha256": "f62d139fafceeda72963dc6711557dd5dcca978088d3c1c3b316967a4961f41a",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "artifacts/cmr1/evaluation/results.json",
+      "release": "results/formal/cmr1/results.json",
+      "source_sha256": "0fcd19b492d95df1a5010019df3b80319e520940f7c12c6ba305b6ec541552cc",
+      "release_sha256": "0fcd19b492d95df1a5010019df3b80319e520940f7c12c6ba305b6ec541552cc",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "artifacts/cmr1/evaluation/per_student.json",
+      "release": "results/formal/cmr1/per_student.json",
+      "source_sha256": "3dafda1092d957f96bd7d65c0f5f4f86fa91109a5c80940c35408509205eadcf",
+      "release_sha256": "3dafda1092d957f96bd7d65c0f5f4f86fa91109a5c80940c35408509205eadcf",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_01.json",
+      "release": "results/cross_support/cmr1/replicate_01.json",
+      "source_sha256": "5caff38f0fdf96afa05ba2027bdab4d308caece0feb9f1eba1b7236b539fa26c",
+      "release_sha256": "5caff38f0fdf96afa05ba2027bdab4d308caece0feb9f1eba1b7236b539fa26c",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_02.json",
+      "release": "results/cross_support/cmr1/replicate_02.json",
+      "source_sha256": "4a91e60c69082c9f81efcba49b61d5cd949b3579e30a76253fccd97447a02dec",
+      "release_sha256": "4a91e60c69082c9f81efcba49b61d5cd949b3579e30a76253fccd97447a02dec",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_03.json",
+      "release": "results/cross_support/cmr1/replicate_03.json",
+      "source_sha256": "cdf6797d167a9cf5658b0dda8a92182adc2c89a865ccf5d38517333a639bcfb3",
+      "release_sha256": "cdf6797d167a9cf5658b0dda8a92182adc2c89a865ccf5d38517333a639bcfb3",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_04.json",
+      "release": "results/cross_support/cmr1/replicate_04.json",
+      "source_sha256": "aa39dcff5011a86edb0d6a1aa4b410bd5145f72b03967b5d1f389f667bc82845",
+      "release_sha256": "aa39dcff5011a86edb0d6a1aa4b410bd5145f72b03967b5d1f389f667bc82845",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_05.json",
+      "release": "results/cross_support/cmr1/replicate_05.json",
+      "source_sha256": "9a2b0c3ff2ec41fb27cf0b0ee1327985c37f635fd7ce9dd8a01762b9cd8199ea",
+      "release_sha256": "9a2b0c3ff2ec41fb27cf0b0ee1327985c37f635fd7ce9dd8a01762b9cd8199ea",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_06.json",
+      "release": "results/cross_support/cmr1/replicate_06.json",
+      "source_sha256": "02a1be812e3f7642ffc584be799cffecc29c21bfcf7278694ecbe2faf6899569",
+      "release_sha256": "02a1be812e3f7642ffc584be799cffecc29c21bfcf7278694ecbe2faf6899569",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_07.json",
+      "release": "results/cross_support/cmr1/replicate_07.json",
+      "source_sha256": "87fa85e8163fbf038f6e17cafa3c2aed607adc6c16613be392016591298a6edb",
+      "release_sha256": "87fa85e8163fbf038f6e17cafa3c2aed607adc6c16613be392016591298a6edb",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_08.json",
+      "release": "results/cross_support/cmr1/replicate_08.json",
+      "source_sha256": "aeb0c21df91926b2697683e1c1e31051cdabc099976ebb399d316e1166427026",
+      "release_sha256": "aeb0c21df91926b2697683e1c1e31051cdabc099976ebb399d316e1166427026",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_09.json",
+      "release": "results/cross_support/cmr1/replicate_09.json",
+      "source_sha256": "2e04da07c7d13fe70f3a2b6b521f06b7e5142fd7d5ccc4a04e7269043d346803",
+      "release_sha256": "2e04da07c7d13fe70f3a2b6b521f06b7e5142fd7d5ccc4a04e7269043d346803",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_10.json",
+      "release": "results/cross_support/cmr1/replicate_10.json",
+      "source_sha256": "585b79222aba0a61ea2391988e5923b1e97808932aba4cffa76fa46b239dae88",
+      "release_sha256": "585b79222aba0a61ea2391988e5923b1e97808932aba4cffa76fa46b239dae88",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_11.json",
+      "release": "results/cross_support/cmr1/replicate_11.json",
+      "source_sha256": "7bd6398d89edc6a3ebd36558da04a3b6f9eeb186be847b43a83a989099ce571e",
+      "release_sha256": "7bd6398d89edc6a3ebd36558da04a3b6f9eeb186be847b43a83a989099ce571e",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_12.json",
+      "release": "results/cross_support/cmr1/replicate_12.json",
+      "source_sha256": "0e69743b71fd7edd44228c8317c2ca36d1ad515d1dbab4442fefbfdf8ea3f7b1",
+      "release_sha256": "0e69743b71fd7edd44228c8317c2ca36d1ad515d1dbab4442fefbfdf8ea3f7b1",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_13.json",
+      "release": "results/cross_support/cmr1/replicate_13.json",
+      "source_sha256": "cd5bc7c2ae7ae79d40ed646175439816fba048bcc5facb8721032399dee53b4b",
+      "release_sha256": "cd5bc7c2ae7ae79d40ed646175439816fba048bcc5facb8721032399dee53b4b",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_14.json",
+      "release": "results/cross_support/cmr1/replicate_14.json",
+      "source_sha256": "63bf30ca12c3434f25fe58b94f1124a837caaa41d5126e009356324d7b5adf39",
+      "release_sha256": "63bf30ca12c3434f25fe58b94f1124a837caaa41d5126e009356324d7b5adf39",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_15.json",
+      "release": "results/cross_support/cmr1/replicate_15.json",
+      "source_sha256": "6149bc88e5aef5c7aa12c6e6485a1b2ff9dfc81cf12a0eca4e015922f37197a3",
+      "release_sha256": "6149bc88e5aef5c7aa12c6e6485a1b2ff9dfc81cf12a0eca4e015922f37197a3",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_16.json",
+      "release": "results/cross_support/cmr1/replicate_16.json",
+      "source_sha256": "57e50f81a2218f930dd90434e3480f975bea80d35751742181ed7206c6458235",
+      "release_sha256": "57e50f81a2218f930dd90434e3480f975bea80d35751742181ed7206c6458235",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_17.json",
+      "release": "results/cross_support/cmr1/replicate_17.json",
+      "source_sha256": "6e7e15349af06f66f3cc138ac74719b769477918dbe6b74c46bfe41131cf8b9a",
+      "release_sha256": "6e7e15349af06f66f3cc138ac74719b769477918dbe6b74c46bfe41131cf8b9a",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_18.json",
+      "release": "results/cross_support/cmr1/replicate_18.json",
+      "source_sha256": "5b80adf04e768266d05e3329a80201e315e509d6f3a1ac2dd7eef7ea891d5c39",
+      "release_sha256": "5b80adf04e768266d05e3329a80201e315e509d6f3a1ac2dd7eef7ea891d5c39",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_19.json",
+      "release": "results/cross_support/cmr1/replicate_19.json",
+      "source_sha256": "ac0dc830230c458a4beaa19f1bcdc867dcc7c23d083e5577f0cbbfe9921562de",
+      "release_sha256": "ac0dc830230c458a4beaa19f1bcdc867dcc7c23d083e5577f0cbbfe9921562de",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_20.json",
+      "release": "results/cross_support/cmr1/replicate_20.json",
+      "source_sha256": "68e62e00bf36067cbee8720f888d6720c5589ddc2fb86adcdb167a74235872d1",
+      "release_sha256": "68e62e00bf36067cbee8720f888d6720c5589ddc2fb86adcdb167a74235872d1",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_21.json",
+      "release": "results/cross_support/cmr1/replicate_21.json",
+      "source_sha256": "7a1088a8f36c1465b79f243f47024784cef8cf859ef13bd7652c6c7da78b8552",
+      "release_sha256": "7a1088a8f36c1465b79f243f47024784cef8cf859ef13bd7652c6c7da78b8552",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_22.json",
+      "release": "results/cross_support/cmr1/replicate_22.json",
+      "source_sha256": "3d178c40600953d2232c31b3b6c19abc5e67f533611f271a53dda7fd4f887ce0",
+      "release_sha256": "3d178c40600953d2232c31b3b6c19abc5e67f533611f271a53dda7fd4f887ce0",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_23.json",
+      "release": "results/cross_support/cmr1/replicate_23.json",
+      "source_sha256": "4296b020291b0482c34e43dbb82963b0bc07d234a0f28d484c361c4238e6e28c",
+      "release_sha256": "4296b020291b0482c34e43dbb82963b0bc07d234a0f28d484c361c4238e6e28c",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_24.json",
+      "release": "results/cross_support/cmr1/replicate_24.json",
+      "source_sha256": "9866cfa382f01908c5664605a7a8e23fdaa434217f7f6a630b2442f232ab3dbd",
+      "release_sha256": "9866cfa382f01908c5664605a7a8e23fdaa434217f7f6a630b2442f232ab3dbd",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_25.json",
+      "release": "results/cross_support/cmr1/replicate_25.json",
+      "source_sha256": "fbd6c751a4b34bb1ef4f432eb85c011ce70c9f4ce26f33015f98b54a85c2c356",
+      "release_sha256": "fbd6c751a4b34bb1ef4f432eb85c011ce70c9f4ce26f33015f98b54a85c2c356",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_26.json",
+      "release": "results/cross_support/cmr1/replicate_26.json",
+      "source_sha256": "00019a084518cd07c5b41fd9e909181ccd3673b54fc58a1bc059b99e15514635",
+      "release_sha256": "00019a084518cd07c5b41fd9e909181ccd3673b54fc58a1bc059b99e15514635",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_27.json",
+      "release": "results/cross_support/cmr1/replicate_27.json",
+      "source_sha256": "e4e129965ba81ef578b8a9c75b1f484bf521dc1f2ebcb6a97ea7339a6d686864",
+      "release_sha256": "e4e129965ba81ef578b8a9c75b1f484bf521dc1f2ebcb6a97ea7339a6d686864",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_28.json",
+      "release": "results/cross_support/cmr1/replicate_28.json",
+      "source_sha256": "5f4291b0f2e03eee2b13857bb6a2821f54506ba5ea54faa922c304c196a41644",
+      "release_sha256": "5f4291b0f2e03eee2b13857bb6a2821f54506ba5ea54faa922c304c196a41644",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_29.json",
+      "release": "results/cross_support/cmr1/replicate_29.json",
+      "source_sha256": "c145fa73ab0c742644f4b25cc6c08d9799913e3c1ce8d018eee29baea341fca7",
+      "release_sha256": "c145fa73ab0c742644f4b25cc6c08d9799913e3c1ce8d018eee29baea341fca7",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_30.json",
+      "release": "results/cross_support/cmr1/replicate_30.json",
+      "source_sha256": "9b18b02df8bfd9b537737bf6277712684ad23d7164d89f6750c8ca6b0aa27e01",
+      "release_sha256": "9b18b02df8bfd9b537737bf6277712684ad23d7164d89f6750c8ca6b0aa27e01",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_31.json",
+      "release": "results/cross_support/cmr1/replicate_31.json",
+      "source_sha256": "96b914ed6c45e3595680bace7c126bcfd92a7eb7fdd61516063c2be315810376",
+      "release_sha256": "96b914ed6c45e3595680bace7c126bcfd92a7eb7fdd61516063c2be315810376",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_32.json",
+      "release": "results/cross_support/cmr1/replicate_32.json",
+      "source_sha256": "4c035215196b820e82ab0ac918653c150d600d4631bafedc492c7dd72a40e0c6",
+      "release_sha256": "4c035215196b820e82ab0ac918653c150d600d4631bafedc492c7dd72a40e0c6",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_33.json",
+      "release": "results/cross_support/cmr1/replicate_33.json",
+      "source_sha256": "e4e7c3f6909e04fa2cbda61e0c83e35ce7cc6563dfe386ff7d6f7dc7f02e960c",
+      "release_sha256": "e4e7c3f6909e04fa2cbda61e0c83e35ce7cc6563dfe386ff7d6f7dc7f02e960c",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_34.json",
+      "release": "results/cross_support/cmr1/replicate_34.json",
+      "source_sha256": "be3d3d72eb671fa754f0c09ba734f9dda5b6cbcb22ec958a2cbf3ccce0cc25a1",
+      "release_sha256": "be3d3d72eb671fa754f0c09ba734f9dda5b6cbcb22ec958a2cbf3ccce0cc25a1",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_35.json",
+      "release": "results/cross_support/cmr1/replicate_35.json",
+      "source_sha256": "ad8d18a026988c5aaff336ef5bc31bf1aa2ba43689df486c946e098d62f591d7",
+      "release_sha256": "ad8d18a026988c5aaff336ef5bc31bf1aa2ba43689df486c946e098d62f591d7",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_36.json",
+      "release": "results/cross_support/cmr1/replicate_36.json",
+      "source_sha256": "7df982ffb0421607df3a3eaf83b22b449bae45da0d5c65229e664c23f6f4eadc",
+      "release_sha256": "7df982ffb0421607df3a3eaf83b22b449bae45da0d5c65229e664c23f6f4eadc",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_37.json",
+      "release": "results/cross_support/cmr1/replicate_37.json",
+      "source_sha256": "1a03966a312b2c8e810521dcb1b31a470d76f5e6ed259e4aab3b84f7f7cf8535",
+      "release_sha256": "1a03966a312b2c8e810521dcb1b31a470d76f5e6ed259e4aab3b84f7f7cf8535",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_38.json",
+      "release": "results/cross_support/cmr1/replicate_38.json",
+      "source_sha256": "34aa3acf789472b3c6bd193a3ef3be20478ca0c0dee84bfb7686404323fca447",
+      "release_sha256": "34aa3acf789472b3c6bd193a3ef3be20478ca0c0dee84bfb7686404323fca447",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_39.json",
+      "release": "results/cross_support/cmr1/replicate_39.json",
+      "source_sha256": "47629013d0ed2005b106a0681ec869201f7f98f7b7d9632280fbcb74b104d318",
+      "release_sha256": "47629013d0ed2005b106a0681ec869201f7f98f7b7d9632280fbcb74b104d318",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_40.json",
+      "release": "results/cross_support/cmr1/replicate_40.json",
+      "source_sha256": "7e76f89ac33c48e4934d8840087de239398f9ab41cc7a0ae386ddbe098a8c667",
+      "release_sha256": "7e76f89ac33c48e4934d8840087de239398f9ab41cc7a0ae386ddbe098a8c667",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_41.json",
+      "release": "results/cross_support/cmr1/replicate_41.json",
+      "source_sha256": "4ec95285009dd97a1183cff5d002fa2d7a07c135feb4f048a40ea63388ab1c09",
+      "release_sha256": "4ec95285009dd97a1183cff5d002fa2d7a07c135feb4f048a40ea63388ab1c09",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_42.json",
+      "release": "results/cross_support/cmr1/replicate_42.json",
+      "source_sha256": "83c1b0c882ac667ce7d2cb47156c9906b4d665b1fe428c03c1fd47b0964ced28",
+      "release_sha256": "83c1b0c882ac667ce7d2cb47156c9906b4d665b1fe428c03c1fd47b0964ced28",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_43.json",
+      "release": "results/cross_support/cmr1/replicate_43.json",
+      "source_sha256": "d81e23cc27bbb8053d45cc55ab14eb450edf28ec462e9eddab1da3af733804b9",
+      "release_sha256": "d81e23cc27bbb8053d45cc55ab14eb450edf28ec462e9eddab1da3af733804b9",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_44.json",
+      "release": "results/cross_support/cmr1/replicate_44.json",
+      "source_sha256": "dbd861c57893e91146947b6e01eaa2dcf82aaf21b220b20a3d4d161f016f75de",
+      "release_sha256": "dbd861c57893e91146947b6e01eaa2dcf82aaf21b220b20a3d4d161f016f75de",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_45.json",
+      "release": "results/cross_support/cmr1/replicate_45.json",
+      "source_sha256": "a43f7e92feb99f9bf718f567db0577dc68b81a3e9862a2909ef11b336356b1c5",
+      "release_sha256": "a43f7e92feb99f9bf718f567db0577dc68b81a3e9862a2909ef11b336356b1c5",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_46.json",
+      "release": "results/cross_support/cmr1/replicate_46.json",
+      "source_sha256": "f19b1f08e877fdfbee6fb4bbc6d4b2a9835cd60856cb4b166337133006f78f8b",
+      "release_sha256": "f19b1f08e877fdfbee6fb4bbc6d4b2a9835cd60856cb4b166337133006f78f8b",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_47.json",
+      "release": "results/cross_support/cmr1/replicate_47.json",
+      "source_sha256": "7cb087e200e4e6235748b2c441bce5ade5b52f1dc42aa84d597ddf679a67bcf3",
+      "release_sha256": "7cb087e200e4e6235748b2c441bce5ade5b52f1dc42aa84d597ddf679a67bcf3",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/cmr1/replicate_48.json",
+      "release": "results/cross_support/cmr1/replicate_48.json",
+      "source_sha256": "46f2405f5e6b435d87f2fdba5986b59d0b0cfec7ad7d5deeda2fee96b40c616f",
+      "release_sha256": "46f2405f5e6b435d87f2fdba5986b59d0b0cfec7ad7d5deeda2fee96b40c616f",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_01.json",
+      "release": "results/cross_support/id2/replicate_01.json",
+      "source_sha256": "34920ca551fef25f94d2bd5fbb3d884010e7639a30bdde538f014f5c41123281",
+      "release_sha256": "34920ca551fef25f94d2bd5fbb3d884010e7639a30bdde538f014f5c41123281",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_02.json",
+      "release": "results/cross_support/id2/replicate_02.json",
+      "source_sha256": "b74c9b4d903555cde20c5f2dff0418f4b05418d5de1e68fe3e871d96094aea2c",
+      "release_sha256": "b74c9b4d903555cde20c5f2dff0418f4b05418d5de1e68fe3e871d96094aea2c",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_03.json",
+      "release": "results/cross_support/id2/replicate_03.json",
+      "source_sha256": "7b482f8a9f04f3aad65674e23a3c8e7121a1dcf748287c48c35ad80cfe3ef4db",
+      "release_sha256": "7b482f8a9f04f3aad65674e23a3c8e7121a1dcf748287c48c35ad80cfe3ef4db",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_04.json",
+      "release": "results/cross_support/id2/replicate_04.json",
+      "source_sha256": "c7b0a6b2cd0912278565717b14fc873d1ee2b6abadd2c34998f0d4b75905a4e6",
+      "release_sha256": "c7b0a6b2cd0912278565717b14fc873d1ee2b6abadd2c34998f0d4b75905a4e6",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_05.json",
+      "release": "results/cross_support/id2/replicate_05.json",
+      "source_sha256": "19eebfed827da08e7b0ca8fc629a59e8c7e9ce36b15cc80945a02bb4e510dfd7",
+      "release_sha256": "19eebfed827da08e7b0ca8fc629a59e8c7e9ce36b15cc80945a02bb4e510dfd7",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_06.json",
+      "release": "results/cross_support/id2/replicate_06.json",
+      "source_sha256": "699185e779b96f220a840461614a73f5990292792f28e3fa8c8ae7fb25f7c295",
+      "release_sha256": "699185e779b96f220a840461614a73f5990292792f28e3fa8c8ae7fb25f7c295",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_07.json",
+      "release": "results/cross_support/id2/replicate_07.json",
+      "source_sha256": "e75a106ec13b5b6b50d99dc67449e0409ce208d06a601e9191ba9aea425a0efd",
+      "release_sha256": "e75a106ec13b5b6b50d99dc67449e0409ce208d06a601e9191ba9aea425a0efd",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_08.json",
+      "release": "results/cross_support/id2/replicate_08.json",
+      "source_sha256": "54c95f533b78acc7572af3fbd3a0786dd21302b2d1e4025ebc5f4a318cd44fcc",
+      "release_sha256": "54c95f533b78acc7572af3fbd3a0786dd21302b2d1e4025ebc5f4a318cd44fcc",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_09.json",
+      "release": "results/cross_support/id2/replicate_09.json",
+      "source_sha256": "2262c0411c979ab0219ac802fec1340438fe9865d7dee32a360180ff7175a8b7",
+      "release_sha256": "2262c0411c979ab0219ac802fec1340438fe9865d7dee32a360180ff7175a8b7",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_10.json",
+      "release": "results/cross_support/id2/replicate_10.json",
+      "source_sha256": "2d7ad6e312b7e30021d6388fa60708624a7e75a82f8de08063d14b822a1267d2",
+      "release_sha256": "2d7ad6e312b7e30021d6388fa60708624a7e75a82f8de08063d14b822a1267d2",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_11.json",
+      "release": "results/cross_support/id2/replicate_11.json",
+      "source_sha256": "cf18fe06871d9b8b3b1112cf76ba0acc19f03afe82adac0c567f3b9fc3d59020",
+      "release_sha256": "cf18fe06871d9b8b3b1112cf76ba0acc19f03afe82adac0c567f3b9fc3d59020",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_12.json",
+      "release": "results/cross_support/id2/replicate_12.json",
+      "source_sha256": "335ad9bb88f35cd409952ac32adfafc1ab67c3a0fedb37d17ae551488631c063",
+      "release_sha256": "335ad9bb88f35cd409952ac32adfafc1ab67c3a0fedb37d17ae551488631c063",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_13.json",
+      "release": "results/cross_support/id2/replicate_13.json",
+      "source_sha256": "b56a1dc914d4d231263cdd6826a3914e6129c46723a488372fef9a74fb1504ca",
+      "release_sha256": "b56a1dc914d4d231263cdd6826a3914e6129c46723a488372fef9a74fb1504ca",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_14.json",
+      "release": "results/cross_support/id2/replicate_14.json",
+      "source_sha256": "7c6597705b17779cb246590dc24a6b9cf59f2e7e70506e8ae7f4c723c6c5dd91",
+      "release_sha256": "7c6597705b17779cb246590dc24a6b9cf59f2e7e70506e8ae7f4c723c6c5dd91",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_15.json",
+      "release": "results/cross_support/id2/replicate_15.json",
+      "source_sha256": "eae43e2b2ae0d3fb09baffa3e9188f6b2cf151be53c843aa8dcaef6a518f1c54",
+      "release_sha256": "eae43e2b2ae0d3fb09baffa3e9188f6b2cf151be53c843aa8dcaef6a518f1c54",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_16.json",
+      "release": "results/cross_support/id2/replicate_16.json",
+      "source_sha256": "e740a3da46121801d2248937ea549e66c926f91bf26a96c23e5e710fb5da0d11",
+      "release_sha256": "e740a3da46121801d2248937ea549e66c926f91bf26a96c23e5e710fb5da0d11",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_17.json",
+      "release": "results/cross_support/id2/replicate_17.json",
+      "source_sha256": "e30728bd47525124345ff4a241b9e4284b8c1ce30695954126d9fb1de5034790",
+      "release_sha256": "e30728bd47525124345ff4a241b9e4284b8c1ce30695954126d9fb1de5034790",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_18.json",
+      "release": "results/cross_support/id2/replicate_18.json",
+      "source_sha256": "6f04293b75ae78b3b967329ce972cc9b8f819b8321c678519658e4afd2a35ab7",
+      "release_sha256": "6f04293b75ae78b3b967329ce972cc9b8f819b8321c678519658e4afd2a35ab7",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_19.json",
+      "release": "results/cross_support/id2/replicate_19.json",
+      "source_sha256": "edb775b9e627f75c9692476145f805f825c388ae3a6dd19f3ad86c9e4584a651",
+      "release_sha256": "edb775b9e627f75c9692476145f805f825c388ae3a6dd19f3ad86c9e4584a651",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_20.json",
+      "release": "results/cross_support/id2/replicate_20.json",
+      "source_sha256": "364b9933fbda26fd27cea921189f83bde0d90a343bdaec19aefb3660f0fe4667",
+      "release_sha256": "364b9933fbda26fd27cea921189f83bde0d90a343bdaec19aefb3660f0fe4667",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_21.json",
+      "release": "results/cross_support/id2/replicate_21.json",
+      "source_sha256": "089c6e23098b8b43d388cbeafdd6a21e529d9ffb15f637cc079b3bfb0623e050",
+      "release_sha256": "089c6e23098b8b43d388cbeafdd6a21e529d9ffb15f637cc079b3bfb0623e050",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_22.json",
+      "release": "results/cross_support/id2/replicate_22.json",
+      "source_sha256": "b38847a26b0723815d5ceafb83b0743865345ca4c1b5775c767f88b21764f08e",
+      "release_sha256": "b38847a26b0723815d5ceafb83b0743865345ca4c1b5775c767f88b21764f08e",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_23.json",
+      "release": "results/cross_support/id2/replicate_23.json",
+      "source_sha256": "0b1f83945b671a1ea0b9f0075e84eda37f1dd08b5831547c23b5f101ffa6997f",
+      "release_sha256": "0b1f83945b671a1ea0b9f0075e84eda37f1dd08b5831547c23b5f101ffa6997f",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_24.json",
+      "release": "results/cross_support/id2/replicate_24.json",
+      "source_sha256": "e1e60c012f5394b2f62d0435ec8f786d41711aeb6dc03139ccc8d77fa958502f",
+      "release_sha256": "e1e60c012f5394b2f62d0435ec8f786d41711aeb6dc03139ccc8d77fa958502f",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_25.json",
+      "release": "results/cross_support/id2/replicate_25.json",
+      "source_sha256": "98cfa760b8d7e307433e55d4f16c5caa534a2c89f0fb462896036079e935fa03",
+      "release_sha256": "98cfa760b8d7e307433e55d4f16c5caa534a2c89f0fb462896036079e935fa03",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_26.json",
+      "release": "results/cross_support/id2/replicate_26.json",
+      "source_sha256": "3efd77cd974d789bdf7726f91d1678017874ad487c7d47762634aa5952c26609",
+      "release_sha256": "3efd77cd974d789bdf7726f91d1678017874ad487c7d47762634aa5952c26609",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_27.json",
+      "release": "results/cross_support/id2/replicate_27.json",
+      "source_sha256": "624ef5cb5009afffde1d15d10b3fad8e259ef6fdad9efee5b7227f3eea6112f1",
+      "release_sha256": "624ef5cb5009afffde1d15d10b3fad8e259ef6fdad9efee5b7227f3eea6112f1",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_28.json",
+      "release": "results/cross_support/id2/replicate_28.json",
+      "source_sha256": "e978235146e44ff099d984475b2f60f513d46c88714b12689883e14e4769760d",
+      "release_sha256": "e978235146e44ff099d984475b2f60f513d46c88714b12689883e14e4769760d",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_29.json",
+      "release": "results/cross_support/id2/replicate_29.json",
+      "source_sha256": "5fd1db5ad925266bcf56b8157556ad04cd3225c3c6a793ff6c35fa6a1bbc81f9",
+      "release_sha256": "5fd1db5ad925266bcf56b8157556ad04cd3225c3c6a793ff6c35fa6a1bbc81f9",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_30.json",
+      "release": "results/cross_support/id2/replicate_30.json",
+      "source_sha256": "16a8a0b1b813201c41e8fd9375fbe9b05a711ccddaebb99019f2210c8de7c335",
+      "release_sha256": "16a8a0b1b813201c41e8fd9375fbe9b05a711ccddaebb99019f2210c8de7c335",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_31.json",
+      "release": "results/cross_support/id2/replicate_31.json",
+      "source_sha256": "a02da429a3bf7d79b3704dd2e5a3363a2adde1240016b23d90c1243e8fcd2f25",
+      "release_sha256": "a02da429a3bf7d79b3704dd2e5a3363a2adde1240016b23d90c1243e8fcd2f25",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_32.json",
+      "release": "results/cross_support/id2/replicate_32.json",
+      "source_sha256": "61d7e4a5806148afc43197da12afae392cc9fc631571de16883e26356bfe39ca",
+      "release_sha256": "61d7e4a5806148afc43197da12afae392cc9fc631571de16883e26356bfe39ca",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_33.json",
+      "release": "results/cross_support/id2/replicate_33.json",
+      "source_sha256": "48c389e1f1d0dc21aeb47b9b44c96f09f6a1d8449b4a69d903efb8eec8ab9cfe",
+      "release_sha256": "48c389e1f1d0dc21aeb47b9b44c96f09f6a1d8449b4a69d903efb8eec8ab9cfe",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_34.json",
+      "release": "results/cross_support/id2/replicate_34.json",
+      "source_sha256": "8449196269d22508deddf0fdb9cee647c988b51e66571529e3623347e6629c70",
+      "release_sha256": "8449196269d22508deddf0fdb9cee647c988b51e66571529e3623347e6629c70",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_35.json",
+      "release": "results/cross_support/id2/replicate_35.json",
+      "source_sha256": "7c619a10ef593dfd6b32950d018dce7931bc94c1febb8b193e018d4da863b6a6",
+      "release_sha256": "7c619a10ef593dfd6b32950d018dce7931bc94c1febb8b193e018d4da863b6a6",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_36.json",
+      "release": "results/cross_support/id2/replicate_36.json",
+      "source_sha256": "e1a843cc3feda1f9750b8029c3d507a65190d7f054cfe10cfbc34ede5b161182",
+      "release_sha256": "e1a843cc3feda1f9750b8029c3d507a65190d7f054cfe10cfbc34ede5b161182",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_37.json",
+      "release": "results/cross_support/id2/replicate_37.json",
+      "source_sha256": "edb9c085fe85d4eda93389859eb99131cd962c43b807611db553b406318f5bfa",
+      "release_sha256": "edb9c085fe85d4eda93389859eb99131cd962c43b807611db553b406318f5bfa",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_38.json",
+      "release": "results/cross_support/id2/replicate_38.json",
+      "source_sha256": "c77a192618308758ee5773eb60dc197ab3b114fed9325cb9e8f82a6cd2af7c41",
+      "release_sha256": "c77a192618308758ee5773eb60dc197ab3b114fed9325cb9e8f82a6cd2af7c41",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_39.json",
+      "release": "results/cross_support/id2/replicate_39.json",
+      "source_sha256": "9e8ded4163bf7018188ffc20fbdf4d5ffa9d195a0fc09c460956b51f89e42f0a",
+      "release_sha256": "9e8ded4163bf7018188ffc20fbdf4d5ffa9d195a0fc09c460956b51f89e42f0a",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_40.json",
+      "release": "results/cross_support/id2/replicate_40.json",
+      "source_sha256": "70c0e2f18718961e5013f365d32eda0121e490abd782c7e8315bfef5da2b6783",
+      "release_sha256": "70c0e2f18718961e5013f365d32eda0121e490abd782c7e8315bfef5da2b6783",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_41.json",
+      "release": "results/cross_support/id2/replicate_41.json",
+      "source_sha256": "5f4ae2ba06c006733f8457318b30a20f1e43dfaa3abee9ec609d7ecf9c30510a",
+      "release_sha256": "5f4ae2ba06c006733f8457318b30a20f1e43dfaa3abee9ec609d7ecf9c30510a",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_42.json",
+      "release": "results/cross_support/id2/replicate_42.json",
+      "source_sha256": "0d0efbaf5857dc5b03cdb026a267cc2640efe0bd818031320172e59f0731a9f2",
+      "release_sha256": "0d0efbaf5857dc5b03cdb026a267cc2640efe0bd818031320172e59f0731a9f2",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_43.json",
+      "release": "results/cross_support/id2/replicate_43.json",
+      "source_sha256": "fe6086a1b01382c86dee1858f99a1d29cee73ae1ee05c98dfa0e769dee898132",
+      "release_sha256": "fe6086a1b01382c86dee1858f99a1d29cee73ae1ee05c98dfa0e769dee898132",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_44.json",
+      "release": "results/cross_support/id2/replicate_44.json",
+      "source_sha256": "bdc200ebc1d97148a6eb7437931667ab8fef157c985aaed93c7a5dbdb49227ae",
+      "release_sha256": "bdc200ebc1d97148a6eb7437931667ab8fef157c985aaed93c7a5dbdb49227ae",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_45.json",
+      "release": "results/cross_support/id2/replicate_45.json",
+      "source_sha256": "bb70584e0e202f6780f563288876056196bff267d65ea4ee72898f4327eaee3b",
+      "release_sha256": "bb70584e0e202f6780f563288876056196bff267d65ea4ee72898f4327eaee3b",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_46.json",
+      "release": "results/cross_support/id2/replicate_46.json",
+      "source_sha256": "4322b7b795f0aeddf4cc51023e2548963d9d70ccec0219dd983bc340ccfe91f2",
+      "release_sha256": "4322b7b795f0aeddf4cc51023e2548963d9d70ccec0219dd983bc340ccfe91f2",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_47.json",
+      "release": "results/cross_support/id2/replicate_47.json",
+      "source_sha256": "e5099675434a557c20d2869ba871ed3510d830a70c8746b4b6190761db6be3cc",
+      "release_sha256": "e5099675434a557c20d2869ba871ed3510d830a70c8746b4b6190761db6be3cc",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/id2/replicate_48.json",
+      "release": "results/cross_support/id2/replicate_48.json",
+      "source_sha256": "51feafaee2c9f464c195fefcf0130893908aa384598e95935fdde151f73a925e",
+      "release_sha256": "51feafaee2c9f464c195fefcf0130893908aa384598e95935fdde151f73a925e",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_01.json",
+      "release": "results/cross_support/xr1/replicate_01.json",
+      "source_sha256": "25e48a122b4cec68f48ac8eb8c8fcffc6d875cc67aa24df06b6318ffba91f739",
+      "release_sha256": "25e48a122b4cec68f48ac8eb8c8fcffc6d875cc67aa24df06b6318ffba91f739",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_02.json",
+      "release": "results/cross_support/xr1/replicate_02.json",
+      "source_sha256": "a9f8298ceca4b050ff9259bfd437dbf18a8de996a1980ac3e9a07f1ff9e8c9aa",
+      "release_sha256": "a9f8298ceca4b050ff9259bfd437dbf18a8de996a1980ac3e9a07f1ff9e8c9aa",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_03.json",
+      "release": "results/cross_support/xr1/replicate_03.json",
+      "source_sha256": "bcfe3d4127100981d2108d62f7f759b6de53951ae817ced15306d9a91c411ec6",
+      "release_sha256": "bcfe3d4127100981d2108d62f7f759b6de53951ae817ced15306d9a91c411ec6",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_04.json",
+      "release": "results/cross_support/xr1/replicate_04.json",
+      "source_sha256": "ba70795e802106501511ee753a7457b9c450ee4937f5bcc0dcd37e23e1c6165e",
+      "release_sha256": "ba70795e802106501511ee753a7457b9c450ee4937f5bcc0dcd37e23e1c6165e",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_05.json",
+      "release": "results/cross_support/xr1/replicate_05.json",
+      "source_sha256": "186276624f11f3be3c4a9987a7756955954abeaa7e93fe138afc44021c3e72b3",
+      "release_sha256": "186276624f11f3be3c4a9987a7756955954abeaa7e93fe138afc44021c3e72b3",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_06.json",
+      "release": "results/cross_support/xr1/replicate_06.json",
+      "source_sha256": "e795ebaa2b1e0338cc2147058b106f2d1c06a5fd3807d6c4fd28d7092456c6d7",
+      "release_sha256": "e795ebaa2b1e0338cc2147058b106f2d1c06a5fd3807d6c4fd28d7092456c6d7",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_07.json",
+      "release": "results/cross_support/xr1/replicate_07.json",
+      "source_sha256": "c40c3cb381d7fabe40f0279414329f5d9b40734b98dc24a801b707a329d111dd",
+      "release_sha256": "c40c3cb381d7fabe40f0279414329f5d9b40734b98dc24a801b707a329d111dd",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_08.json",
+      "release": "results/cross_support/xr1/replicate_08.json",
+      "source_sha256": "3a9621fbf7a734a4a7233ac8f7e2c387426b5852e575abf7fa4ed5d91c98388a",
+      "release_sha256": "3a9621fbf7a734a4a7233ac8f7e2c387426b5852e575abf7fa4ed5d91c98388a",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_09.json",
+      "release": "results/cross_support/xr1/replicate_09.json",
+      "source_sha256": "8b29dce51d78fbebb0a7b01554dfbd05b8619fd0b9453eed11231365aa0ad017",
+      "release_sha256": "8b29dce51d78fbebb0a7b01554dfbd05b8619fd0b9453eed11231365aa0ad017",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_10.json",
+      "release": "results/cross_support/xr1/replicate_10.json",
+      "source_sha256": "2225e467b73214fdc5a137b431ced433a6ce8573f7c19819b4ffed3a1aa3ee68",
+      "release_sha256": "2225e467b73214fdc5a137b431ced433a6ce8573f7c19819b4ffed3a1aa3ee68",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_11.json",
+      "release": "results/cross_support/xr1/replicate_11.json",
+      "source_sha256": "30285c26108c2186b2f44d5568aea9d784d7f1449af3c4ff7f96e92db0c236c3",
+      "release_sha256": "30285c26108c2186b2f44d5568aea9d784d7f1449af3c4ff7f96e92db0c236c3",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_12.json",
+      "release": "results/cross_support/xr1/replicate_12.json",
+      "source_sha256": "659195e3a50a8725cfeb91dc069b7514f947624ae57573a02c317239fae04b98",
+      "release_sha256": "659195e3a50a8725cfeb91dc069b7514f947624ae57573a02c317239fae04b98",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_13.json",
+      "release": "results/cross_support/xr1/replicate_13.json",
+      "source_sha256": "79bed95c9f5b37d514b680b24e359807b511aa4d7243d175e5d939152d569824",
+      "release_sha256": "79bed95c9f5b37d514b680b24e359807b511aa4d7243d175e5d939152d569824",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_14.json",
+      "release": "results/cross_support/xr1/replicate_14.json",
+      "source_sha256": "29b67e74931d4860282b8802649d71b57a7bc90f04d31fde72e8773a212584c0",
+      "release_sha256": "29b67e74931d4860282b8802649d71b57a7bc90f04d31fde72e8773a212584c0",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_15.json",
+      "release": "results/cross_support/xr1/replicate_15.json",
+      "source_sha256": "53883da07881e773c3bbd91532ecc5d473ad450193258a35032e4cdcba7599c2",
+      "release_sha256": "53883da07881e773c3bbd91532ecc5d473ad450193258a35032e4cdcba7599c2",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_16.json",
+      "release": "results/cross_support/xr1/replicate_16.json",
+      "source_sha256": "ce239a5d43f89a6eeb4b81eb753a5eddadcb67e62804e4a9c9c0fb8bfde9d1eb",
+      "release_sha256": "ce239a5d43f89a6eeb4b81eb753a5eddadcb67e62804e4a9c9c0fb8bfde9d1eb",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_17.json",
+      "release": "results/cross_support/xr1/replicate_17.json",
+      "source_sha256": "c82487022b27ff1d1129f10ac9984cb898ba0e08a6cb0c62dd2ba7fb1de5ca74",
+      "release_sha256": "c82487022b27ff1d1129f10ac9984cb898ba0e08a6cb0c62dd2ba7fb1de5ca74",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_18.json",
+      "release": "results/cross_support/xr1/replicate_18.json",
+      "source_sha256": "c1b5bd8b872eb196943502909224e3460b0b747b90d4e39ff960009abe79fc7d",
+      "release_sha256": "c1b5bd8b872eb196943502909224e3460b0b747b90d4e39ff960009abe79fc7d",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_19.json",
+      "release": "results/cross_support/xr1/replicate_19.json",
+      "source_sha256": "172e46bbf6b3736b1e9495a5318ac3a82b01a24a99ad9aea087dac0a48855418",
+      "release_sha256": "172e46bbf6b3736b1e9495a5318ac3a82b01a24a99ad9aea087dac0a48855418",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_20.json",
+      "release": "results/cross_support/xr1/replicate_20.json",
+      "source_sha256": "459f2e6da9bc865e1ae276da4520d4714a4c5270428af2024a4cba5d43c008e9",
+      "release_sha256": "459f2e6da9bc865e1ae276da4520d4714a4c5270428af2024a4cba5d43c008e9",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_21.json",
+      "release": "results/cross_support/xr1/replicate_21.json",
+      "source_sha256": "f79be89dc7e59bb249f8fb200d5e5bf5f2cbf2acf1dae5cbfcec3cf5c31d290a",
+      "release_sha256": "f79be89dc7e59bb249f8fb200d5e5bf5f2cbf2acf1dae5cbfcec3cf5c31d290a",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_22.json",
+      "release": "results/cross_support/xr1/replicate_22.json",
+      "source_sha256": "6b684e2c4655dbedbc9a3ad194b867afb573b94eb3ac80999024a15c264c1504",
+      "release_sha256": "6b684e2c4655dbedbc9a3ad194b867afb573b94eb3ac80999024a15c264c1504",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_23.json",
+      "release": "results/cross_support/xr1/replicate_23.json",
+      "source_sha256": "112c4c1a78ae293acd555a2a8b5e7c2dacd3ae523ca02d55d17d79ae68b27779",
+      "release_sha256": "112c4c1a78ae293acd555a2a8b5e7c2dacd3ae523ca02d55d17d79ae68b27779",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/xr1/replicate_24.json",
+      "release": "results/cross_support/xr1/replicate_24.json",
+      "source_sha256": "d164baf55a7451d6133eff21e8bfb94d5d55e26eae914a709556b432719446ac",
+      "release_sha256": "d164baf55a7451d6133eff21e8bfb94d5d55e26eae914a709556b432719446ac",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_cross_support/summary.json",
+      "release": "results/cross_support/summary.json",
+      "source_sha256": "fa8fb7d4a10b7e274e7fb34cf56fb56b6e466551d648f0785e6ee01c9a94229c",
+      "release_sha256": "fa8fb7d4a10b7e274e7fb34cf56fb56b6e466551d648f0785e6ee01c9a94229c",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/historical_functional_response/summary.json",
+      "release": "results/supplementary/functional_response_summary.json",
+      "source_sha256": "6417eaac4564dcb8444ca883a0ae3456313b4cf063a4f727a148f28a0e5495e5",
+      "release_sha256": "6417eaac4564dcb8444ca883a0ae3456313b4cf063a4f727a148f28a0e5495e5",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "diagnostics/id2_short_cross_continuation/summary.json",
+      "release": "results/supplementary/continuation_summary.json",
+      "source_sha256": "b0930fc519d9bce1fd2676b160ae9967f6555a6f071a6409c511e1bfedef4e50",
+      "release_sha256": "b0930fc519d9bce1fd2676b160ae9967f6555a6f071a6409c511e1bfedef4e50",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "reports/stage_b_pg19_test_results.json",
+      "release": "results/supplementary/feasibility_target.json",
+      "source_sha256": "05ec60611c6e72618d5d7b6999b353fbb4f7d90cf4d31906941e9c5cb77ddb61",
+      "release_sha256": "05ec60611c6e72618d5d7b6999b353fbb4f7d90cf4d31906941e9c5cb77ddb61",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "reports/stage_b_synthetic_results.json",
+      "release": "results/supplementary/feasibility_synthetic.json",
+      "source_sha256": "2a2b2f59c0e9256b2bdf385c72757615c2e6f337e05502a575e4c49d4cc17529",
+      "release_sha256": "2a2b2f59c0e9256b2bdf385c72757615c2e6f337e05502a575e4c49d4cc17529",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "scripts/evaluate_h9_id2.py",
+      "release": "scripts/evaluate_h9_id2.py",
+      "source_sha256": "880de91f637958d6ff7266d83dc5c35143e11d5cf2bef378478d74d2cf9c47d4",
+      "release_sha256": "880de91f637958d6ff7266d83dc5c35143e11d5cf2bef378478d74d2cf9c47d4",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "scripts/evaluate_h9_xr1.py",
+      "release": "scripts/evaluate_h9_xr1.py",
+      "source_sha256": "4fa1dbadd9a6a7237ff9f92cd6c9122f82fc49e3296b77181add7ed427bdecea",
+      "release_sha256": "4fa1dbadd9a6a7237ff9f92cd6c9122f82fc49e3296b77181add7ed427bdecea",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "scripts/run_h9_id2_evaluation.py",
+      "release": "scripts/run_h9_id2_evaluation.py",
+      "source_sha256": "57ac2c592bf608cb9eb98d9b52ba3cf66d754454e25abb5c908afdcbfb073ce8",
+      "release_sha256": "57ac2c592bf608cb9eb98d9b52ba3cf66d754454e25abb5c908afdcbfb073ce8",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "scripts/run_h9_id2_replicate.py",
+      "release": "scripts/run_h9_id2_replicate.py",
+      "source_sha256": "dc51368ce819f83c8404c091dee44934b59e5de45da1dd29f79ad339740f6d11",
+      "release_sha256": "dc51368ce819f83c8404c091dee44934b59e5de45da1dd29f79ad339740f6d11",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "scripts/run_h9_xr1_evaluation.py",
+      "release": "scripts/run_h9_xr1_evaluation.py",
+      "source_sha256": "0e60701a080f45e11ff24aa89d8a11f34d0b6553248c7ec82bf74ced8e612306",
+      "release_sha256": "0e60701a080f45e11ff24aa89d8a11f34d0b6553248c7ec82bf74ced8e612306",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "scripts/run_h9_xr1_replicate.py",
+      "release": "scripts/run_h9_xr1_replicate.py",
+      "source_sha256": "c47643c679d1178b4ca1c8409b4424c7d585e24327fb57c8a718946b42afb6cf",
+      "release_sha256": "c47643c679d1178b4ca1c8409b4424c7d585e24327fb57c8a718946b42afb6cf",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "scripts/run_historical_cross_support.py",
+      "release": "scripts/run_historical_cross_support.py",
+      "source_sha256": "2baecf9ef0553325014281265edc02d9d16500331ffc270fb0200f92cc4e4581",
+      "release_sha256": "2baecf9ef0553325014281265edc02d9d16500331ffc270fb0200f92cc4e4581",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "scripts/summarize_historical_cross_support.py",
+      "release": "scripts/summarize_historical_cross_support.py",
+      "source_sha256": "d0aec41ca89724fff7af7cb61a43617ebce81d40d552317b34191a19ecff1be8",
+      "release_sha256": "d0aec41ca89724fff7af7cb61a43617ebce81d40d552317b34191a19ecff1be8",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/attention.py",
+      "release": "src/silent_teacher/attention.py",
+      "source_sha256": "e6250b0853ad729dbe766288c153bf1dee6ed67c0004dadde9ffbd22c17067e5",
+      "release_sha256": "e6250b0853ad729dbe766288c153bf1dee6ed67c0004dadde9ffbd22c17067e5",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/b0_phase1.py",
+      "release": "src/silent_teacher/b0_phase1.py",
+      "source_sha256": "d184675f66a04aef062dde1ed02be876f4b2341a4b22af1a5db8a58a861cb26e",
+      "release_sha256": "d184675f66a04aef062dde1ed02be876f4b2341a4b22af1a5db8a58a861cb26e",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/cmr1_authorization.py",
+      "release": "src/silent_teacher/cmr1_authorization.py",
+      "source_sha256": "a299b6a57959af43557f90f50d1f366d35fcfc0fe143dfb881850a138dcbff1a",
+      "release_sha256": "a299b6a57959af43557f90f50d1f366d35fcfc0fe143dfb881850a138dcbff1a",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/cmr1_bootstrap.py",
+      "release": "src/silent_teacher/cmr1_bootstrap.py",
+      "source_sha256": "450a9afe96038dcf2b1dd0874f52843b2aa2161583dab3c029c13323483d55c5",
+      "release_sha256": "450a9afe96038dcf2b1dd0874f52843b2aa2161583dab3c029c13323483d55c5",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/cmr1_campaign.py",
+      "release": "src/silent_teacher/cmr1_campaign.py",
+      "source_sha256": "a78390654d3d0c5c1ce78865741cf1c369fb99619a6b84bbb479333348a57057",
+      "release_sha256": "a78390654d3d0c5c1ce78865741cf1c369fb99619a6b84bbb479333348a57057",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/cmr1_evaluation.py",
+      "release": "src/silent_teacher/cmr1_evaluation.py",
+      "source_sha256": "4c6ec3ab47229f9dfa56d05667a520090750d6ba020680a98d67e5723bfb11c6",
+      "release_sha256": "4c6ec3ab47229f9dfa56d05667a520090750d6ba020680a98d67e5723bfb11c6",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/cmr1_fixtures.py",
+      "release": "src/silent_teacher/cmr1_fixtures.py",
+      "source_sha256": "cdf46327bb5c53cf93309211df963c18a67c3373c054b5e727153d69d3f68266",
+      "release_sha256": "cdf46327bb5c53cf93309211df963c18a67c3373c054b5e727153d69d3f68266",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/cmr1_objects.py",
+      "release": "src/silent_teacher/cmr1_objects.py",
+      "source_sha256": "77cda9df0cdf84c86cb1077650cd81a53c01b98568fe298b4cb5ae3ac1f0b42c",
+      "release_sha256": "77cda9df0cdf84c86cb1077650cd81a53c01b98568fe298b4cb5ae3ac1f0b42c",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/cmr1_rng.py",
+      "release": "src/silent_teacher/cmr1_rng.py",
+      "source_sha256": "48a7e0d765281a5533ac04a97339e02960342e2f13c42dca94a58543029bd5d3",
+      "release_sha256": "48a7e0d765281a5533ac04a97339e02960342e2f13c42dca94a58543029bd5d3",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/cmr1_runtime.py",
+      "release": "src/silent_teacher/cmr1_runtime.py",
+      "source_sha256": "827afb9ae6a1d5ec13a8fa4327fd60ef00ac84a54e39bd1d6c9917e71ca66ad5",
+      "release_sha256": "827afb9ae6a1d5ec13a8fa4327fd60ef00ac84a54e39bd1d6c9917e71ca66ad5",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/cmr1_stage_b.py",
+      "release": "src/silent_teacher/cmr1_stage_b.py",
+      "source_sha256": "88a411120f2e823920a6988e52564643bc035c471ceccf5ecc8ba0d67f6a51f4",
+      "release_sha256": "88a411120f2e823920a6988e52564643bc035c471ceccf5ecc8ba0d67f6a51f4",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/cmr1_student.py",
+      "release": "src/silent_teacher/cmr1_student.py",
+      "source_sha256": "187ee8fb62d56aee34225273af1b6b2f499178500ac859a1ddaa563f09ffaa77",
+      "release_sha256": "187ee8fb62d56aee34225273af1b6b2f499178500ac859a1ddaa563f09ffaa77",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/cmr1_teacher.py",
+      "release": "src/silent_teacher/cmr1_teacher.py",
+      "source_sha256": "839ab9a22c38dcdcc4161220284e7091151ce2d7ce119ef764d9a3cf22f43f74",
+      "release_sha256": "839ab9a22c38dcdcc4161220284e7091151ce2d7ce119ef764d9a3cf22f43f74",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/evaluate.py",
+      "release": "src/silent_teacher/evaluate.py",
+      "source_sha256": "599121214e452cee0de5b8c8988e8e54045ea636446053c40d726b8a9d60d1a2",
+      "release_sha256": "599121214e452cee0de5b8c8988e8e54045ea636446053c40d726b8a9d60d1a2",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/full_block.py",
+      "release": "src/silent_teacher/full_block.py",
+      "source_sha256": "959c9ee108517bad07a9d3701ab294bee16838ae620fcfb0789d1c274201a4c3",
+      "release_sha256": "959c9ee108517bad07a9d3701ab294bee16838ae620fcfb0789d1c274201a4c3",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/full_block_trainer.py",
+      "release": "src/silent_teacher/full_block_trainer.py",
+      "source_sha256": "dae74089f0fc62bb6a17cae0cf841c3c4964848504e13d8de23ccdb895a46c1d",
+      "release_sha256": "dae74089f0fc62bb6a17cae0cf841c3c4964848504e13d8de23ccdb895a46c1d",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/functional_replacement.py",
+      "release": "src/silent_teacher/functional_replacement.py",
+      "source_sha256": "b8bd626100da6079d5e3cf8d348689a82d5c2c109a43c63440ec542979287e0e",
+      "release_sha256": "b8bd626100da6079d5e3cf8d348689a82d5c2c109a43c63440ec542979287e0e",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/h9_id1.py",
+      "release": "src/silent_teacher/h9_id1.py",
+      "source_sha256": "53e188ddbc3ac94bbfa35a01ec201a23a3299b38f084c6889b15b3757adf80fb",
+      "release_sha256": "53e188ddbc3ac94bbfa35a01ec201a23a3299b38f084c6889b15b3757adf80fb",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/h9_id2.py",
+      "release": "src/silent_teacher/h9_id2.py",
+      "source_sha256": "c18442888397a58ff40698bae976d82f385d471c99f43986ea25cada38e4276a",
+      "release_sha256": "c18442888397a58ff40698bae976d82f385d471c99f43986ea25cada38e4276a",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/h9_id2_analysis.py",
+      "release": "src/silent_teacher/h9_id2_analysis.py",
+      "source_sha256": "bc32670b573bb0271812461667607f8f8b85fba6ec1ddbff2d6ccc32e9d5c54f",
+      "release_sha256": "bc32670b573bb0271812461667607f8f8b85fba6ec1ddbff2d6ccc32e9d5c54f",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/h9_xr1.py",
+      "release": "src/silent_teacher/h9_xr1.py",
+      "source_sha256": "1bbfb7bdf3d8023a92b8fe48accf9e7d9189cb559835226de531de7dfed4e85e",
+      "release_sha256": "1bbfb7bdf3d8023a92b8fe48accf9e7d9189cb559835226de531de7dfed4e85e",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/h9_xr1_analysis.py",
+      "release": "src/silent_teacher/h9_xr1_analysis.py",
+      "source_sha256": "b8fcd5d34e931c90eedc7b95a9dc582fe2a2829ddb3a8e36eeeb39efe2941618",
+      "release_sha256": "b8fcd5d34e931c90eedc7b95a9dc582fe2a2829ddb3a8e36eeeb39efe2941618",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/h9_xr1_freeze.py",
+      "release": "src/silent_teacher/h9_xr1_freeze.py",
+      "source_sha256": "d0302e852b100e511a37dfcd0c2f2d4ad912996e0d95ebb690cf2d897bf9609e",
+      "release_sha256": "d0302e852b100e511a37dfcd0c2f2d4ad912996e0d95ebb690cf2d897bf9609e",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/h9_xr1_store.py",
+      "release": "src/silent_teacher/h9_xr1_store.py",
+      "source_sha256": "acc4d0debc608a2a5156822afc255a9ffc11c4263acf27cc45548ce816981f84",
+      "release_sha256": "acc4d0debc608a2a5156822afc255a9ffc11c4263acf27cc45548ce816981f84",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/modules.py",
+      "release": "src/silent_teacher/modules.py",
+      "source_sha256": "bbefcbbc74756d67f491747a83d3bc964707c0ecff5ed8000b6a9e684af48968",
+      "release_sha256": "bbefcbbc74756d67f491747a83d3bc964707c0ecff5ed8000b6a9e684af48968",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/probes.py",
+      "release": "src/silent_teacher/probes.py",
+      "source_sha256": "4e68588b95518f9948d6a69758719ecfd21afad4682fc69e0726109757a7261f",
+      "release_sha256": "4e68588b95518f9948d6a69758719ecfd21afad4682fc69e0726109757a7261f",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/records.py",
+      "release": "src/silent_teacher/records.py",
+      "source_sha256": "8786ee434ca6097164f8a177f42e85a8fb07883410bc2fa9acb54a7980bc6803",
+      "release_sha256": "8786ee434ca6097164f8a177f42e85a8fb07883410bc2fa9acb54a7980bc6803",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/seed_plumbing.py",
+      "release": "src/silent_teacher/seed_plumbing.py",
+      "source_sha256": "9a6dd4d61af9476663f206e3a7b30f554cde1a4aab025cd2397b093d6eeb78c1",
+      "release_sha256": "9a6dd4d61af9476663f206e3a7b30f554cde1a4aab025cd2397b093d6eeb78c1",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/teacher_prefix.py",
+      "release": "src/silent_teacher/teacher_prefix.py",
+      "source_sha256": "a5fa040078163aaa9cad8ef7cc7d7b89ce32ca9c9b4eae3dd4ce326f0a355ed9",
+      "release_sha256": "a5fa040078163aaa9cad8ef7cc7d7b89ce32ca9c9b4eae3dd4ce326f0a355ed9",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/train.py",
+      "release": "src/silent_teacher/train.py",
+      "source_sha256": "192346c16a5049d1f7d39b42e13734c115a9e4734eb1a6d32a1c12d213bfc740",
+      "release_sha256": "192346c16a5049d1f7d39b42e13734c115a9e4734eb1a6d32a1c12d213bfc740",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "src/silent_teacher/__init__.py",
+      "release": "src/silent_teacher/__init__.py",
+      "source_sha256": "528bb4004b8f8e04a93593ff8d9fd123f8543ec5cd286f8cbfe09dd4c5ab3145",
+      "release_sha256": "528bb4004b8f8e04a93593ff8d9fd123f8543ec5cd286f8cbfe09dd4c5ab3145",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "requirements-lock.txt",
+      "release": "requirements-lock.txt",
+      "source_sha256": "deed8f685340017fdca4dc0b1e845eb38e2cc4d3a85d276574b935f6af16fbe7",
+      "release_sha256": "deed8f685340017fdca4dc0b1e845eb38e2cc4d3a85d276574b935f6af16fbe7",
+      "operation": "byte-identical copy"
+    },
+    {
+      "source": "paper/build_draft_v3_1_figures.py",
+      "release": "tools/plot_paper.py",
+      "source_sha256": "7d2c86f2bd05fa37851284907c6b900f98dd0e370e6290c50a21e96a5a088c0d",
+      "release_sha256": "460456a8d7a2f5db566539704f794417417c46e2214308f02854a471bda6f9f7",
+      "operation": "Only input/output path substitutions; plotting/statistical code unchanged"
+    }
+  ]
+}

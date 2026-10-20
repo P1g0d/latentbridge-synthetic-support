@@ -1,0 +1,43 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=25mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{graphicx,booktabs,longtable,array,multirow}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{xurl,seqsplit}
+\usepackage{caption,etoolbox}
+\usepackage[section]{placeins}
+\usepackage{microtype}
+\usepackage[unicode,hidelinks]{hyperref}
+\captionsetup{font=small,labelfont=bf}
+\setlength{\parskip}{3pt}
+\setlength{\parindent}{1em}
+\setlength{\emergencystretch}{2em}
+\AtBeginEnvironment{longtable}{\footnotesize\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.12}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\newcommand{\pandocbounded}[1]{#1}
+\hypersetup{pdftitle={Marginal-Preserving Support Interventions in Synthetic Transformer-Block Distillation},pdfauthor={Haofeng Hu}}
+\title{Marginal-Preserving Support Interventions in Synthetic Transformer-Block Distillation}
+\author{Haofeng Hu\\[0.4em]\small Tianjin University, Tianjin, China\\
+\small Correspondence: \href{mailto:1772027289@qq.com}{1772027289@qq.com}}
+\date{20 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+A Transformer hidden vector can already encode substantial context from earlier layers. How much does its cross-position arrangement matter when a compressed block learns from synthetic hidden sequences? We study this question with Q\_pos, a support intervention that independently permutes donor rows at each position while preserving the exact finite empirical multiset of complete hidden vectors. Students learn frozen block residual updates from Native or Q\_pos synthetic inputs, with fresh Teacher labels and a fixed paired training procedure. Three separately registered campaigns reveal configuration-dependent effects. At GPT-2 block 5, Q\_pos produces material losses on both value and history-response fidelity: mean normalized-error penalties are 0.063807 and 0.029738. GPT-2 block 9 meets its registered 5\%-of-Native-recovery preservation rule, and Pythia-160M block 5 meets qualified preservation under absolute margins. Exploratory cross-support evaluation locates the GPT-2 block-5 deficit on independent Native synthetic inputs as well: Native- and Q\_pos-trained Students score 0.102917 and 0.156757 on that common support, while their ranking reverses on Q\_pos support. The study establishes a controlled empirical failure of marginal sufficiency for one fixed learning configuration, alongside preservation cases, and characterizes the resulting support-conditioned approximations. It shows why evaluating learned operators on common supports is essential to understanding synthetic distillation.
+
+\end{abstract}
+\input{main-body}
+\FloatBarrier
+\bibliographystyle{plainnat}
+\bibliography{references}
+\clearpage
+\appendix
+\counterwithin{table}{section}
+\renewcommand{\thetable}{\Alph{section}\arabic{table}}
+\counterwithin{figure}{section}
+\renewcommand{\thefigure}{\Alph{section}\arabic{figure}}
+\input{appendix}
+\end{document}

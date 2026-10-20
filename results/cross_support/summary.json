@@ -1,0 +1,310 @@
+{
+  "campaigns": {
+    "cmr1": {
+      "four_cell_matrix": {
+        "nat": {
+          "nat": {
+            "max": 0.04349063301766346,
+            "mean": 0.0410041267698274,
+            "min": 0.03982756815165542,
+            "n": 48,
+            "positive_count": 48,
+            "sample_sd": 0.0008472724416176573
+          },
+          "pos": {
+            "max": 0.04604088619109741,
+            "mean": 0.0429143971269017,
+            "min": 0.04122058703272091,
+            "n": 48,
+            "positive_count": 48,
+            "sample_sd": 0.0010153479090232174
+          }
+        },
+        "pos": {
+          "nat": {
+            "max": 0.0446425580785926,
+            "mean": 0.04239156937466409,
+            "min": 0.04030934842890181,
+            "n": 48,
+            "positive_count": 48,
+            "sample_sd": 0.0008136658028891303
+          },
+          "pos": {
+            "max": 0.04327808133816753,
+            "mean": 0.04102913718615443,
+            "min": 0.03912075745445268,
+            "n": 48,
+            "positive_count": 48,
+            "sample_sd": 0.0007954418470315322
+          }
+        }
+      },
+      "paired_arm_differences": {
+        "nat": {
+          "max": 0.00425726585906213,
+          "mean": 0.0013874426048366949,
+          "min": -0.0007563235769695795,
+          "n": 48,
+          "positive_count": 42,
+          "sample_sd": 0.001033201863348837
+        },
+        "pos": {
+          "max": 0.0016722916647445712,
+          "mean": -0.0018852599407472614,
+          "min": -0.00425140321492512,
+          "n": 48,
+          "positive_count": 2,
+          "sample_sd": 0.0012213930213261638
+        }
+      },
+      "paired_replicates": 48,
+      "record_sha256": {
+        "diagnostics/historical_cross_support/cmr1/replicate_01.json": "5caff38f0fdf96afa05ba2027bdab4d308caece0feb9f1eba1b7236b539fa26c",
+        "diagnostics/historical_cross_support/cmr1/replicate_02.json": "4a91e60c69082c9f81efcba49b61d5cd949b3579e30a76253fccd97447a02dec",
+        "diagnostics/historical_cross_support/cmr1/replicate_03.json": "cdf6797d167a9cf5658b0dda8a92182adc2c89a865ccf5d38517333a639bcfb3",
+        "diagnostics/historical_cross_support/cmr1/replicate_04.json": "aa39dcff5011a86edb0d6a1aa4b410bd5145f72b03967b5d1f389f667bc82845",
+        "diagnostics/historical_cross_support/cmr1/replicate_05.json": "9a2b0c3ff2ec41fb27cf0b0ee1327985c37f635fd7ce9dd8a01762b9cd8199ea",
+        "diagnostics/historical_cross_support/cmr1/replicate_06.json": "02a1be812e3f7642ffc584be799cffecc29c21bfcf7278694ecbe2faf6899569",
+        "diagnostics/historical_cross_support/cmr1/replicate_07.json": "87fa85e8163fbf038f6e17cafa3c2aed607adc6c16613be392016591298a6edb",
+        "diagnostics/historical_cross_support/cmr1/replicate_08.json": "aeb0c21df91926b2697683e1c1e31051cdabc099976ebb399d316e1166427026",
+        "diagnostics/historical_cross_support/cmr1/replicate_09.json": "2e04da07c7d13fe70f3a2b6b521f06b7e5142fd7d5ccc4a04e7269043d346803",
+        "diagnostics/historical_cross_support/cmr1/replicate_10.json": "585b79222aba0a61ea2391988e5923b1e97808932aba4cffa76fa46b239dae88",
+        "diagnostics/historical_cross_support/cmr1/replicate_11.json": "7bd6398d89edc6a3ebd36558da04a3b6f9eeb186be847b43a83a989099ce571e",
+        "diagnostics/historical_cross_support/cmr1/replicate_12.json": "0e69743b71fd7edd44228c8317c2ca36d1ad515d1dbab4442fefbfdf8ea3f7b1",
+        "diagnostics/historical_cross_support/cmr1/replicate_13.json": "cd5bc7c2ae7ae79d40ed646175439816fba048bcc5facb8721032399dee53b4b",
+        "diagnostics/historical_cross_support/cmr1/replicate_14.json": "63bf30ca12c3434f25fe58b94f1124a837caaa41d5126e009356324d7b5adf39",
+        "diagnostics/historical_cross_support/cmr1/replicate_15.json": "6149bc88e5aef5c7aa12c6e6485a1b2ff9dfc81cf12a0eca4e015922f37197a3",
+        "diagnostics/historical_cross_support/cmr1/replicate_16.json": "57e50f81a2218f930dd90434e3480f975bea80d35751742181ed7206c6458235",
+        "diagnostics/historical_cross_support/cmr1/replicate_17.json": "6e7e15349af06f66f3cc138ac74719b769477918dbe6b74c46bfe41131cf8b9a",
+        "diagnostics/historical_cross_support/cmr1/replicate_18.json": "5b80adf04e768266d05e3329a80201e315e509d6f3a1ac2dd7eef7ea891d5c39",
+        "diagnostics/historical_cross_support/cmr1/replicate_19.json": "ac0dc830230c458a4beaa19f1bcdc867dcc7c23d083e5577f0cbbfe9921562de",
+        "diagnostics/historical_cross_support/cmr1/replicate_20.json": "68e62e00bf36067cbee8720f888d6720c5589ddc2fb86adcdb167a74235872d1",
+        "diagnostics/historical_cross_support/cmr1/replicate_21.json": "7a1088a8f36c1465b79f243f47024784cef8cf859ef13bd7652c6c7da78b8552",
+        "diagnostics/historical_cross_support/cmr1/replicate_22.json": "3d178c40600953d2232c31b3b6c19abc5e67f533611f271a53dda7fd4f887ce0",
+        "diagnostics/historical_cross_support/cmr1/replicate_23.json": "4296b020291b0482c34e43dbb82963b0bc07d234a0f28d484c361c4238e6e28c",
+        "diagnostics/historical_cross_support/cmr1/replicate_24.json": "9866cfa382f01908c5664605a7a8e23fdaa434217f7f6a630b2442f232ab3dbd",
+        "diagnostics/historical_cross_support/cmr1/replicate_25.json": "fbd6c751a4b34bb1ef4f432eb85c011ce70c9f4ce26f33015f98b54a85c2c356",
+        "diagnostics/historical_cross_support/cmr1/replicate_26.json": "00019a084518cd07c5b41fd9e909181ccd3673b54fc58a1bc059b99e15514635",
+        "diagnostics/historical_cross_support/cmr1/replicate_27.json": "e4e129965ba81ef578b8a9c75b1f484bf521dc1f2ebcb6a97ea7339a6d686864",
+        "diagnostics/historical_cross_support/cmr1/replicate_28.json": "5f4291b0f2e03eee2b13857bb6a2821f54506ba5ea54faa922c304c196a41644",
+        "diagnostics/historical_cross_support/cmr1/replicate_29.json": "c145fa73ab0c742644f4b25cc6c08d9799913e3c1ce8d018eee29baea341fca7",
+        "diagnostics/historical_cross_support/cmr1/replicate_30.json": "9b18b02df8bfd9b537737bf6277712684ad23d7164d89f6750c8ca6b0aa27e01",
+        "diagnostics/historical_cross_support/cmr1/replicate_31.json": "96b914ed6c45e3595680bace7c126bcfd92a7eb7fdd61516063c2be315810376",
+        "diagnostics/historical_cross_support/cmr1/replicate_32.json": "4c035215196b820e82ab0ac918653c150d600d4631bafedc492c7dd72a40e0c6",
+        "diagnostics/historical_cross_support/cmr1/replicate_33.json": "e4e7c3f6909e04fa2cbda61e0c83e35ce7cc6563dfe386ff7d6f7dc7f02e960c",
+        "diagnostics/historical_cross_support/cmr1/replicate_34.json": "be3d3d72eb671fa754f0c09ba734f9dda5b6cbcb22ec958a2cbf3ccce0cc25a1",
+        "diagnostics/historical_cross_support/cmr1/replicate_35.json": "ad8d18a026988c5aaff336ef5bc31bf1aa2ba43689df486c946e098d62f591d7",
+        "diagnostics/historical_cross_support/cmr1/replicate_36.json": "7df982ffb0421607df3a3eaf83b22b449bae45da0d5c65229e664c23f6f4eadc",
+        "diagnostics/historical_cross_support/cmr1/replicate_37.json": "1a03966a312b2c8e810521dcb1b31a470d76f5e6ed259e4aab3b84f7f7cf8535",
+        "diagnostics/historical_cross_support/cmr1/replicate_38.json": "34aa3acf789472b3c6bd193a3ef3be20478ca0c0dee84bfb7686404323fca447",
+        "diagnostics/historical_cross_support/cmr1/replicate_39.json": "47629013d0ed2005b106a0681ec869201f7f98f7b7d9632280fbcb74b104d318",
+        "diagnostics/historical_cross_support/cmr1/replicate_40.json": "7e76f89ac33c48e4934d8840087de239398f9ab41cc7a0ae386ddbe098a8c667",
+        "diagnostics/historical_cross_support/cmr1/replicate_41.json": "4ec95285009dd97a1183cff5d002fa2d7a07c135feb4f048a40ea63388ab1c09",
+        "diagnostics/historical_cross_support/cmr1/replicate_42.json": "83c1b0c882ac667ce7d2cb47156c9906b4d665b1fe428c03c1fd47b0964ced28",
+        "diagnostics/historical_cross_support/cmr1/replicate_43.json": "d81e23cc27bbb8053d45cc55ab14eb450edf28ec462e9eddab1da3af733804b9",
+        "diagnostics/historical_cross_support/cmr1/replicate_44.json": "dbd861c57893e91146947b6e01eaa2dcf82aaf21b220b20a3d4d161f016f75de",
+        "diagnostics/historical_cross_support/cmr1/replicate_45.json": "a43f7e92feb99f9bf718f567db0577dc68b81a3e9862a2909ef11b336356b1c5",
+        "diagnostics/historical_cross_support/cmr1/replicate_46.json": "f19b1f08e877fdfbee6fb4bbc6d4b2a9835cd60856cb4b166337133006f78f8b",
+        "diagnostics/historical_cross_support/cmr1/replicate_47.json": "7cb087e200e4e6235748b2c441bce5ade5b52f1dc42aa84d597ddf679a67bcf3",
+        "diagnostics/historical_cross_support/cmr1/replicate_48.json": "46f2405f5e6b435d87f2fdba5986b59d0b0cfec7ad7d5deeda2fee96b40c616f"
+      }
+    },
+    "id2": {
+      "four_cell_matrix": {
+        "nat": {
+          "nat": {
+            "max": 0.10692601610051711,
+            "mean": 0.10291664510313858,
+            "min": 0.09928328663401087,
+            "n": 48,
+            "positive_count": 48,
+            "sample_sd": 0.0020543140660693447
+          },
+          "pos": {
+            "max": 0.11000040815000793,
+            "mean": 0.1032928643099264,
+            "min": 0.0985551898459701,
+            "n": 48,
+            "positive_count": 48,
+            "sample_sd": 0.002937048386609472
+          }
+        },
+        "pos": {
+          "nat": {
+            "max": 0.1629910882616052,
+            "mean": 0.15675677635516397,
+            "min": 0.15273304404084523,
+            "n": 48,
+            "positive_count": 48,
+            "sample_sd": 0.002625128238877151
+          },
+          "pos": {
+            "max": 0.1023936233636779,
+            "mean": 0.09596955435735911,
+            "min": 0.09223857934589384,
+            "n": 48,
+            "positive_count": 48,
+            "sample_sd": 0.0025941588515925444
+          }
+        }
+      },
+      "paired_arm_differences": {
+        "nat": {
+          "max": 0.06163422829504567,
+          "mean": 0.0538401312520254,
+          "min": 0.04893687649361078,
+          "n": 48,
+          "positive_count": 48,
+          "sample_sd": 0.0028568372438047395
+        },
+        "pos": {
+          "max": 0.0015654774073524391,
+          "mean": -0.007323309952567282,
+          "min": -0.015187334797832755,
+          "n": 48,
+          "positive_count": 1,
+          "sample_sd": 0.003491142047012005
+        }
+      },
+      "paired_replicates": 48,
+      "record_sha256": {
+        "diagnostics/historical_cross_support/id2/replicate_01.json": "34920ca551fef25f94d2bd5fbb3d884010e7639a30bdde538f014f5c41123281",
+        "diagnostics/historical_cross_support/id2/replicate_02.json": "b74c9b4d903555cde20c5f2dff0418f4b05418d5de1e68fe3e871d96094aea2c",
+        "diagnostics/historical_cross_support/id2/replicate_03.json": "7b482f8a9f04f3aad65674e23a3c8e7121a1dcf748287c48c35ad80cfe3ef4db",
+        "diagnostics/historical_cross_support/id2/replicate_04.json": "c7b0a6b2cd0912278565717b14fc873d1ee2b6abadd2c34998f0d4b75905a4e6",
+        "diagnostics/historical_cross_support/id2/replicate_05.json": "19eebfed827da08e7b0ca8fc629a59e8c7e9ce36b15cc80945a02bb4e510dfd7",
+        "diagnostics/historical_cross_support/id2/replicate_06.json": "699185e779b96f220a840461614a73f5990292792f28e3fa8c8ae7fb25f7c295",
+        "diagnostics/historical_cross_support/id2/replicate_07.json": "e75a106ec13b5b6b50d99dc67449e0409ce208d06a601e9191ba9aea425a0efd",
+        "diagnostics/historical_cross_support/id2/replicate_08.json": "54c95f533b78acc7572af3fbd3a0786dd21302b2d1e4025ebc5f4a318cd44fcc",
+        "diagnostics/historical_cross_support/id2/replicate_09.json": "2262c0411c979ab0219ac802fec1340438fe9865d7dee32a360180ff7175a8b7",
+        "diagnostics/historical_cross_support/id2/replicate_10.json": "2d7ad6e312b7e30021d6388fa60708624a7e75a82f8de08063d14b822a1267d2",
+        "diagnostics/historical_cross_support/id2/replicate_11.json": "cf18fe06871d9b8b3b1112cf76ba0acc19f03afe82adac0c567f3b9fc3d59020",
+        "diagnostics/historical_cross_support/id2/replicate_12.json": "335ad9bb88f35cd409952ac32adfafc1ab67c3a0fedb37d17ae551488631c063",
+        "diagnostics/historical_cross_support/id2/replicate_13.json": "b56a1dc914d4d231263cdd6826a3914e6129c46723a488372fef9a74fb1504ca",
+        "diagnostics/historical_cross_support/id2/replicate_14.json": "7c6597705b17779cb246590dc24a6b9cf59f2e7e70506e8ae7f4c723c6c5dd91",
+        "diagnostics/historical_cross_support/id2/replicate_15.json": "eae43e2b2ae0d3fb09baffa3e9188f6b2cf151be53c843aa8dcaef6a518f1c54",
+        "diagnostics/historical_cross_support/id2/replicate_16.json": "e740a3da46121801d2248937ea549e66c926f91bf26a96c23e5e710fb5da0d11",
+        "diagnostics/historical_cross_support/id2/replicate_17.json": "e30728bd47525124345ff4a241b9e4284b8c1ce30695954126d9fb1de5034790",
+        "diagnostics/historical_cross_support/id2/replicate_18.json": "6f04293b75ae78b3b967329ce972cc9b8f819b8321c678519658e4afd2a35ab7",
+        "diagnostics/historical_cross_support/id2/replicate_19.json": "edb775b9e627f75c9692476145f805f825c388ae3a6dd19f3ad86c9e4584a651",
+        "diagnostics/historical_cross_support/id2/replicate_20.json": "364b9933fbda26fd27cea921189f83bde0d90a343bdaec19aefb3660f0fe4667",
+        "diagnostics/historical_cross_support/id2/replicate_21.json": "089c6e23098b8b43d388cbeafdd6a21e529d9ffb15f637cc079b3bfb0623e050",
+        "diagnostics/historical_cross_support/id2/replicate_22.json": "b38847a26b0723815d5ceafb83b0743865345ca4c1b5775c767f88b21764f08e",
+        "diagnostics/historical_cross_support/id2/replicate_23.json": "0b1f83945b671a1ea0b9f0075e84eda37f1dd08b5831547c23b5f101ffa6997f",
+        "diagnostics/historical_cross_support/id2/replicate_24.json": "e1e60c012f5394b2f62d0435ec8f786d41711aeb6dc03139ccc8d77fa958502f",
+        "diagnostics/historical_cross_support/id2/replicate_25.json": "98cfa760b8d7e307433e55d4f16c5caa534a2c89f0fb462896036079e935fa03",
+        "diagnostics/historical_cross_support/id2/replicate_26.json": "3efd77cd974d789bdf7726f91d1678017874ad487c7d47762634aa5952c26609",
+        "diagnostics/historical_cross_support/id2/replicate_27.json": "624ef5cb5009afffde1d15d10b3fad8e259ef6fdad9efee5b7227f3eea6112f1",
+        "diagnostics/historical_cross_support/id2/replicate_28.json": "e978235146e44ff099d984475b2f60f513d46c88714b12689883e14e4769760d",
+        "diagnostics/historical_cross_support/id2/replicate_29.json": "5fd1db5ad925266bcf56b8157556ad04cd3225c3c6a793ff6c35fa6a1bbc81f9",
+        "diagnostics/historical_cross_support/id2/replicate_30.json": "16a8a0b1b813201c41e8fd9375fbe9b05a711ccddaebb99019f2210c8de7c335",
+        "diagnostics/historical_cross_support/id2/replicate_31.json": "a02da429a3bf7d79b3704dd2e5a3363a2adde1240016b23d90c1243e8fcd2f25",
+        "diagnostics/historical_cross_support/id2/replicate_32.json": "61d7e4a5806148afc43197da12afae392cc9fc631571de16883e26356bfe39ca",
+        "diagnostics/historical_cross_support/id2/replicate_33.json": "48c389e1f1d0dc21aeb47b9b44c96f09f6a1d8449b4a69d903efb8eec8ab9cfe",
+        "diagnostics/historical_cross_support/id2/replicate_34.json": "8449196269d22508deddf0fdb9cee647c988b51e66571529e3623347e6629c70",
+        "diagnostics/historical_cross_support/id2/replicate_35.json": "7c619a10ef593dfd6b32950d018dce7931bc94c1febb8b193e018d4da863b6a6",
+        "diagnostics/historical_cross_support/id2/replicate_36.json": "e1a843cc3feda1f9750b8029c3d507a65190d7f054cfe10cfbc34ede5b161182",
+        "diagnostics/historical_cross_support/id2/replicate_37.json": "edb9c085fe85d4eda93389859eb99131cd962c43b807611db553b406318f5bfa",
+        "diagnostics/historical_cross_support/id2/replicate_38.json": "c77a192618308758ee5773eb60dc197ab3b114fed9325cb9e8f82a6cd2af7c41",
+        "diagnostics/historical_cross_support/id2/replicate_39.json": "9e8ded4163bf7018188ffc20fbdf4d5ffa9d195a0fc09c460956b51f89e42f0a",
+        "diagnostics/historical_cross_support/id2/replicate_40.json": "70c0e2f18718961e5013f365d32eda0121e490abd782c7e8315bfef5da2b6783",
+        "diagnostics/historical_cross_support/id2/replicate_41.json": "5f4ae2ba06c006733f8457318b30a20f1e43dfaa3abee9ec609d7ecf9c30510a",
+        "diagnostics/historical_cross_support/id2/replicate_42.json": "0d0efbaf5857dc5b03cdb026a267cc2640efe0bd818031320172e59f0731a9f2",
+        "diagnostics/historical_cross_support/id2/replicate_43.json": "fe6086a1b01382c86dee1858f99a1d29cee73ae1ee05c98dfa0e769dee898132",
+        "diagnostics/historical_cross_support/id2/replicate_44.json": "bdc200ebc1d97148a6eb7437931667ab8fef157c985aaed93c7a5dbdb49227ae",
+        "diagnostics/historical_cross_support/id2/replicate_45.json": "bb70584e0e202f6780f563288876056196bff267d65ea4ee72898f4327eaee3b",
+        "diagnostics/historical_cross_support/id2/replicate_46.json": "4322b7b795f0aeddf4cc51023e2548963d9d70ccec0219dd983bc340ccfe91f2",
+        "diagnostics/historical_cross_support/id2/replicate_47.json": "e5099675434a557c20d2869ba871ed3510d830a70c8746b4b6190761db6be3cc",
+        "diagnostics/historical_cross_support/id2/replicate_48.json": "51feafaee2c9f464c195fefcf0130893908aa384598e95935fdde151f73a925e"
+      }
+    },
+    "xr1": {
+      "four_cell_matrix": {
+        "nat": {
+          "nat": {
+            "max": 0.08013183075572841,
+            "mean": 0.07702128267651369,
+            "min": 0.0754949001381365,
+            "n": 24,
+            "positive_count": 24,
+            "sample_sd": 0.001165640676589839
+          },
+          "pos": {
+            "max": 0.08135765496036994,
+            "mean": 0.0781613481527818,
+            "min": 0.07657184199292201,
+            "n": 24,
+            "positive_count": 24,
+            "sample_sd": 0.0011874754336951494
+          }
+        },
+        "pos": {
+          "nat": {
+            "max": 0.08068705894369363,
+            "mean": 0.07825682292333984,
+            "min": 0.07619266448392949,
+            "n": 24,
+            "positive_count": 24,
+            "sample_sd": 0.0010588258323247187
+          },
+          "pos": {
+            "max": 0.07646067189661458,
+            "mean": 0.07432152264845318,
+            "min": 0.07249883458968441,
+            "n": 24,
+            "positive_count": 24,
+            "sample_sd": 0.0009146554206671004
+          }
+        }
+      },
+      "paired_arm_differences": {
+        "nat": {
+          "max": 0.004066848296768469,
+          "mean": 0.0012355402468261553,
+          "min": -0.0028805026211162488,
+          "n": 24,
+          "positive_count": 19,
+          "sample_sd": 0.0016623191326300395
+        },
+        "pos": {
+          "max": -0.0011508130772481112,
+          "mean": -0.003839825504328629,
+          "min": -0.007695125386153634,
+          "n": 24,
+          "positive_count": 0,
+          "sample_sd": 0.0015579902551900169
+        }
+      },
+      "paired_replicates": 24,
+      "record_sha256": {
+        "diagnostics/historical_cross_support/xr1/replicate_01.json": "25e48a122b4cec68f48ac8eb8c8fcffc6d875cc67aa24df06b6318ffba91f739",
+        "diagnostics/historical_cross_support/xr1/replicate_02.json": "a9f8298ceca4b050ff9259bfd437dbf18a8de996a1980ac3e9a07f1ff9e8c9aa",
+        "diagnostics/historical_cross_support/xr1/replicate_03.json": "bcfe3d4127100981d2108d62f7f759b6de53951ae817ced15306d9a91c411ec6",
+        "diagnostics/historical_cross_support/xr1/replicate_04.json": "ba70795e802106501511ee753a7457b9c450ee4937f5bcc0dcd37e23e1c6165e",
+        "diagnostics/historical_cross_support/xr1/replicate_05.json": "186276624f11f3be3c4a9987a7756955954abeaa7e93fe138afc44021c3e72b3",
+        "diagnostics/historical_cross_support/xr1/replicate_06.json": "e795ebaa2b1e0338cc2147058b106f2d1c06a5fd3807d6c4fd28d7092456c6d7",
+        "diagnostics/historical_cross_support/xr1/replicate_07.json": "c40c3cb381d7fabe40f0279414329f5d9b40734b98dc24a801b707a329d111dd",
+        "diagnostics/historical_cross_support/xr1/replicate_08.json": "3a9621fbf7a734a4a7233ac8f7e2c387426b5852e575abf7fa4ed5d91c98388a",
+        "diagnostics/historical_cross_support/xr1/replicate_09.json": "8b29dce51d78fbebb0a7b01554dfbd05b8619fd0b9453eed11231365aa0ad017",
+        "diagnostics/historical_cross_support/xr1/replicate_10.json": "2225e467b73214fdc5a137b431ced433a6ce8573f7c19819b4ffed3a1aa3ee68",
+        "diagnostics/historical_cross_support/xr1/replicate_11.json": "30285c26108c2186b2f44d5568aea9d784d7f1449af3c4ff7f96e92db0c236c3",
+        "diagnostics/historical_cross_support/xr1/replicate_12.json": "659195e3a50a8725cfeb91dc069b7514f947624ae57573a02c317239fae04b98",
+        "diagnostics/historical_cross_support/xr1/replicate_13.json": "79bed95c9f5b37d514b680b24e359807b511aa4d7243d175e5d939152d569824",
+        "diagnostics/historical_cross_support/xr1/replicate_14.json": "29b67e74931d4860282b8802649d71b57a7bc90f04d31fde72e8773a212584c0",
+        "diagnostics/historical_cross_support/xr1/replicate_15.json": "53883da07881e773c3bbd91532ecc5d473ad450193258a35032e4cdcba7599c2",
+        "diagnostics/historical_cross_support/xr1/replicate_16.json": "ce239a5d43f89a6eeb4b81eb753a5eddadcb67e62804e4a9c9c0fb8bfde9d1eb",
+        "diagnostics/historical_cross_support/xr1/replicate_17.json": "c82487022b27ff1d1129f10ac9984cb898ba0e08a6cb0c62dd2ba7fb1de5ca74",
+        "diagnostics/historical_cross_support/xr1/replicate_18.json": "c1b5bd8b872eb196943502909224e3460b0b747b90d4e39ff960009abe79fc7d",
+        "diagnostics/historical_cross_support/xr1/replicate_19.json": "172e46bbf6b3736b1e9495a5318ac3a82b01a24a99ad9aea087dac0a48855418",
+        "diagnostics/historical_cross_support/xr1/replicate_20.json": "459f2e6da9bc865e1ae276da4520d4714a4c5270428af2024a4cba5d43c008e9",
+        "diagnostics/historical_cross_support/xr1/replicate_21.json": "f79be89dc7e59bb249f8fb200d5e5bf5f2cbf2acf1dae5cbfcec3cf5c31d290a",
+        "diagnostics/historical_cross_support/xr1/replicate_22.json": "6b684e2c4655dbedbc9a3ad194b867afb573b94eb3ac80999024a15c264c1504",
+        "diagnostics/historical_cross_support/xr1/replicate_23.json": "112c4c1a78ae293acd555a2a8b5e7c2dacd3ae523ca02d55d17d79ae68b27779",
+        "diagnostics/historical_cross_support/xr1/replicate_24.json": "d164baf55a7451d6133eff21e8bfb94d5d55e26eae914a709556b432719446ac"
+      }
+    }
+  },
+  "comparison": "within each support column, pos-trained minus nat-trained NMSE",
+  "schema": "latentbridge.historical_cross_support.summary.v1",
+  "scope": "POST_HOC_EXPLORATORY_SYNTHETIC_DEV_ONLY"
+}
