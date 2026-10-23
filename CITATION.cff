@@ -7,7 +7,9 @@ authors:
     given-names: Haofeng
     affiliation: "Tianjin University, Tianjin, China"
     email: "1772027289@qq.com"
-version: "0.1.0-rc1"
+version: "0.1.0"
+date-released: 2026-10-23
+repository-code: "https://github.com/P1g0d/latentbridge-synthetic-support"
 license: MIT
 preferred-citation:
   type: article
@@ -17,4 +19,5 @@ preferred-citation:
       given-names: Haofeng
       affiliation: "Tianjin University, Tianjin, China"
   year: 2026
-  notes: "Unpublished preprint, release-ready v3.1; no archival DOI assigned."
+  url: "https://github.com/P1g0d/latentbridge-synthetic-support/blob/main/paper/main.pdf"
+  notes: "Public preprint v3.1; not peer-reviewed."

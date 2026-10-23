@@ -7,8 +7,9 @@
       "source": "release_preparation/templates/README.md",
       "release": "README.md",
       "source_sha256": "bdfd7a6c9ee651f6d2ccfa87c8d5802f2a012c8468a1e62b8401d560fd6c33d8",
-      "release_sha256": "bdfd7a6c9ee651f6d2ccfa87c8d5802f2a012c8468a1e62b8401d560fd6c33d8",
-      "operation": "byte-identical copy"
+      "release_sha256": "2474d640c326c62f9a71858de8fbb1deb4a61db932133cfa466e728e4fef534f",
+      "operation": "byte-identical copy; publication metadata update (resources, date, version only)",
+      "approved_candidate_release_sha256": "bdfd7a6c9ee651f6d2ccfa87c8d5802f2a012c8468a1e62b8401d560fd6c33d8"
     },
     {
       "source": "release_preparation/templates/REPRODUCIBILITY.md",
@@ -42,15 +43,17 @@
       "source": "paper/release_ready/v3_1/manuscript.md",
       "release": "paper/manuscript.md",
       "source_sha256": "e140b7ce1e9311a448497e36dc813d97c5eacb2f92c187ea457bdcd2eb97bcf3",
-      "release_sha256": "e140b7ce1e9311a448497e36dc813d97c5eacb2f92c187ea457bdcd2eb97bcf3",
-      "operation": "byte-identical copy"
+      "release_sha256": "a60d1afe5ee97fcea2b91afc4b58889280118d99cd4bac04e85b8d522073263c",
+      "operation": "byte-identical copy; publication metadata update (resources, date, version only)",
+      "approved_candidate_release_sha256": "e140b7ce1e9311a448497e36dc813d97c5eacb2f92c187ea457bdcd2eb97bcf3"
     },
     {
       "source": "paper/release_ready/v3_1/appendix.md",
       "release": "paper/appendix.md",
       "source_sha256": "812479f8047113dba97a8b099e5c507c56c5325270205a9e7960864a5e7f1281",
-      "release_sha256": "812479f8047113dba97a8b099e5c507c56c5325270205a9e7960864a5e7f1281",
-      "operation": "byte-identical copy"
+      "release_sha256": "43188f77de793b3dc56625e692dd7b5c28f0442185f85aff5a7d593769ffc034",
+      "operation": "byte-identical copy; publication metadata update (resources, date, version only)",
+      "approved_candidate_release_sha256": "812479f8047113dba97a8b099e5c507c56c5325270205a9e7960864a5e7f1281"
     },
     {
       "source": "paper/release_ready/v3_1/references.bib",
@@ -63,22 +66,25 @@
       "source": "paper/release_ready/v3_1/latent_support_v3_1_source.zip",
       "release": "paper/latent_support_v3_1_source.zip",
       "source_sha256": "c8796ea5745e4dc647382691ff87599b7430e8358c30da626651b5feafd8758f",
-      "release_sha256": "c8796ea5745e4dc647382691ff87599b7430e8358c30da626651b5feafd8758f",
-      "operation": "byte-identical copy"
+      "release_sha256": "5c35508d1972bdd51870882cd8d1e9697290e394051c33e8d0b4c98ecce8b599",
+      "operation": "byte-identical copy; publication metadata update (resources, date, version only)",
+      "approved_candidate_release_sha256": "c8796ea5745e4dc647382691ff87599b7430e8358c30da626651b5feafd8758f"
     },
     {
       "source": "paper/release_ready/v3_1/tex/main.pdf",
       "release": "paper/main.pdf",
       "source_sha256": "5c9675769733e0b3c8fcf914457b72f052848f01c6d99b0c810064de9c444a60",
-      "release_sha256": "5c9675769733e0b3c8fcf914457b72f052848f01c6d99b0c810064de9c444a60",
-      "operation": "byte-identical copy"
+      "release_sha256": "8c7c2694933773746d30f294f6b39a660686107fd0de1c7595a7f0d4aa418d75",
+      "operation": "byte-identical copy; publication metadata update (resources, date, version only)",
+      "approved_candidate_release_sha256": "5c9675769733e0b3c8fcf914457b72f052848f01c6d99b0c810064de9c444a60"
     },
     {
       "source": "paper/release_ready/v3_1/tex/appendix.tex",
       "release": "paper/tex/appendix.tex",
       "source_sha256": "68f8e3ae3d4881f16be472c2cb16dcd8756bafe0d75e12a3697d8c06a1ecc30e",
-      "release_sha256": "68f8e3ae3d4881f16be472c2cb16dcd8756bafe0d75e12a3697d8c06a1ecc30e",
-      "operation": "byte-identical copy"
+      "release_sha256": "6f1bb5a469eb423c234764a85ea98e661bd17b5ed788aa8b9217556fda11c892",
+      "operation": "byte-identical copy; publication metadata update (resources, date, version only)",
+      "approved_candidate_release_sha256": "68f8e3ae3d4881f16be472c2cb16dcd8756bafe0d75e12a3697d8c06a1ecc30e"
     },
     {
       "source": "paper/release_ready/v3_1/tex/figures/figure_1_setup.pdf",
@@ -112,8 +118,9 @@
       "source": "paper/release_ready/v3_1/tex/main-body.tex",
       "release": "paper/tex/main-body.tex",
       "source_sha256": "fca7f2e23eac7e0ae3227ccc29ec83d1dd92c1643f0dd0b46097787367fff335",
-      "release_sha256": "fca7f2e23eac7e0ae3227ccc29ec83d1dd92c1643f0dd0b46097787367fff335",
-      "operation": "byte-identical copy"
+      "release_sha256": "00245c1e4e8e5872e8d7e266586139ecc51b6bf6af91c3eb67e5248e72f88d53",
+      "operation": "byte-identical copy; publication metadata update (resources, date, version only)",
+      "approved_candidate_release_sha256": "fca7f2e23eac7e0ae3227ccc29ec83d1dd92c1643f0dd0b46097787367fff335"
     },
     {
       "source": "paper/release_ready/v3_1/tex/main.bbl",
@@ -126,8 +133,9 @@
       "source": "paper/release_ready/v3_1/tex/main.tex",
       "release": "paper/tex/main.tex",
       "source_sha256": "a80664e63323b13561abde538e2a6f3b16a1907d9be651208c50839dbfcd74cd",
-      "release_sha256": "a80664e63323b13561abde538e2a6f3b16a1907d9be651208c50839dbfcd74cd",
-      "operation": "byte-identical copy"
+      "release_sha256": "af32215a0331ab12dd6c493db6a6ff72f7acbc3bb85cf045f516d71beafeaf8a",
+      "operation": "byte-identical copy; publication metadata update (resources, date, version only)",
+      "approved_candidate_release_sha256": "a80664e63323b13561abde538e2a6f3b16a1907d9be651208c50839dbfcd74cd"
     },
     {
       "source": "paper/release_ready/v3_1/tex/references.bib",
@@ -1396,5 +1404,12 @@
       "release_sha256": "460456a8d7a2f5db566539704f794417417c46e2214308f02854a471bda6f9f7",
       "operation": "Only input/output path substitutions; plotting/statistical code unchanged"
     }
-  ]
+  ],
+  "publication": {
+    "version": "0.1.0",
+    "approved_candidate_commit": "5198620979ec918b5d08e980fc63936d9ce0d110",
+    "public_repository": "https://github.com/P1g0d/latentbridge-synthetic-support",
+    "scientific_results_unchanged": true,
+    "new_model_execution": false
+  }
 }

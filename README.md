@@ -2,7 +2,7 @@
 
 Materials for **Marginal-Preserving Support Interventions in Synthetic Transformer-Block Distillation**, Haofeng Hu, Tianjin University, Tianjin, China. Correspondence: 1772027289@qq.com.
 
-**Release candidate 0.1.0-rc1. Prepared for private review; public release is pending explicit author approval. No archival DOI has been assigned.**
+**Public research release 0.1.0, 23 October 2026.** This archive accompanies the signed preprint and retains the original scientific result identities. The preprint is not peer-reviewed.
 
 ## Research question and findings
 
@@ -58,4 +58,4 @@ Original software: **MIT**, see `LICENSE`. Manuscript, figures and authored resu
 
 Generative AI tools, including Codex and other language-model assistants, substantially assisted research planning, programming, analysis and substantive manuscript writing. Haofeng Hu is the sole author and accepts responsibility for verification, scientific claims and the final work. See the paper's full disclosure.
 
-Use `CITATION.cff` for this software snapshot. Cite the paper separately; public repository/DOI identifiers will be added only after a release actually exists. This signed manuscript is not an anonymous TMLR submission.
+Use `CITATION.cff` for this software snapshot. Cite the paper separately; the public repository is https://github.com/P1g0d/latentbridge-synthetic-support. The associated paper is in `paper/main.pdf`; any later archival DOI will be recorded only after registration. This signed manuscript is not an anonymous TMLR submission.

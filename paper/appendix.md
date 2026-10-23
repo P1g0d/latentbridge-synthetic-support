@@ -12,7 +12,7 @@ Pythia-160M uses revision `50f5173d932e8e61f858120bcb800b97af589f46`, weight SHA
 
 ### A.2 Existing evidence versions
 
-The following Git versions identify the records used here. Result versions and content hashes identify the evidence; the curated public archive is prepared but remains unpublished at this version's preparation date.
+The following Git versions identify the records used here. Result versions and content hashes identify the evidence; the curated public archive contains the matching result files and source identities.
 
 | Evidence | Git version |
 |---|---|
